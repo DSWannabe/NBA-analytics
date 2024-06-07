@@ -16,13 +16,13 @@ class NbaScraping(scrapy.Spider):
                 playwright_include_page=True,
                 playwright_page_coroutines=[
                     PageMethod('wait_for_selector',
-                               'table#Crom_table__p1iZz')
+                               'div#Block_blockContent__6iJ_n')
                 ]
             )
         ) 
 
     async def parse(self, response):
-        for player in response.css('tbody.Crom_body__UYOcU'):
+        for player in response.css('div.Crom_container__C45Ti crom-container'):
             yield {
                 'player': player.css('a', class_="Anchor_anchor__cSc3P").get_text()
             }
