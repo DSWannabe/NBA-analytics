@@ -1,3 +1,2 @@
-m = [2]
-print(m[:0])
-print(m[1:])
+dp = [[False] * 6 for _ in range(6)]
+print(len(dp))
