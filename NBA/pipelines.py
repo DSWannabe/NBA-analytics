@@ -18,8 +18,8 @@ class NbaPipeline:
         self.file.close()
 
     def process_item(self, item: nba_scraping, spider):
-        # dictionary = asdict(item)
-        # json.dump(dictionary, self.file)
-        # self.file.write("\n")
-        pass
+        dictionary = asdict(item)
+        json.dump(dictionary, self.file)
+        self.file.write("\n")
+        
         return item

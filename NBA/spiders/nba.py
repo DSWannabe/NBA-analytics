@@ -1,6 +1,5 @@
 import json
 import scrapy
-from scrapy_playwright.page import PageMethod
 from bs4 import BeautifulSoup
 from NBA.items import nba_scraping
 
@@ -14,10 +13,19 @@ class NbaScraping(scrapy.Spider):
             meta=dict(
                 playwright=True,
             )
-        ) 
+        )
 
     def parse(self, response):
         soup = BeautifulSoup(response.text, "html.parser")
-        # If you need anything, just select from soup like usual
-        # dictionary = nba_scraping(
-        #     player=players
+        
+        self.log(response.text, response.status)
+        # players' name
+        player_name = soup.find_all("a", class_="Anchor_anchor__cSc3P")
+        filered_player = [
+            play for play in player_name if '/stats/player/' in play['href']
+            ]
+        players = [name.text for name in filered_player]     
+        dictionary = nba_scraping(
+            player=players
+        )
+        yield dictionary
