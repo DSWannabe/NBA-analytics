@@ -7,6 +7,9 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
+import re
+import os
+
 BOT_NAME = "NBA"
 
 SPIDER_MODULES = ["NBA.spiders"]
@@ -14,18 +17,19 @@ NEWSPIDER_MODULE = "NBA.spiders"
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = "NBA (+http://www.yourdomain.com)"
+USER_AGENT = True
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-CONCURRENT_REQUESTS = 16
+CONCURRENT_REQUESTS = 4
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-DOWNLOAD_DELAY = 2
+DOWNLOAD_DELAY = 1
+RANDOMIZE_DOWNLOAD_DELAY = False
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16
@@ -49,11 +53,9 @@ DOWNLOAD_HANDLERS = {
     "https": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
 }
 
-TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
-
 PLAYWRIGHT_LAUNCH_OPTIONS = {
-    "headless": False,
-    "timeout": 20 * 1000,  # 20 seconds
+    "headless": True,
+    "timeout": 60 * 1000,  # Increased to 60 seconds
 }
 
 # settings.py
@@ -88,9 +90,14 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    "NBA.pipelines.NbaPipeline": 300,
+    "NBA.pipelines.GameStatsPipeline": 300,
+    # "NBA.pipelines.SeasonalStatsPipeline": 301,
+    # "NBA.pipelines.PlayerUrlsPipeline": 302,
+    # "NBA.pipelines.PlayerInfoPipeline": 303,
+    # "NBA.pipelines.PlayerInfoPipeline2": 304,
 }
 
+NBA_PIPELINE_OUTPUT_FOLDER = os.path.expanduser("./data")
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
@@ -116,3 +123,26 @@ ITEM_PIPELINES = {
 REQUEST_FINGERPRINTER_IMPLEMENTATION = "2.7"
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
+
+def should_abort_request(request):
+    """Intercept all requests and abort blocked ones."""
+    # if request.resource_type in [
+    #     "beacon",
+    #     "csp_report",
+    #     "font",
+    #     "imageset",
+    #     "media",
+    #     "object",
+    #     "texttrack",
+    #     "image",
+    #     # 'stylesheet',
+    #     # 'script',
+    #     # 'xhr',
+    # ]:
+    #     return True
+    if re.findall(r"(\.png$)|(\.jpg$)|(\.gif$)", request.url, re.IGNORECASE):
+        return True
+    return False
+
+
+PLAYWRIGHT_ABORT_REQUEST = should_abort_request
