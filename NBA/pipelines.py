@@ -7,7 +7,7 @@
 # useful for handling different item types with a single interface
 import json
 from dataclasses import asdict
-from NBA.items import nba_scraping, game_stats, player_urls_lst, player_info
+from NBA.items import nba_scraping, game_stats, player_urls_lst, player_info, player_info2
 import os
 from scrapy.exceptions import NotConfigured
 
@@ -58,3 +58,7 @@ class PlayerUrlsPipeline(NbaPipeline):
 class PlayerInfoPipeline(NbaPipeline):
     file_name = "player_info.jsonl"
     item_class = player_info
+
+class PlayerInfoPipeline2(NbaPipeline):
+    file_name = "player_info2.jsonl"
+    item_class = player_info2

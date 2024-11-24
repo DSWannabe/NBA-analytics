@@ -15,17 +15,17 @@ def import_player_seasonal_stats(file_path):
         for player in tqdm(file):
             player = json.loads(player)
             NbaPlayerSeasonalStats.create(
-                player_name = player["player"],
+                player = player["player"],
                 team = player["team"],
-                age = player["age"],
+                year = player["year"],
                 gp = player["gp"],
                 wins = player["wins"],
                 losses = player["losses"],
-                min = player["min"],
+                mins = player["min"],
                 pts = player["pts"],
                 fgm = player["fgm"],
                 fga = player["fga"],
-                fg_pct = player["fg_pct"],
+                fgp = player["fg_pct"],
                 three_pm = player["three_pm"],
                 three_pa = player["three_pa"],
                 three_ppct = player["three_ppct"],
@@ -49,10 +49,10 @@ def import_player_seasonal_stats(file_path):
 def import_nba_team_info(file_path):
     with db.atomic(), open(file_path, "r", encoding="utf-8") as file:
         for team in tqdm(file):
-            team = json.loads(team)
+            entry = json.loads(team)
             NbaTeamInfo.create(
-                full_team_name = team["full_team_name"],
-                team_abbreviation = team["team_abbreviation"],
+                full_team_name = entry["full_team_name"],
+                team = entry["team"]
             )
 
 def import_nba_player_game_stats(file_path):
@@ -62,8 +62,8 @@ def import_nba_player_game_stats(file_path):
             NbaPlayerGameStats.create(
                 player_name = player["player"],
                 team = player["team"],
-                matchup = player["matchup"],
-                game_date = player["gamedate"],
+                against = player["against"],
+                gamedate = player["gamedate"],
                 w_l = player["w_l"],
                 min = player["min"],
                 pts = player["pts"],
@@ -94,18 +94,15 @@ def import_nba_player_info(file_path):
             player = json.loads(player)
             NbaPlayerInfo.create(
                 player_name = player["player"],
-                height = player["height"],
-                weight = player["weight"],
+                birth= player["birth"],
                 country = player["country"],
-                draft = player["draft"],
-                birth = player["birth"],
-                other1 = player["other1"],
-                other2 = player["other2"],
-                other3 = player["other3"],
-                other4 = player["other4"],
-                other5 = player["other5"],
-                other6 = player["other6"],
-                other7 = player["other7"],
+                height_feet = player["height_ft"],
+                height_m = player["height_m"],
+                weight_pounds = player["weight_pounds"],
+                weight_kg = player["weight_kg"],
+                draft_year = player["draft_year"],
+                draft_round = player["draft_round"],
+                draft_pick = player["draft_pick"],
             )
 
 if __name__ == "__main__":
@@ -118,9 +115,9 @@ if __name__ == "__main__":
             NbaPlayerGameStats
         ]
     )
-    import_player_seasonal_stats("nba_players.jsonl")
-    import_nba_player_game_stats("data/players_game_stats.jsonl")
+    import_player_seasonal_stats("data/nba_players_seasonal_stats.jsonl")
+    import_nba_player_game_stats("data/nba_players_game_stats.jsonl")
     import_nba_team_info("data/teams_nba.jsonl")
-    import_nba_player_info("data/players_info.jsonl")
+    import_nba_player_info("data/players_info2.jsonl")
 
     db.close()

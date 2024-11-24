@@ -13,7 +13,7 @@ from peewee import (
     SqliteDatabase,
     TextField,
     PostgresqlDatabase,
-    DecimalField
+    DecimalField,
 )
 
 db = PostgresqlDatabase("postgresql://postgres:postgres@localhost:5432/nba_data")
@@ -24,16 +24,34 @@ class BaseModel(Model):
         legacy_table_names = False
 
 class NbaTeamInfo(BaseModel):
-    team_name_full = CharField(unique=True)
-    team = CharField(primary_key=True)
+    team_name_full = CharField(null=True)
+    team = CharField(primary_key=True, null=True)
+
+    class Meta:
+        database = db
+
+        indexes = (
+            (('team_name_full', 'team'), True),
+        )
 
 class NbaPlayerInfo(BaseModel):
     player = CharField(max_length=100, primary_key=True)
     birth = DateField()
-    height = DecimalField(max_digits=4, decimal_places=2, null=True)
-    weight = DecimalField(max_digits=4, decimal_places=2, null=True)
+    height_m = DecimalField(max_digits=4, decimal_places=2, null=True)
+    height_ft = CharField(max_length=100, null=True)
+    weight_pounds = DecimalField(max_digits=4, decimal_places=2, null=True)
+    weight_kg = DecimalField(max_digits=4, decimal_places=2, null=True)
     country = CharField(max_length=100, null=True)
-    draft = CharField(max_length=100, null=True)
+    draft_year = CharField(max_length=100, null=True)
+    draft_round = CharField(max_length=100, null=True)
+    draft_pick = CharField(max_length=100, null=True)
+
+    class Meta:
+        database = db
+
+        indexes = (
+            (('player', 'birth'), True),
+        )
 
 # class DateTable(BaseModel):
 #     date = DateField(primary_key=True)
@@ -41,8 +59,8 @@ class NbaPlayerInfo(BaseModel):
 class NbaPlayerGameStats(BaseModel):
     player = CharField(max_length=100, null=True)
     team = CharField(max_length=100, null=True)
-    matchup = CharField(max_length=100, null=True)
-    game_date = DateField(null=True)
+    against = CharField(max_length=100, null=True)
+    gamedate = DateField(null=True)
     w_l = CharField(max_length=10, null=True)
     min = FloatField(null=True)
     pts = FloatField(null=True)
@@ -54,7 +72,7 @@ class NbaPlayerGameStats(BaseModel):
     three_ppct = FloatField(null=True)
     ftm = FloatField(null=True)
     fta = FloatField(null=True)
-    ft_pct = CharField(max_length=10, null=True)
+    ft_pct = FloatField(null=True)
     oreb = FloatField(null=True)
     dreb = FloatField(null=True)
     reb = FloatField(null=True)
@@ -66,14 +84,22 @@ class NbaPlayerGameStats(BaseModel):
     plus_minus_box = FloatField(null=True)
     fp = FloatField(null=True)
 
+    class Meta:
+        database = db
+
+        indexes = (
+            (('player', 'team', 'against', 'gamedate'), True),
+        )
+
 class NbaPlayerSeasonalStats(BaseModel):
     player = CharField(max_length=100, null=True)
     team = CharField(max_length=100, null=True)
-    games_played = IntegerField(null=True)
+    year = IntegerField(null=True)
+    gp = IntegerField(null=True)
     wins = IntegerField(null=True)
     losses = IntegerField(null=True)
-    minutes = FloatField(null=True)
-    points = FloatField(null=True)
+    mins = FloatField(null=True)
+    pts = FloatField(null=True)
     fgm = FloatField(null=True)
     fga = FloatField(null=True)
     fgp = FloatField(null=True)
@@ -95,6 +121,13 @@ class NbaPlayerSeasonalStats(BaseModel):
     dd2 = FloatField(null=True)
     td3 = FloatField(null=True)
     plus_minus_box = FloatField(null=True)
+
+    class Meta:
+        database = db
+
+        indexes = (
+            (('player', 'team', 'year'), True),
+        )
 
 def create_table():
     with db:
