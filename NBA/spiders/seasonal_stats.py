@@ -12,10 +12,12 @@ class NbaScraping(scrapy.Spider):
     @classmethod
     def update_settings(cls, settings) -> None:
         super().update_settings(settings)
+        settings.set("CONCURRENT_REQUESTS", 1)
         settings.set("PLAYWRIGHT_BROWSER_TYPE", "chromium") # or "firefox" or "webkit"
         settings.set("PLAYWRIGHT_MAX_CONTEXTS", 1)
         settings.set("PLAYWRIGHT_MAX_PAGES_PER_CONTEXT", 1)
         settings.set("PLAYWRIGHT_LAUNCH_OPTIONS", {"headless": False})
+        settings.set("DOWNLOAD_DELAY", 8)
 
     def start_requests(self):
         start_urls = []
@@ -48,6 +50,16 @@ class NbaScraping(scrapy.Spider):
 
     async def parse(self, response):
         page = response.meta["playwright_page"]
+
+        year_match = re.search(r"Season=(\d{4})-\d{2}", response.url)
+        if year_match:
+            year = int(year_match.group(1))
+        else:
+            if "1900-00" in response.url:
+                year = 1999
+            else:
+                year = None
+                self.logger.warning(f"Could not extract the year from the URL: {response.url}")
 
         # Wait for the dropdowns to be available
         await page.wait_for_selector("select.DropDown_select__4pIg9")
@@ -114,32 +126,33 @@ class NbaScraping(scrapy.Spider):
             dictionary = nba_scraping(
                 player=player,
                 team=team,
+                year=year,
                 age=stat[0],
-                gp=stat[1],
-                wins=stat[2],
-                losses=stat[3],
-                min=stat[4],
-                pts=stat[5],
-                fgm=stat[6],
-                fga=stat[7],
-                fg_pct=stat[8],
-                three_pm=stat[9],
-                three_pa=stat[10],
-                three_ppct=stat[11],
-                ftm=stat[12],
-                fta=stat[13],
-                ft_pct=stat[14],
-                oreb=stat[15],
-                dreb=stat[16],
-                reb=stat[17],
-                ast=stat[18],
-                tov=stat[19],
-                stl=stat[20],
-                blk=stat[21],
-                pf=stat[22],
-                fp=stat[23],
-                dd2=stat[24],
-                td3=stat[25],
-                plus_minus_box=stat[26],
+                gp=int(stat[1]),
+                wins=int(stat[2]),
+                losses=int(stat[3]),
+                min=float(stat[4]),
+                pts=float(stat[5]),
+                fgm=float(stat[6]),
+                fga=float(stat[7]),
+                fg_pct=float(stat[8]),
+                three_pm=float(stat[9]),
+                three_pa=float(stat[10]),
+                three_ppct=float(stat[11]),
+                ftm=float(stat[12]),
+                fta=float(stat[13]),
+                ft_pct=float(stat[14]),
+                oreb=float(stat[15]),
+                dreb=float(stat[16]),
+                reb=float(stat[17]),
+                ast=float(stat[18]),
+                tov=float(stat[19]),
+                stl=float(stat[20]),
+                blk=float(stat[21]),
+                pf=float(stat[22]),
+                fp=float(stat[23]),
+                dd2=float(stat[24]),
+                td3=float(stat[25]),
+                plus_minus_box=float(stat[26]),
             )
             yield dictionary

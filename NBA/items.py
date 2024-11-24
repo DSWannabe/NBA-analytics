@@ -9,6 +9,7 @@ from dataclasses import dataclass
 class nba_scraping:
     player: str
     team: str
+    year: int
     age: int
     gp: int
     wins: int
@@ -41,7 +42,7 @@ class nba_scraping:
 class game_stats:
     player: str
     team: str
-    matchup: str
+    against: str
     gamedate: str
     w_l: str
     min: float
@@ -74,9 +75,24 @@ class player_urls_lst:
 class player_info:
     player: str
     height_feet: str
-    height_cm: str
+    height_m: str
     weight_pounds: str
     weight_kg: str
     country: str
-    draft: str
     birth: str
+    draft_year: str
+    draft_round: str
+    draft_pick: str
+
+@dataclass
+class player_info2:
+    player: str
+    height_ft: str
+    height_m: str
+    weight_pounds: str
+    weight_kg: str
+    country: str
+    birth: str
+    draft_year: str
+    draft_round: str
+    draft_pick: str
