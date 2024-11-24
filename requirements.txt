@@ -1,0 +1,17 @@
+scrapy
+python-dotenv
+loguru
+tqdm
+beautifulsoup4
+pandas
+scrapy-user-agents
+scikit-learn
+polars
+numpy
+
+# For development
+ipython
+flake8
+isort
+black
+pre-commit

@@ -1,0 +1,1 @@
+select * from nba_team_info;
