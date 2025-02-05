@@ -1,0 +1,14 @@
+[2025-02-01T05:25:25.501+0000] {processor.py:157} INFO - Started process (PID=1163) to work on /opt/airflow/dags/dag_example.py
+[2025-02-01T05:25:25.512+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_example.py for tasks to queue
+[2025-02-01T05:25:25.531+0000] {logging_mixin.py:151} INFO - [2025-02-01T05:25:25.530+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_example.py
+[2025-02-01T05:25:25.749+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag1_v5']) retrieved from /opt/airflow/dags/dag_example.py
+[2025-02-01T05:25:26.149+0000] {logging_mixin.py:151} INFO - [2025-02-01T05:25:26.149+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-02-01T05:25:26.510+0000] {logging_mixin.py:151} INFO - [2025-02-01T05:25:26.509+0000] {dag.py:3677} INFO - Setting next_dagrun for dag1_v5 to 2021-07-30T00:00:00+00:00, run_after=2021-07-31T00:00:00+00:00
+[2025-02-01T05:25:26.660+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_example.py took 1.182 seconds
+[2025-02-01T05:25:57.469+0000] {processor.py:157} INFO - Started process (PID=1171) to work on /opt/airflow/dags/dag_example.py
+[2025-02-01T05:25:57.471+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_example.py for tasks to queue
+[2025-02-01T05:25:57.475+0000] {logging_mixin.py:151} INFO - [2025-02-01T05:25:57.475+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_example.py
+[2025-02-01T05:25:57.494+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag1_v5']) retrieved from /opt/airflow/dags/dag_example.py
+[2025-02-01T05:25:57.536+0000] {logging_mixin.py:151} INFO - [2025-02-01T05:25:57.535+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-02-01T05:25:57.565+0000] {logging_mixin.py:151} INFO - [2025-02-01T05:25:57.564+0000] {dag.py:3677} INFO - Setting next_dagrun for dag1_v5 to 2021-07-30T00:00:00+00:00, run_after=2021-07-31T00:00:00+00:00
+[2025-02-01T05:25:57.597+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_example.py took 0.133 seconds

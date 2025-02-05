@@ -1,0 +1,162 @@
+[2025-01-30T02:35:42.395+0800] {processor.py:186} INFO - Started process (PID=14709) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:35:42.396+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-01-30T02:35:42.397+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:42.397+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:35:42.404+0800] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:35:42.494+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:42.493+0800] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_xcom
+[2025-01-30T02:35:42.529+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:42.528+0800] {override.py:1911} INFO - Created Permission View: can read on DAG:example_xcom
+[2025-01-30T02:35:42.549+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:42.549+0800] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_xcom
+[2025-01-30T02:35:42.580+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:42.579+0800] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_xcom
+[2025-01-30T02:35:42.594+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:42.593+0800] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_xcom
+[2025-01-30T02:35:42.613+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:42.612+0800] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_xcom
+[2025-01-30T02:35:42.635+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:42.635+0800] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_xcom
+[2025-01-30T02:35:42.636+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:42.635+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:35:42.650+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:42.649+0800] {dag.py:3262} INFO - Creating ORM DAG for example_xcom
+[2025-01-30T02:35:42.658+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:42.657+0800] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-01-30T02:35:42.695+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.303 seconds
+[2025-01-30T02:36:44.346+0800] {processor.py:186} INFO - Started process (PID=15076) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:36:44.348+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-01-30T02:36:44.351+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:36:44.350+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:36:44.362+0800] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:36:44.373+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:36:44.373+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:36:44.385+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:36:44.385+0800] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-01-30T02:36:44.424+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.087 seconds
+[2025-01-30T02:48:39.917+0800] {processor.py:186} INFO - Started process (PID=19263) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:48:39.919+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-01-30T02:48:39.922+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:48:39.922+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:48:39.936+0800] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:48:39.948+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:48:39.948+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:48:39.961+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:48:39.961+0800] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-01-30T02:48:39.985+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.079 seconds
+[2025-01-30T02:49:36.763+0800] {processor.py:186} INFO - Started process (PID=19579) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:49:36.768+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-01-30T02:49:36.772+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:49:36.772+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:49:36.781+0800] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:49:36.792+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:49:36.792+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:49:36.805+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:49:36.805+0800] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-01-30T02:49:36.840+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.090 seconds
+[2025-01-30T02:50:33.797+0800] {processor.py:186} INFO - Started process (PID=19926) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:50:33.798+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-01-30T02:50:33.800+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:50:33.800+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:50:33.807+0800] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:50:33.819+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:50:33.818+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:50:33.832+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:50:33.832+0800] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-01-30T02:50:33.874+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.085 seconds
+[2025-01-30T02:51:53.094+0800] {processor.py:186} INFO - Started process (PID=20376) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:51:53.096+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-01-30T02:51:53.098+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:51:53.098+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:51:53.111+0800] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:51:53.125+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:51:53.125+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:51:53.137+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:51:53.137+0800] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-01-30T02:51:53.175+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.088 seconds
+[2025-01-30T02:53:13.441+0800] {processor.py:186} INFO - Started process (PID=20858) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:53:13.442+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-01-30T02:53:13.443+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:53:13.443+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:53:13.450+0800] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:53:13.461+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:53:13.461+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:53:13.473+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:53:13.473+0800] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-01-30T02:53:13.498+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.062 seconds
+[2025-01-30T02:54:06.667+0800] {processor.py:186} INFO - Started process (PID=21157) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:54:06.668+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-01-30T02:54:06.670+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:54:06.670+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:54:06.677+0800] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:54:06.688+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:54:06.688+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:54:06.700+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:54:06.700+0800] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-01-30T02:54:06.724+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.062 seconds
+[2025-01-30T02:55:19.024+0800] {processor.py:186} INFO - Started process (PID=21571) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:55:19.025+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-01-30T02:55:19.027+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:55:19.026+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:55:19.034+0800] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:55:19.045+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:55:19.044+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:55:19.058+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:55:19.057+0800] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-01-30T02:55:19.082+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.062 seconds
+[2025-01-30T02:56:29.261+0800] {processor.py:186} INFO - Started process (PID=21998) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:56:29.263+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-01-30T02:56:29.265+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:56:29.264+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:56:29.271+0800] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:56:29.282+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:56:29.282+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:56:29.295+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:56:29.295+0800] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-01-30T02:56:29.327+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.069 seconds
+[2025-01-30T02:57:40.932+0800] {processor.py:186} INFO - Started process (PID=22455) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:57:40.935+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-01-30T02:57:40.938+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:57:40.937+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:57:40.947+0800] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:57:40.961+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:57:40.961+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:57:40.978+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:57:40.978+0800] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-01-30T02:57:41.006+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.080 seconds
+[2025-01-30T02:58:56.216+0800] {processor.py:186} INFO - Started process (PID=22877) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:58:56.218+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-01-30T02:58:56.219+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:58:56.219+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:58:56.226+0800] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T02:58:56.237+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:58:56.236+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:58:56.248+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:58:56.248+0800] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-01-30T02:58:56.269+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.057 seconds
+[2025-01-30T03:00:13.656+0800] {processor.py:186} INFO - Started process (PID=23340) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T03:00:13.658+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-01-30T03:00:13.660+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:00:13.659+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T03:00:13.666+0800] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T03:00:13.676+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:00:13.676+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:00:13.689+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:00:13.689+0800] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-01-30T03:00:13.715+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.062 seconds
+[2025-01-30T03:01:22.937+0800] {processor.py:186} INFO - Started process (PID=23744) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T03:01:22.939+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-01-30T03:01:22.940+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:01:22.940+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T03:01:22.948+0800] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T03:01:22.958+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:01:22.958+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:01:22.970+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:01:22.970+0800] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-01-30T03:01:22.993+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.060 seconds
+[2025-01-30T03:02:32.892+0800] {processor.py:186} INFO - Started process (PID=24174) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T03:02:32.893+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-01-30T03:02:32.895+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:02:32.895+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T03:02:32.902+0800] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T03:02:32.912+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:02:32.912+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:02:32.924+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:02:32.924+0800] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-01-30T03:02:32.945+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.057 seconds
+[2025-01-30T03:03:46.570+0800] {processor.py:186} INFO - Started process (PID=24584) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T03:03:46.574+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-01-30T03:03:46.576+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:03:46.575+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T03:03:46.583+0800] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T03:03:46.593+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:03:46.593+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:03:46.605+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:03:46.605+0800] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-01-30T03:03:46.628+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.062 seconds
+[2025-01-30T03:05:00.851+0800] {processor.py:186} INFO - Started process (PID=25056) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T03:05:00.858+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-01-30T03:05:00.860+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:05:00.860+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T03:05:00.867+0800] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T03:05:00.878+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:05:00.877+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:05:00.891+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:05:00.890+0800] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-01-30T03:05:00.956+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.109 seconds
+[2025-01-30T03:06:13.055+0800] {processor.py:186} INFO - Started process (PID=25464) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T03:06:13.057+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-01-30T03:06:13.060+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:06:13.060+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T03:06:13.069+0800] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T03:06:13.080+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:06:13.079+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:06:13.092+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:06:13.092+0800] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-01-30T03:06:13.120+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.070 seconds
+[2025-01-30T03:07:30.934+0800] {processor.py:186} INFO - Started process (PID=25944) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T03:07:30.938+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-01-30T03:07:30.939+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:07:30.939+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T03:07:30.947+0800] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T03:07:30.969+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:07:30.968+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:07:30.991+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:07:30.991+0800] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-01-30T03:07:31.020+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.090 seconds
+[2025-01-30T03:08:41.585+0800] {processor.py:186} INFO - Started process (PID=26347) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T03:08:41.587+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-01-30T03:08:41.589+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:08:41.588+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T03:08:41.598+0800] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T03:08:41.612+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:08:41.611+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:08:41.627+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:08:41.627+0800] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-01-30T03:08:41.653+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.073 seconds
+[2025-01-30T06:11:25.437+0800] {processor.py:186} INFO - Started process (PID=26791) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T06:11:25.439+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-01-30T06:11:25.443+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:11:25.443+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T06:11:25.458+0800] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T06:11:25.479+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:11:25.479+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T06:11:25.503+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:11:25.503+0800] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-01-30T06:11:25.541+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.113 seconds
+[2025-01-30T06:12:43.923+0800] {processor.py:186} INFO - Started process (PID=27298) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T06:12:43.927+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-01-30T06:12:43.930+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:12:43.929+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T06:12:43.937+0800] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2025-01-30T06:12:43.948+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:12:43.948+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T06:12:43.961+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:12:43.961+0800] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-01-30T06:12:43.988+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.074 seconds

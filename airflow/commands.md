@@ -1,0 +1,4 @@
+- Start airflow webserver: airflow webserver -p 8080
+- Create user: airflow users create --username <> --firstname <> --lastname <> --role <> email <>
+- Add scheduler: airflow scheduler
+- Check version: airflow --version

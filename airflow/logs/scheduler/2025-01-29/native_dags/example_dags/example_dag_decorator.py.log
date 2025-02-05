@@ -1,0 +1,183 @@
+[2025-01-30T02:35:37.234+0800] {processor.py:186} INFO - Started process (PID=14680) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:35:37.236+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-01-30T02:35:37.241+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:37.240+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:35:37.255+0800] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:35:37.363+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:37.362+0800] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_dag_decorator
+[2025-01-30T02:35:37.384+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:37.384+0800] {override.py:1911} INFO - Created Permission View: can read on DAG:example_dag_decorator
+[2025-01-30T02:35:37.404+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:37.404+0800] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_dag_decorator
+[2025-01-30T02:35:37.432+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:37.432+0800] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_dag_decorator
+[2025-01-30T02:35:37.451+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:37.451+0800] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_dag_decorator
+[2025-01-30T02:35:37.480+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:37.480+0800] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_dag_decorator
+[2025-01-30T02:35:37.499+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:37.498+0800] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_dag_decorator
+[2025-01-30T02:35:37.500+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:37.500+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:35:37.526+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:37.525+0800] {dag.py:3262} INFO - Creating ORM DAG for example_dag_decorator
+[2025-01-30T02:35:37.527+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:37.527+0800] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-01-30T02:35:37.570+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.349 seconds
+[2025-01-30T02:36:39.514+0800] {processor.py:186} INFO - Started process (PID=15048) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:36:39.517+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-01-30T02:36:39.521+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:36:39.520+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:36:39.536+0800] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:36:39.613+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:36:39.613+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:36:39.620+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:36:39.619+0800] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-01-30T02:36:39.642+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.143 seconds
+[2025-01-30T02:48:35.089+0800] {processor.py:186} INFO - Started process (PID=19237) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:48:35.092+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-01-30T02:48:35.094+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:48:35.093+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:48:35.102+0800] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:48:35.159+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:48:35.159+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:48:35.166+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:48:35.166+0800] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-01-30T02:48:35.194+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.118 seconds
+[2025-01-30T02:49:32.752+0800] {processor.py:186} INFO - Started process (PID=19557) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:49:32.755+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-01-30T02:49:32.761+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:49:32.760+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:49:32.782+0800] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:49:32.851+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:49:32.851+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:49:32.858+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:49:32.857+0800] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-01-30T02:49:32.884+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.141 seconds
+[2025-01-30T02:50:29.343+0800] {processor.py:186} INFO - Started process (PID=19901) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:50:29.346+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-01-30T02:50:29.349+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:50:29.349+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:50:29.367+0800] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:50:29.427+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:50:29.427+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:50:29.433+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:50:29.433+0800] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-01-30T02:50:29.458+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.129 seconds
+[2025-01-30T02:51:23.196+0800] {processor.py:186} INFO - Started process (PID=20213) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:51:23.198+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-01-30T02:51:23.202+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:51:23.201+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:51:23.219+0800] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:51:23.279+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:51:23.279+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:51:23.286+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:51:23.286+0800] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-01-30T02:51:23.315+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.129 seconds
+[2025-01-30T02:52:16.495+0800] {processor.py:186} INFO - Started process (PID=20501) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:52:16.498+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-01-30T02:52:16.503+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:52:16.502+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:52:16.514+0800] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:52:16.572+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:52:16.572+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:52:16.579+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:52:16.579+0800] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-01-30T02:52:16.614+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.133 seconds
+[2025-01-30T02:53:09.406+0800] {processor.py:186} INFO - Started process (PID=20836) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:53:09.408+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-01-30T02:53:09.411+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:53:09.411+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:53:09.429+0800] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:53:09.507+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:53:09.506+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:53:09.514+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:53:09.514+0800] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-01-30T02:53:09.541+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.144 seconds
+[2025-01-30T02:54:02.969+0800] {processor.py:186} INFO - Started process (PID=21140) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:54:02.970+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-01-30T02:54:02.972+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:54:02.971+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:54:02.980+0800] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:54:03.038+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:54:03.037+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:54:03.044+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:54:03.044+0800] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-01-30T02:54:03.067+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.102 seconds
+[2025-01-30T02:55:15.554+0800] {processor.py:186} INFO - Started process (PID=21555) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:55:15.559+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-01-30T02:55:15.560+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:55:15.560+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:55:15.569+0800] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:55:15.628+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:55:15.627+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:55:15.634+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:55:15.634+0800] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-01-30T02:55:15.657+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.107 seconds
+[2025-01-30T02:56:26.856+0800] {processor.py:186} INFO - Started process (PID=21975) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:56:26.861+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-01-30T02:56:26.862+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:56:26.862+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:56:26.871+0800] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:56:26.928+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:56:26.928+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:56:26.934+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:56:26.934+0800] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-01-30T02:56:26.956+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.103 seconds
+[2025-01-30T02:57:36.988+0800] {processor.py:186} INFO - Started process (PID=22433) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:57:36.991+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-01-30T02:57:36.993+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:57:36.993+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:57:37.001+0800] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:57:37.058+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:57:37.058+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:57:37.064+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:57:37.064+0800] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-01-30T02:57:37.086+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.102 seconds
+[2025-01-30T02:58:26.889+0800] {processor.py:186} INFO - Started process (PID=22714) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:58:26.893+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-01-30T02:58:26.895+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:58:26.894+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:58:26.903+0800] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:58:26.978+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:58:26.978+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:58:26.986+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:58:26.986+0800] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-01-30T02:58:27.012+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.127 seconds
+[2025-01-30T02:59:17.229+0800] {processor.py:186} INFO - Started process (PID=23004) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:59:17.230+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-01-30T02:59:17.231+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:59:17.231+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:59:17.240+0800] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T02:59:17.298+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:59:17.298+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:59:17.305+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:59:17.305+0800] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-01-30T02:59:17.326+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.102 seconds
+[2025-01-30T03:00:10.124+0800] {processor.py:186} INFO - Started process (PID=23320) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T03:00:10.125+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-01-30T03:00:10.127+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:00:10.126+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T03:00:10.135+0800] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T03:00:10.191+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:00:10.191+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:00:10.197+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:00:10.197+0800] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-01-30T03:00:10.218+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.099 seconds
+[2025-01-30T03:01:20.335+0800] {processor.py:186} INFO - Started process (PID=23725) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T03:01:20.337+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-01-30T03:01:20.338+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:01:20.338+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T03:01:20.347+0800] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T03:01:20.403+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:01:20.403+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:01:20.410+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:01:20.409+0800] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-01-30T03:01:20.432+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.100 seconds
+[2025-01-30T03:02:30.744+0800] {processor.py:186} INFO - Started process (PID=24164) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T03:02:30.745+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-01-30T03:02:30.747+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:02:30.747+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T03:02:30.756+0800] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T03:02:30.820+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:02:30.819+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:02:30.827+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:02:30.826+0800] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-01-30T03:02:30.852+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.113 seconds
+[2025-01-30T03:03:43.825+0800] {processor.py:186} INFO - Started process (PID=24572) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T03:03:43.827+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-01-30T03:03:43.828+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:03:43.828+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T03:03:43.837+0800] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T03:03:43.848+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:03:43.848+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:03:43.856+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:03:43.856+0800] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-01-30T03:03:43.881+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.060 seconds
+[2025-01-30T03:04:58.017+0800] {processor.py:186} INFO - Started process (PID=25036) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T03:04:58.022+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-01-30T03:04:58.024+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:04:58.023+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T03:04:58.032+0800] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T03:04:58.090+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:04:58.089+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:04:58.096+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:04:58.096+0800] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-01-30T03:04:58.184+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.171 seconds
+[2025-01-30T03:05:48.093+0800] {processor.py:186} INFO - Started process (PID=25323) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T03:05:48.096+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-01-30T03:05:48.098+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:05:48.098+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T03:05:48.107+0800] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T03:05:48.169+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:05:48.169+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:05:48.175+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:05:48.175+0800] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-01-30T03:05:48.199+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.111 seconds
+[2025-01-30T03:07:01.202+0800] {processor.py:186} INFO - Started process (PID=25776) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T03:07:01.203+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-01-30T03:07:01.205+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:07:01.205+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T03:07:01.221+0800] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T03:07:01.310+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:07:01.310+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:07:01.320+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:07:01.319+0800] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-01-30T03:07:01.346+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.149 seconds
+[2025-01-30T03:08:15.823+0800] {processor.py:186} INFO - Started process (PID=26203) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T03:08:15.825+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-01-30T03:08:15.827+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:08:15.826+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T03:08:15.836+0800] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T03:08:15.901+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:08:15.900+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:08:15.907+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:08:15.907+0800] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-01-30T03:08:15.930+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.112 seconds
+[2025-01-30T03:09:28.281+0800] {processor.py:186} INFO - Started process (PID=26616) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T03:09:28.285+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-01-30T03:09:28.287+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:09:28.287+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T03:09:28.296+0800] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T03:09:28.358+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:09:28.358+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:09:28.365+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:09:28.365+0800] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-01-30T03:09:28.388+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.112 seconds
+[2025-01-30T06:12:10.562+0800] {processor.py:186} INFO - Started process (PID=27109) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T06:12:10.564+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-01-30T06:12:10.566+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:12:10.565+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T06:12:10.575+0800] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T06:12:10.638+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:12:10.638+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T06:12:10.645+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:12:10.645+0800] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-01-30T06:12:10.672+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.116 seconds
+[2025-01-30T06:13:04.860+0800] {processor.py:186} INFO - Started process (PID=27411) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T06:13:04.862+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-01-30T06:13:04.864+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:13:04.863+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T06:13:04.873+0800] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-30T06:13:04.933+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:13:04.933+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T06:13:04.940+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:13:04.940+0800] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-01-30T06:13:04.966+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.110 seconds

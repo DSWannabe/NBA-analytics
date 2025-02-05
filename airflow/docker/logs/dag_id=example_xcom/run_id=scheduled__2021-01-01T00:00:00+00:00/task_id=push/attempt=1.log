@@ -1,0 +1,26 @@
+[2025-01-31T03:46:17.397+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_xcom.push scheduled__2021-01-01T00:00:00+00:00 [queued]>
+[2025-01-31T03:46:17.444+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_xcom.push scheduled__2021-01-01T00:00:00+00:00 [queued]>
+[2025-01-31T03:46:17.446+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-01-31T03:46:17.593+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): push> on 2021-01-01 00:00:00+00:00
+[2025-01-31T03:46:17.634+0000] {standard_task_runner.py:57} INFO - Started process 115 to run task
+[2025-01-31T03:46:17.657+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'example_xcom', 'push', 'scheduled__2021-01-01T00:00:00+00:00', '--job-id', '8', '--raw', '--subdir', '/home/***/.local/lib/python3.8/site-packages/***/example_dags/example_xcom.py', '--cfg-path', '/tmp/tmpz_79cx75']
+[2025-01-31T03:46:17.683+0000] {standard_task_runner.py:85} INFO - Job 8: Subtask push
+[2025-01-31T03:46:18.068+0000] {task_command.py:415} INFO - Running <TaskInstance: example_xcom.push scheduled__2021-01-01T00:00:00+00:00 [running]> on host f128b98fd85e
+[2025-01-31T03:46:18.584+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='example_xcom' AIRFLOW_CTX_TASK_ID='push' AIRFLOW_CTX_EXECUTION_DATE='2021-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2021-01-01T00:00:00+00:00'
+[2025-01-31T03:46:18.729+0000] {python.py:194} INFO - Done. Returned value was: None
+[2025-01-31T03:46:18.788+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=example_xcom, task_id=push, execution_date=20210101T000000, start_date=20250131T034617, end_date=20250131T034618
+[2025-01-31T03:46:18.933+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-01-31T03:46:19.264+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-31T03:52:09.268+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_xcom.push scheduled__2021-01-01T00:00:00+00:00 [queued]>
+[2025-01-31T03:52:09.298+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_xcom.push scheduled__2021-01-01T00:00:00+00:00 [queued]>
+[2025-01-31T03:52:09.300+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-01-31T03:52:09.373+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): push> on 2021-01-01 00:00:00+00:00
+[2025-01-31T03:52:09.393+0000] {standard_task_runner.py:57} INFO - Started process 268 to run task
+[2025-01-31T03:52:09.432+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'example_xcom', 'push', 'scheduled__2021-01-01T00:00:00+00:00', '--job-id', '59', '--raw', '--subdir', '/home/***/.local/lib/python3.8/site-packages/***/example_dags/example_xcom.py', '--cfg-path', '/tmp/tmpgnz9guyg']
+[2025-01-31T03:52:09.452+0000] {standard_task_runner.py:85} INFO - Job 59: Subtask push
+[2025-01-31T03:52:09.845+0000] {task_command.py:415} INFO - Running <TaskInstance: example_xcom.push scheduled__2021-01-01T00:00:00+00:00 [running]> on host dc644052abf1
+[2025-01-31T03:52:10.340+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='example_xcom' AIRFLOW_CTX_TASK_ID='push' AIRFLOW_CTX_EXECUTION_DATE='2021-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2021-01-01T00:00:00+00:00'
+[2025-01-31T03:52:10.423+0000] {python.py:194} INFO - Done. Returned value was: None
+[2025-01-31T03:52:10.459+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=example_xcom, task_id=push, execution_date=20210101T000000, start_date=20250131T035209, end_date=20250131T035210
+[2025-01-31T03:52:10.545+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-01-31T03:52:10.683+0000] {taskinstance.py:2784} INFO - 1 downstream tasks scheduled from follow-on schedule check

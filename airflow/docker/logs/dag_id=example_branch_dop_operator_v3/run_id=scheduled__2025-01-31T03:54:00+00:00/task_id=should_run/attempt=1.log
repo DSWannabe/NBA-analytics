@@ -1,0 +1,20 @@
+[2025-01-31T03:55:05.922+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_branch_dop_operator_v3.should_run scheduled__2025-01-31T03:54:00+00:00 [queued]>
+[2025-01-31T03:55:05.953+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_branch_dop_operator_v3.should_run scheduled__2025-01-31T03:54:00+00:00 [queued]>
+[2025-01-31T03:55:05.954+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-01-31T03:55:06.004+0000] {taskinstance.py:1382} INFO - Executing <Task(_BranchPythonDecoratedOperator): should_run> on 2025-01-31 03:54:00+00:00
+[2025-01-31T03:55:06.028+0000] {standard_task_runner.py:57} INFO - Started process 1899 to run task
+[2025-01-31T03:55:06.042+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'example_branch_dop_operator_v3', 'should_run', 'scheduled__2025-01-31T03:54:00+00:00', '--job-id', '585', '--raw', '--subdir', '/home/***/.local/lib/python3.8/site-packages/***/example_dags/example_branch_python_dop_operator_3.py', '--cfg-path', '/tmp/tmpe_ri3mfb']
+[2025-01-31T03:55:06.056+0000] {standard_task_runner.py:85} INFO - Job 585: Subtask should_run
+[2025-01-31T03:55:06.173+0000] {task_command.py:415} INFO - Running <TaskInstance: example_branch_dop_operator_v3.should_run scheduled__2025-01-31T03:54:00+00:00 [running]> on host dc644052abf1
+[2025-01-31T03:55:06.406+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='example_branch_dop_operator_v3' AIRFLOW_CTX_TASK_ID='should_run' AIRFLOW_CTX_EXECUTION_DATE='2025-01-31T03:54:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-01-31T03:54:00+00:00'
+[2025-01-31T03:55:06.412+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:314: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2025-01-31T03:55:06.413+0000] {logging_mixin.py:151} INFO - ------------- exec dttm = 2025-01-31T03:54:00+00:00 and minute = 54
+[2025-01-31T03:55:06.413+0000] {python.py:194} INFO - Done. Returned value was: empty_task_1
+[2025-01-31T03:55:06.413+0000] {python.py:227} INFO - Branch callable return empty_task_1
+[2025-01-31T03:55:06.414+0000] {skipmixin.py:173} INFO - Following branch empty_task_1
+[2025-01-31T03:55:06.443+0000] {skipmixin.py:239} INFO - Skipping tasks [('empty_task_2', -1)]
+[2025-01-31T03:55:06.544+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=example_branch_dop_operator_v3, task_id=should_run, execution_date=20250131T035400, start_date=20250131T035505, end_date=20250131T035506
+[2025-01-31T03:55:06.624+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-01-31T03:55:06.695+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,17 @@
+[2025-01-31T04:50:14.458+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag1_v2.first_task scheduled__2023-08-14T00:00:00+00:00 [queued]>
+[2025-01-31T04:50:14.479+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag1_v2.first_task scheduled__2023-08-14T00:00:00+00:00 [queued]>
+[2025-01-31T04:50:14.480+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2025-01-31T04:50:14.517+0000] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): first_task> on 2023-08-14 00:00:00+00:00
+[2025-01-31T04:50:14.529+0000] {standard_task_runner.py:57} INFO - Started process 6472 to run task
+[2025-01-31T04:50:14.537+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dag1_v2', 'first_task', 'scheduled__2023-08-14T00:00:00+00:00', '--job-id', '1881', '--raw', '--subdir', 'DAGS_FOLDER/dag_example.py', '--cfg-path', '/tmp/tmpayarxq_r']
+[2025-01-31T04:50:14.540+0000] {standard_task_runner.py:85} INFO - Job 1881: Subtask first_task
+[2025-01-31T04:50:14.798+0000] {task_command.py:415} INFO - Running <TaskInstance: dag1_v2.first_task scheduled__2023-08-14T00:00:00+00:00 [running]> on host f8bdfcb8bca5
+[2025-01-31T04:50:15.124+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='anhtupham99' AIRFLOW_CTX_DAG_ID='dag1_v2' AIRFLOW_CTX_TASK_ID='first_task' AIRFLOW_CTX_EXECUTION_DATE='2023-08-14T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-08-14T00:00:00+00:00'
+[2025-01-31T04:50:15.126+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-01-31T04:50:15.128+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo hello world, this is the first task!']
+[2025-01-31T04:50:15.154+0000] {subprocess.py:86} INFO - Output:
+[2025-01-31T04:50:15.157+0000] {subprocess.py:93} INFO - hello world, this is the first task!
+[2025-01-31T04:50:15.159+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-01-31T04:50:15.207+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=dag1_v2, task_id=first_task, execution_date=20230814T000000, start_date=20250131T045014, end_date=20250131T045015
+[2025-01-31T04:50:15.247+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-01-31T04:50:15.293+0000] {taskinstance.py:2784} INFO - 1 downstream tasks scheduled from follow-on schedule check

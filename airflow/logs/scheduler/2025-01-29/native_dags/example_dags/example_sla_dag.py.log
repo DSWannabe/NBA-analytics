@@ -1,0 +1,232 @@
+[2025-01-30T02:34:53.553+0800] {processor.py:186} INFO - Started process (PID=14432) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:34:53.555+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T02:34:53.560+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:34:53.559+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:34:53.569+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:34:53.672+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:34:53.672+0800] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_sla_dag
+[2025-01-30T02:34:53.690+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:34:53.690+0800] {override.py:1911} INFO - Created Permission View: can read on DAG:example_sla_dag
+[2025-01-30T02:34:53.707+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:34:53.706+0800] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_sla_dag
+[2025-01-30T02:34:53.739+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:34:53.738+0800] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_sla_dag
+[2025-01-30T02:34:53.753+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:34:53.752+0800] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_sla_dag
+[2025-01-30T02:34:53.768+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:34:53.768+0800] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_sla_dag
+[2025-01-30T02:34:53.783+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:34:53.783+0800] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_sla_dag
+[2025-01-30T02:34:53.783+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:34:53.783+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:34:53.791+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:34:53.790+0800] {dag.py:3262} INFO - Creating ORM DAG for example_sla_dag
+[2025-01-30T02:34:53.798+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:34:53.798+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 18:32:00+00:00, run_after=2025-01-29 18:34:00+00:00
+[2025-01-30T02:34:53.826+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.288 seconds
+[2025-01-30T02:36:04.483+0800] {processor.py:186} INFO - Started process (PID=14852) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:36:04.486+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T02:36:04.492+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:36:04.491+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:36:04.508+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:36:04.525+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:36:04.524+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:36:04.542+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:36:04.542+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 18:34:00+00:00, run_after=2025-01-29 18:36:00+00:00
+[2025-01-30T02:36:04.568+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.101 seconds
+[2025-01-30T02:48:02.709+0800] {processor.py:186} INFO - Started process (PID=18978) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:48:02.711+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T02:48:02.715+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:48:02.714+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:48:02.730+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:48:02.757+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:48:02.757+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:48:02.781+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:48:02.781+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 18:46:00+00:00, run_after=2025-01-29 18:48:00+00:00
+[2025-01-30T02:48:02.808+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.109 seconds
+[2025-01-30T02:49:00.066+0800] {processor.py:186} INFO - Started process (PID=19376) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:49:00.071+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T02:49:00.076+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:49:00.075+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:49:00.096+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:49:00.115+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:49:00.114+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:49:00.129+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:49:00.129+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 18:46:00+00:00, run_after=2025-01-29 18:48:00+00:00
+[2025-01-30T02:49:00.158+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.107 seconds
+[2025-01-30T02:49:51.871+0800] {processor.py:186} INFO - Started process (PID=19700) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:49:51.877+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T02:49:51.880+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:49:51.879+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:49:51.894+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:49:51.908+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:49:51.908+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:49:51.922+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:49:51.922+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 18:46:00+00:00, run_after=2025-01-29 18:48:00+00:00
+[2025-01-30T02:49:51.962+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.106 seconds
+[2025-01-30T02:50:46.337+0800] {processor.py:186} INFO - Started process (PID=20006) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:50:46.341+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T02:50:46.346+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:50:46.345+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:50:46.362+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:50:46.371+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:50:46.371+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:50:46.384+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:50:46.384+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 18:48:00+00:00, run_after=2025-01-29 18:50:00+00:00
+[2025-01-30T02:50:46.410+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.085 seconds
+[2025-01-30T02:51:41.990+0800] {processor.py:186} INFO - Started process (PID=20311) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:51:41.993+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T02:51:41.998+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:51:41.997+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:51:42.008+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:51:42.018+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:51:42.017+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:51:42.034+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:51:42.033+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 18:48:00+00:00, run_after=2025-01-29 18:50:00+00:00
+[2025-01-30T02:51:42.066+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.090 seconds
+[2025-01-30T02:52:34.581+0800] {processor.py:186} INFO - Started process (PID=20606) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:52:34.587+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T02:52:34.594+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:52:34.593+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:52:34.611+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:52:34.628+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:52:34.628+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:52:34.644+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:52:34.644+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 18:50:00+00:00, run_after=2025-01-29 18:52:00+00:00
+[2025-01-30T02:52:34.681+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.115 seconds
+[2025-01-30T02:53:27.273+0800] {processor.py:186} INFO - Started process (PID=20937) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:53:27.274+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T02:53:27.276+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:53:27.276+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:53:27.283+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:53:27.293+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:53:27.293+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:53:27.308+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:53:27.308+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 18:50:00+00:00, run_after=2025-01-29 18:52:00+00:00
+[2025-01-30T02:53:27.330+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.061 seconds
+[2025-01-30T02:54:19.214+0800] {processor.py:186} INFO - Started process (PID=21232) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:54:19.215+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T02:54:19.217+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:54:19.217+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:54:19.224+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:54:19.234+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:54:19.233+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:54:19.248+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:54:19.247+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 18:52:00+00:00, run_after=2025-01-29 18:54:00+00:00
+[2025-01-30T02:54:19.270+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.061 seconds
+[2025-01-30T02:55:05.882+0800] {processor.py:186} INFO - Started process (PID=21500) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:55:05.884+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T02:55:05.885+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:55:05.885+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:55:05.893+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:55:05.902+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:55:05.902+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:55:05.916+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:55:05.916+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 18:52:00+00:00, run_after=2025-01-29 18:54:00+00:00
+[2025-01-30T02:55:05.938+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.060 seconds
+[2025-01-30T02:55:55.856+0800] {processor.py:186} INFO - Started process (PID=21795) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:55:55.858+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T02:55:55.860+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:55:55.859+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:55:55.867+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:55:55.877+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:55:55.877+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:55:55.892+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:55:55.892+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 18:52:00+00:00, run_after=2025-01-29 18:54:00+00:00
+[2025-01-30T02:55:55.932+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.080 seconds
+[2025-01-30T02:56:41.846+0800] {processor.py:186} INFO - Started process (PID=22065) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:56:41.848+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T02:56:41.849+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:56:41.849+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:56:41.857+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:56:41.866+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:56:41.866+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:56:41.880+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:56:41.880+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 18:54:00+00:00, run_after=2025-01-29 18:56:00+00:00
+[2025-01-30T02:56:41.902+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.060 seconds
+[2025-01-30T02:57:29.444+0800] {processor.py:186} INFO - Started process (PID=22388) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:57:29.445+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T02:57:29.447+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:57:29.447+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:57:29.455+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:57:29.466+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:57:29.466+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:57:29.483+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:57:29.483+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 18:54:00+00:00, run_after=2025-01-29 18:56:00+00:00
+[2025-01-30T02:57:29.505+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.066 seconds
+[2025-01-30T02:58:16.626+0800] {processor.py:186} INFO - Started process (PID=22659) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:58:16.627+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T02:58:16.629+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:58:16.628+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:58:16.637+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:58:16.646+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:58:16.646+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:58:16.662+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:58:16.662+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 18:56:00+00:00, run_after=2025-01-29 18:58:00+00:00
+[2025-01-30T02:58:16.690+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.068 seconds
+[2025-01-30T02:59:08.659+0800] {processor.py:186} INFO - Started process (PID=22949) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:59:08.660+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T02:59:08.662+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:59:08.662+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:59:08.670+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:59:08.681+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:59:08.680+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:59:08.695+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:59:08.695+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 18:56:00+00:00, run_after=2025-01-29 18:58:00+00:00
+[2025-01-30T02:59:08.723+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.068 seconds
+[2025-01-30T02:59:58.881+0800] {processor.py:186} INFO - Started process (PID=23234) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:59:58.883+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T02:59:58.884+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:59:58.884+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:59:58.892+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T02:59:58.901+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:59:58.901+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:59:58.915+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:59:58.915+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 18:56:00+00:00, run_after=2025-01-29 18:58:00+00:00
+[2025-01-30T02:59:58.934+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.057 seconds
+[2025-01-30T03:00:49.361+0800] {processor.py:186} INFO - Started process (PID=23544) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:00:49.364+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T03:00:49.366+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:00:49.366+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:00:49.374+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:00:49.384+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:00:49.383+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:00:49.398+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:00:49.398+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 18:58:00+00:00, run_after=2025-01-29 19:00:00+00:00
+[2025-01-30T03:00:49.420+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.064 seconds
+[2025-01-30T03:01:36.504+0800] {processor.py:186} INFO - Started process (PID=23810) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:01:36.505+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T03:01:36.507+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:01:36.507+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:01:36.515+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:01:36.524+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:01:36.524+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:01:36.537+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:01:36.537+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 18:58:00+00:00, run_after=2025-01-29 19:00:00+00:00
+[2025-01-30T03:01:36.560+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.060 seconds
+[2025-01-30T03:02:21.740+0800] {processor.py:186} INFO - Started process (PID=24117) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:02:21.741+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T03:02:21.744+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:02:21.743+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:02:21.752+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:02:21.763+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:02:21.763+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:02:21.778+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:02:21.778+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 19:00:00+00:00, run_after=2025-01-29 19:02:00+00:00
+[2025-01-30T03:02:21.803+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.067 seconds
+[2025-01-30T03:03:09.689+0800] {processor.py:186} INFO - Started process (PID=24385) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:03:09.691+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T03:03:09.693+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:03:09.693+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:03:09.704+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:03:09.718+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:03:09.718+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:03:09.739+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:03:09.739+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 19:00:00+00:00, run_after=2025-01-29 19:02:00+00:00
+[2025-01-30T03:03:09.762+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.078 seconds
+[2025-01-30T03:03:57.820+0800] {processor.py:186} INFO - Started process (PID=24681) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:03:57.821+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T03:03:57.822+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:03:57.822+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:03:57.830+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:03:57.840+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:03:57.839+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:03:57.854+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:03:57.854+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 19:00:00+00:00, run_after=2025-01-29 19:02:00+00:00
+[2025-01-30T03:03:57.878+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.063 seconds
+[2025-01-30T03:04:47.032+0800] {processor.py:186} INFO - Started process (PID=24961) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:04:47.033+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T03:04:47.035+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:04:47.035+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:04:47.042+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:04:47.051+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:04:47.051+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:04:47.065+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:04:47.065+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 19:02:00+00:00, run_after=2025-01-29 19:04:00+00:00
+[2025-01-30T03:04:47.090+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.062 seconds
+[2025-01-30T03:05:39.138+0800] {processor.py:186} INFO - Started process (PID=25273) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:05:39.141+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T03:05:39.143+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:05:39.143+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:05:39.153+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:05:39.163+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:05:39.163+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:05:39.177+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:05:39.176+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 19:02:00+00:00, run_after=2025-01-29 19:04:00+00:00
+[2025-01-30T03:05:39.200+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.066 seconds
+[2025-01-30T03:06:26.237+0800] {processor.py:186} INFO - Started process (PID=25538) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:06:26.240+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T03:06:26.242+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:06:26.242+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:06:26.250+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:06:26.259+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:06:26.259+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:06:26.273+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:06:26.273+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 19:04:00+00:00, run_after=2025-01-29 19:06:00+00:00
+[2025-01-30T03:06:26.294+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.061 seconds
+[2025-01-30T03:07:17.122+0800] {processor.py:186} INFO - Started process (PID=25869) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:07:17.123+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T03:07:17.125+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:07:17.125+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:07:17.133+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:07:17.144+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:07:17.144+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:07:17.160+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:07:17.160+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 19:04:00+00:00, run_after=2025-01-29 19:06:00+00:00
+[2025-01-30T03:07:17.182+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.064 seconds
+[2025-01-30T03:08:07.265+0800] {processor.py:186} INFO - Started process (PID=26155) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:08:07.266+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T03:08:07.268+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:08:07.268+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:08:07.276+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:08:07.288+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:08:07.287+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:08:07.303+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:08:07.303+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 19:06:00+00:00, run_after=2025-01-29 19:08:00+00:00
+[2025-01-30T03:08:07.327+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.067 seconds
+[2025-01-30T03:08:54.597+0800] {processor.py:186} INFO - Started process (PID=26423) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:08:54.598+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T03:08:54.600+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:08:54.600+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:08:54.608+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:08:54.619+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:08:54.619+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:08:54.635+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:08:54.635+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 19:06:00+00:00, run_after=2025-01-29 19:08:00+00:00
+[2025-01-30T03:08:54.657+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.064 seconds
+[2025-01-30T03:09:43.168+0800] {processor.py:186} INFO - Started process (PID=26716) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:09:43.171+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T03:09:43.173+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:09:43.173+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:09:43.181+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T03:09:43.191+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:09:43.191+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:09:43.206+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:09:43.205+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 19:06:00+00:00, run_after=2025-01-29 19:08:00+00:00
+[2025-01-30T03:09:43.227+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.064 seconds
+[2025-01-30T06:11:37.533+0800] {processor.py:186} INFO - Started process (PID=26923) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T06:11:37.535+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T06:11:37.538+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:11:37.538+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T06:11:37.551+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T06:11:37.561+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:11:37.561+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T06:11:37.576+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:11:37.576+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 22:08:00+00:00, run_after=2025-01-29 22:10:00+00:00
+[2025-01-30T06:11:37.608+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.085 seconds
+[2025-01-30T06:12:32.187+0800] {processor.py:186} INFO - Started process (PID=27224) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T06:12:32.189+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T06:12:32.192+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:12:32.192+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T06:12:32.206+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T06:12:32.229+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:12:32.229+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T06:12:32.250+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:12:32.249+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 22:10:00+00:00, run_after=2025-01-29 22:12:00+00:00
+[2025-01-30T06:12:32.291+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.112 seconds
+[2025-01-30T06:13:20.764+0800] {processor.py:186} INFO - Started process (PID=27541) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T06:13:20.766+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-30T06:13:20.768+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:13:20.768+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T06:13:20.780+0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-30T06:13:20.791+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:13:20.791+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T06:13:20.817+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:13:20.816+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-29 22:10:00+00:00, run_after=2025-01-29 22:12:00+00:00
+[2025-01-30T06:13:20.841+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.081 seconds

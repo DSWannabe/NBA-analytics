@@ -1,0 +1,14 @@
+[2025-01-31T03:51:54.666+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_setup_teardown_taskflow.outer_setup scheduled__2025-01-30T03:51:42.469876+00:00 [queued]>
+[2025-01-31T03:51:54.701+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_setup_teardown_taskflow.outer_setup scheduled__2025-01-30T03:51:42.469876+00:00 [queued]>
+[2025-01-31T03:51:54.702+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-01-31T03:51:54.745+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): outer_setup> on 2025-01-30 03:51:42.469876+00:00
+[2025-01-31T03:51:54.765+0000] {standard_task_runner.py:57} INFO - Started process 162 to run task
+[2025-01-31T03:51:54.782+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'example_setup_teardown_taskflow', 'outer_setup', 'scheduled__2025-01-30T03:51:42.469876+00:00', '--job-id', '25', '--raw', '--subdir', '/home/***/.local/lib/python3.8/site-packages/***/example_dags/example_setup_teardown_taskflow.py', '--cfg-path', '/tmp/tmp895j0uw0']
+[2025-01-31T03:51:54.794+0000] {standard_task_runner.py:85} INFO - Job 25: Subtask outer_setup
+[2025-01-31T03:51:54.959+0000] {task_command.py:415} INFO - Running <TaskInstance: example_setup_teardown_taskflow.outer_setup scheduled__2025-01-30T03:51:42.469876+00:00 [running]> on host dc644052abf1
+[2025-01-31T03:51:55.221+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='example_setup_teardown_taskflow' AIRFLOW_CTX_TASK_ID='outer_setup' AIRFLOW_CTX_EXECUTION_DATE='2025-01-30T03:51:42.469876+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-01-30T03:51:42.469876+00:00'
+[2025-01-31T03:51:55.226+0000] {logging_mixin.py:151} INFO - I am outer_setup
+[2025-01-31T03:51:55.227+0000] {python.py:194} INFO - Done. Returned value was: some cluster id
+[2025-01-31T03:51:55.282+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=example_setup_teardown_taskflow, task_id=outer_setup, execution_date=20250130T035142, start_date=20250131T035154, end_date=20250131T035155
+[2025-01-31T03:51:55.408+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-01-31T03:51:55.488+0000] {taskinstance.py:2784} INFO - 1 downstream tasks scheduled from follow-on schedule check

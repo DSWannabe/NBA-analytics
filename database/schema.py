@@ -24,23 +24,23 @@ class BaseModel(Model):
         legacy_table_names = False
 
 class NbaTeamInfo(BaseModel):
-    team_name_full = CharField(null=True)
+    full_team_name = CharField(null=True)
     team = CharField(primary_key=True, null=True)
 
     class Meta:
         database = db
 
         indexes = (
-            (('team_name_full', 'team'), True),
+            (('full_team_name', 'team'), True),
         )
 
 class NbaPlayerInfo(BaseModel):
     player = CharField(max_length=100, primary_key=True)
-    birth = DateField()
-    height_m = DecimalField(max_digits=4, decimal_places=2, null=True)
+    birth = DateField(null=True)
+    height_m = DecimalField(max_digits=6, decimal_places=2, null=True)
     height_ft = CharField(max_length=100, null=True)
-    weight_pounds = DecimalField(max_digits=4, decimal_places=2, null=True)
-    weight_kg = DecimalField(max_digits=4, decimal_places=2, null=True)
+    weight_pounds = DecimalField(max_digits=6, decimal_places=2, null=True)
+    weight_kg = DecimalField(max_digits=6, decimal_places=2, null=True)
     country = CharField(max_length=100, null=True)
     draft_year = CharField(max_length=100, null=True)
     draft_round = CharField(max_length=100, null=True)
@@ -50,7 +50,7 @@ class NbaPlayerInfo(BaseModel):
         database = db
 
         indexes = (
-            (('player', 'birth'), True),
+            (('player'), True),
         )
 
 # class DateTable(BaseModel):

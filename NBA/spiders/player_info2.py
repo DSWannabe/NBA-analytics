@@ -42,9 +42,8 @@ class NbaScraping(scrapy.Spider):
         soup = BeautifulSoup(response.text, "html.parser")
 
         # players' name
-        name_elements = response.css('div.PlayerSummary_mainInnerBio__JQkoj p.PlayerSummary_playerNameText___MhqC::text').getall()
-        first_name = name_elements[0] if name_elements else "N/A"
-        last_name = name_elements[1] if len(name_elements) > 1 else "N/A"
+        name_elements = response.css('div.PlayerSummary_mainInnerBio__JQkoj h1.PlayerSummary_playerNameText___MhqC::text').getall()
+        name = name_elements[0] if len(name_elements[0]) > 1 else "NA"
 
         # other player information
         elements = soup.find('div', class_='PlayerSummary_hw__HNuGb')
@@ -63,8 +62,8 @@ class NbaScraping(scrapy.Spider):
         imperial_pattern = r"(\d+)'(\d+(?:\.\d+)?)\""
         metric_pattern = r"\((\d+(?:\.\d+)?)m\)"
         if qualified_elements['HEIGHT'] == "--":
-            qualified_elements['height_m'] = 'N/A'
-            qualified_elements['height_ft'] = 'N/A'
+            qualified_elements['height_m'] = 0
+            qualified_elements['height_ft'] = 0
         elif qualified_elements['HEIGHT'] and re.match(pattern_height, qualified_elements['HEIGHT']):
             imperial_match = re.match(imperial_pattern, qualified_elements['HEIGHT'])
             metric_match = re.search(metric_pattern, qualified_elements['HEIGHT'])
@@ -81,8 +80,8 @@ class NbaScraping(scrapy.Spider):
         metric_pattern = r"\((\d+(?:\.\d+)?)kg\)"
 
         if qualified_elements['WEIGHT'] == "--":
-            qualified_elements['weight_pounds'] = "N/A"
-            qualified_elements['weight_kg'] = "N/A"
+            qualified_elements['weight_pounds'] = 0
+            qualified_elements['weight_kg'] = 0
         elif qualified_elements['WEIGHT'] and re.match(pattern_weight, qualified_elements["WEIGHT"]):
             imperial_match = re.search(imperial_pattern, qualified_elements['WEIGHT'])
             metric_match = re.search(metric_pattern, qualified_elements['WEIGHT'])
@@ -115,7 +114,7 @@ class NbaScraping(scrapy.Spider):
             qualified_elements['draft_pick'] = 'N/A'
 
         dictionary = player_info2(
-            player=first_name + " " + last_name,
+            player=name,
             height_m=qualified_elements['height_m'],
             height_ft=qualified_elements['height_ft'],
             weight_pounds=qualified_elements['weight_pounds'],

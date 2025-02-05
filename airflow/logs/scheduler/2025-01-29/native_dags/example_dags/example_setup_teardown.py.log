@@ -1,0 +1,162 @@
+[2025-01-30T02:35:51.372+0800] {processor.py:186} INFO - Started process (PID=14791) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:35:51.374+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-01-30T02:35:51.378+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:51.377+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:35:51.384+0800] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:35:51.474+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:51.474+0800] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_setup_teardown
+[2025-01-30T02:35:51.490+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:51.490+0800] {override.py:1911} INFO - Created Permission View: can read on DAG:example_setup_teardown
+[2025-01-30T02:35:51.504+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:51.504+0800] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_setup_teardown
+[2025-01-30T02:35:51.536+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:51.536+0800] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_setup_teardown
+[2025-01-30T02:35:51.550+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:51.550+0800] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_setup_teardown
+[2025-01-30T02:35:51.565+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:51.565+0800] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_setup_teardown
+[2025-01-30T02:35:51.578+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:51.578+0800] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_setup_teardown
+[2025-01-30T02:35:51.578+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:51.578+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:35:51.586+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:51.586+0800] {dag.py:3262} INFO - Creating ORM DAG for example_setup_teardown
+[2025-01-30T02:35:51.587+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:51.586+0800] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-01-30T02:35:51.612+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.250 seconds
+[2025-01-30T02:36:51.821+0800] {processor.py:186} INFO - Started process (PID=15120) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:36:51.827+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-01-30T02:36:51.834+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:36:51.833+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:36:51.856+0800] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:36:51.877+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:36:51.877+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:36:51.891+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:36:51.890+0800] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-01-30T02:36:51.927+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.121 seconds
+[2025-01-30T02:48:46.352+0800] {processor.py:186} INFO - Started process (PID=19304) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:48:46.355+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-01-30T02:48:46.356+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:48:46.356+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:48:46.362+0800] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:48:46.372+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:48:46.372+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:48:46.379+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:48:46.379+0800] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-01-30T02:48:46.406+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.058 seconds
+[2025-01-30T02:50:07.012+0800] {processor.py:186} INFO - Started process (PID=19778) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:50:07.013+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-01-30T02:50:07.015+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:50:07.014+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:50:07.021+0800] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:50:07.032+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:50:07.032+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:50:07.040+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:50:07.040+0800] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-01-30T02:50:07.065+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.065 seconds
+[2025-01-30T02:51:27.864+0800] {processor.py:186} INFO - Started process (PID=20242) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:51:27.867+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-01-30T02:51:27.871+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:51:27.870+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:51:27.885+0800] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:51:27.899+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:51:27.899+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:51:27.907+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:51:27.907+0800] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-01-30T02:51:27.947+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.095 seconds
+[2025-01-30T02:52:47.400+0800] {processor.py:186} INFO - Started process (PID=20712) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:52:47.405+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-01-30T02:52:47.409+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:52:47.409+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:52:47.423+0800] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:52:47.444+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:52:47.444+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:52:47.452+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:52:47.452+0800] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-01-30T02:52:47.476+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.090 seconds
+[2025-01-30T02:53:42.642+0800] {processor.py:186} INFO - Started process (PID=21023) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:53:42.646+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-01-30T02:53:42.648+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:53:42.647+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:53:42.654+0800] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:53:42.664+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:53:42.664+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:53:42.672+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:53:42.672+0800] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-01-30T02:53:42.696+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.059 seconds
+[2025-01-30T02:54:55.533+0800] {processor.py:186} INFO - Started process (PID=21432) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:54:55.535+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-01-30T02:54:55.536+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:54:55.536+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:54:55.543+0800] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:54:55.553+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:54:55.553+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:54:55.561+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:54:55.561+0800] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-01-30T02:54:55.584+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.055 seconds
+[2025-01-30T02:56:06.681+0800] {processor.py:186} INFO - Started process (PID=21864) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:56:06.682+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-01-30T02:56:06.684+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:56:06.683+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:56:06.690+0800] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:56:06.700+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:56:06.700+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:56:06.708+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:56:06.707+0800] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-01-30T02:56:06.730+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.053 seconds
+[2025-01-30T02:57:18.314+0800] {processor.py:186} INFO - Started process (PID=22268) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:57:18.318+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-01-30T02:57:18.320+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:57:18.320+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:57:18.326+0800] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:57:18.336+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:57:18.336+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:57:18.345+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:57:18.345+0800] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-01-30T02:57:18.367+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.057 seconds
+[2025-01-30T02:58:32.019+0800] {processor.py:186} INFO - Started process (PID=22745) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:58:32.020+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-01-30T02:58:32.021+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:58:32.021+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:58:32.028+0800] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:58:32.038+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:58:32.038+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:58:32.046+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:58:32.046+0800] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-01-30T02:58:32.068+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.054 seconds
+[2025-01-30T02:59:48.044+0800] {processor.py:186} INFO - Started process (PID=23169) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:59:48.045+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-01-30T02:59:48.047+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:59:48.047+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:59:48.053+0800] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T02:59:48.064+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:59:48.063+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:59:48.072+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:59:48.071+0800] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-01-30T02:59:48.095+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.055 seconds
+[2025-01-30T03:01:01.927+0800] {processor.py:186} INFO - Started process (PID=23617) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T03:01:01.932+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-01-30T03:01:01.933+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:01:01.933+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T03:01:01.939+0800] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T03:01:01.949+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:01:01.949+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:01:01.957+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:01:01.957+0800] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-01-30T03:01:01.978+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.055 seconds
+[2025-01-30T03:02:11.664+0800] {processor.py:186} INFO - Started process (PID=24052) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T03:02:11.666+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-01-30T03:02:11.667+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:02:11.667+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T03:02:11.674+0800] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T03:02:11.685+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:02:11.685+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:02:11.694+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:02:11.694+0800] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-01-30T03:02:11.717+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.058 seconds
+[2025-01-30T03:03:23.680+0800] {processor.py:186} INFO - Started process (PID=24459) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T03:03:23.681+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-01-30T03:03:23.683+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:03:23.683+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T03:03:23.690+0800] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T03:03:23.702+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:03:23.702+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:03:23.711+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:03:23.711+0800] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-01-30T03:03:23.734+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.059 seconds
+[2025-01-30T03:04:34.831+0800] {processor.py:186} INFO - Started process (PID=24896) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T03:04:34.832+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-01-30T03:04:34.834+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:04:34.833+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T03:04:34.840+0800] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T03:04:34.850+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:04:34.850+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:04:34.858+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:04:34.858+0800] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-01-30T03:04:34.879+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.052 seconds
+[2025-01-30T03:05:50.779+0800] {processor.py:186} INFO - Started process (PID=25338) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T03:05:50.783+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-01-30T03:05:50.785+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:05:50.784+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T03:05:50.791+0800] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T03:05:50.801+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:05:50.801+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:05:50.809+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:05:50.809+0800] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-01-30T03:05:50.831+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.056 seconds
+[2025-01-30T03:07:05.160+0800] {processor.py:186} INFO - Started process (PID=25800) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T03:07:05.163+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-01-30T03:07:05.165+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:07:05.165+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T03:07:05.172+0800] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T03:07:05.183+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:07:05.183+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:07:05.193+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:07:05.192+0800] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-01-30T03:07:05.216+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.062 seconds
+[2025-01-30T03:08:19.296+0800] {processor.py:186} INFO - Started process (PID=26222) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T03:08:19.298+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-01-30T03:08:19.300+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:08:19.299+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T03:08:19.307+0800] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T03:08:19.320+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:08:19.319+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:08:19.329+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:08:19.328+0800] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-01-30T03:08:19.352+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.061 seconds
+[2025-01-30T03:09:31.693+0800] {processor.py:186} INFO - Started process (PID=26635) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T03:09:31.694+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-01-30T03:09:31.696+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:09:31.696+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T03:09:31.702+0800] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T03:09:31.714+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:09:31.713+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:09:31.723+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:09:31.723+0800] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-01-30T03:09:31.750+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.061 seconds
+[2025-01-30T06:12:19.647+0800] {processor.py:186} INFO - Started process (PID=27155) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T06:12:19.649+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-01-30T06:12:19.651+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:12:19.651+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T06:12:19.661+0800] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T06:12:19.675+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:12:19.675+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T06:12:19.685+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:12:19.684+0800] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-01-30T06:12:19.718+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.078 seconds
+[2025-01-30T06:13:32.662+0800] {processor.py:186} INFO - Started process (PID=27605) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T06:13:32.666+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-01-30T06:13:32.668+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:13:32.668+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T06:13:32.675+0800] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-01-30T06:13:32.685+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:13:32.685+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T06:13:32.694+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:13:32.694+0800] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-01-30T06:13:32.718+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.059 seconds

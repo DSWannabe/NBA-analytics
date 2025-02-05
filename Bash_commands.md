@@ -1,0 +1,2 @@
+- sudo: execute an action as a superuser (sudo = superuser do)
+- In "nano" terminal, M-A = Alt + A, ^J = Ctrl + J

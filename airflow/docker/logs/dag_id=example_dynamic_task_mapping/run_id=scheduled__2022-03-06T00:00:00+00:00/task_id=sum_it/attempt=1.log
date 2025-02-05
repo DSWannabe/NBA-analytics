@@ -1,0 +1,28 @@
+[2025-01-31T03:46:58.628+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_dynamic_task_mapping.sum_it scheduled__2022-03-06T00:00:00+00:00 [queued]>
+[2025-01-31T03:46:58.651+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_dynamic_task_mapping.sum_it scheduled__2022-03-06T00:00:00+00:00 [queued]>
+[2025-01-31T03:46:58.653+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-01-31T03:46:58.683+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): sum_it> on 2022-03-06 00:00:00+00:00
+[2025-01-31T03:46:58.699+0000] {standard_task_runner.py:57} INFO - Started process 463 to run task
+[2025-01-31T03:46:58.708+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'example_dynamic_task_mapping', 'sum_it', 'scheduled__2022-03-06T00:00:00+00:00', '--job-id', '121', '--raw', '--subdir', '/home/***/.local/lib/python3.8/site-packages/***/example_dags/example_dynamic_task_mapping.py', '--cfg-path', '/tmp/tmpm_9n7aag']
+[2025-01-31T03:46:58.715+0000] {standard_task_runner.py:85} INFO - Job 121: Subtask sum_it
+[2025-01-31T03:46:58.845+0000] {task_command.py:415} INFO - Running <TaskInstance: example_dynamic_task_mapping.sum_it scheduled__2022-03-06T00:00:00+00:00 [running]> on host f128b98fd85e
+[2025-01-31T03:46:59.098+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='example_dynamic_task_mapping' AIRFLOW_CTX_TASK_ID='sum_it' AIRFLOW_CTX_EXECUTION_DATE='2022-03-06T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2022-03-06T00:00:00+00:00'
+[2025-01-31T03:46:59.131+0000] {logging_mixin.py:151} INFO - Total was 9
+[2025-01-31T03:46:59.132+0000] {python.py:194} INFO - Done. Returned value was: None
+[2025-01-31T03:46:59.157+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=example_dynamic_task_mapping, task_id=sum_it, execution_date=20220306T000000, start_date=20250131T034658, end_date=20250131T034659
+[2025-01-31T03:46:59.268+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-01-31T03:46:59.670+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-31T03:52:29.060+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_dynamic_task_mapping.sum_it scheduled__2022-03-06T00:00:00+00:00 [queued]>
+[2025-01-31T03:52:29.083+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_dynamic_task_mapping.sum_it scheduled__2022-03-06T00:00:00+00:00 [queued]>
+[2025-01-31T03:52:29.084+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-01-31T03:52:29.134+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): sum_it> on 2022-03-06 00:00:00+00:00
+[2025-01-31T03:52:29.156+0000] {standard_task_runner.py:57} INFO - Started process 472 to run task
+[2025-01-31T03:52:29.168+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'example_dynamic_task_mapping', 'sum_it', 'scheduled__2022-03-06T00:00:00+00:00', '--job-id', '124', '--raw', '--subdir', '/home/***/.local/lib/python3.8/site-packages/***/example_dags/example_dynamic_task_mapping.py', '--cfg-path', '/tmp/tmpd8_qgv6a']
+[2025-01-31T03:52:29.176+0000] {standard_task_runner.py:85} INFO - Job 124: Subtask sum_it
+[2025-01-31T03:52:29.336+0000] {task_command.py:415} INFO - Running <TaskInstance: example_dynamic_task_mapping.sum_it scheduled__2022-03-06T00:00:00+00:00 [running]> on host dc644052abf1
+[2025-01-31T03:52:29.588+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='example_dynamic_task_mapping' AIRFLOW_CTX_TASK_ID='sum_it' AIRFLOW_CTX_EXECUTION_DATE='2022-03-06T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2022-03-06T00:00:00+00:00'
+[2025-01-31T03:52:29.618+0000] {logging_mixin.py:151} INFO - Total was 9
+[2025-01-31T03:52:29.619+0000] {python.py:194} INFO - Done. Returned value was: None
+[2025-01-31T03:52:29.657+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=example_dynamic_task_mapping, task_id=sum_it, execution_date=20220306T000000, start_date=20250131T035229, end_date=20250131T035229
+[2025-01-31T03:52:29.712+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-01-31T03:52:30.172+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check

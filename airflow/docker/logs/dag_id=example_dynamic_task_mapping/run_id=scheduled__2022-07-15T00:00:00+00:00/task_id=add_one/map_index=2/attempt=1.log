@@ -1,0 +1,26 @@
+[2025-01-31T03:50:02.530+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_dynamic_task_mapping.add_one scheduled__2022-07-15T00:00:00+00:00 map_index=2 [queued]>
+[2025-01-31T03:50:02.573+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_dynamic_task_mapping.add_one scheduled__2022-07-15T00:00:00+00:00 map_index=2 [queued]>
+[2025-01-31T03:50:02.574+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-01-31T03:50:02.632+0000] {taskinstance.py:1382} INFO - Executing <Mapped(_PythonDecoratedOperator): add_one> on 2022-07-15 00:00:00+00:00
+[2025-01-31T03:50:02.658+0000] {standard_task_runner.py:57} INFO - Started process 2067 to run task
+[2025-01-31T03:50:02.668+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'example_dynamic_task_mapping', 'add_one', 'scheduled__2022-07-15T00:00:00+00:00', '--job-id', '634', '--raw', '--subdir', '/home/***/.local/lib/python3.8/site-packages/***/example_dags/example_dynamic_task_mapping.py', '--cfg-path', '/tmp/tmpdwaa9onr', '--map-index', '2']
+[2025-01-31T03:50:02.678+0000] {standard_task_runner.py:85} INFO - Job 634: Subtask add_one
+[2025-01-31T03:50:02.994+0000] {task_command.py:415} INFO - Running <TaskInstance: example_dynamic_task_mapping.add_one scheduled__2022-07-15T00:00:00+00:00 map_index=2 [running]> on host f128b98fd85e
+[2025-01-31T03:50:03.606+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='example_dynamic_task_mapping' AIRFLOW_CTX_TASK_ID='add_one' AIRFLOW_CTX_EXECUTION_DATE='2022-07-15T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2022-07-15T00:00:00+00:00'
+[2025-01-31T03:50:03.612+0000] {python.py:194} INFO - Done. Returned value was: 4
+[2025-01-31T03:50:03.745+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=example_dynamic_task_mapping, task_id=add_one, map_index=2, execution_date=20220715T000000, start_date=20250131T035002, end_date=20250131T035003
+[2025-01-31T03:50:03.927+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-01-31T03:50:04.283+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-31T03:55:24.610+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_dynamic_task_mapping.add_one scheduled__2022-07-15T00:00:00+00:00 map_index=2 [queued]>
+[2025-01-31T03:55:24.666+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_dynamic_task_mapping.add_one scheduled__2022-07-15T00:00:00+00:00 map_index=2 [queued]>
+[2025-01-31T03:55:24.670+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-01-31T03:55:24.765+0000] {taskinstance.py:1382} INFO - Executing <Mapped(_PythonDecoratedOperator): add_one> on 2022-07-15 00:00:00+00:00
+[2025-01-31T03:55:24.793+0000] {standard_task_runner.py:57} INFO - Started process 2049 to run task
+[2025-01-31T03:55:24.826+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'example_dynamic_task_mapping', 'add_one', 'scheduled__2022-07-15T00:00:00+00:00', '--job-id', '634', '--raw', '--subdir', '/home/***/.local/lib/python3.8/site-packages/***/example_dags/example_dynamic_task_mapping.py', '--cfg-path', '/tmp/tmpoityj09n', '--map-index', '2']
+[2025-01-31T03:55:24.833+0000] {standard_task_runner.py:85} INFO - Job 634: Subtask add_one
+[2025-01-31T03:55:25.226+0000] {task_command.py:415} INFO - Running <TaskInstance: example_dynamic_task_mapping.add_one scheduled__2022-07-15T00:00:00+00:00 map_index=2 [running]> on host dc644052abf1
+[2025-01-31T03:55:25.602+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='example_dynamic_task_mapping' AIRFLOW_CTX_TASK_ID='add_one' AIRFLOW_CTX_EXECUTION_DATE='2022-07-15T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2022-07-15T00:00:00+00:00'
+[2025-01-31T03:55:25.606+0000] {python.py:194} INFO - Done. Returned value was: 4
+[2025-01-31T03:55:25.661+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=example_dynamic_task_mapping, task_id=add_one, map_index=2, execution_date=20220715T000000, start_date=20250131T035524, end_date=20250131T035525
+[2025-01-31T03:55:25.732+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-01-31T03:55:25.812+0000] {taskinstance.py:2784} INFO - 1 downstream tasks scheduled from follow-on schedule check

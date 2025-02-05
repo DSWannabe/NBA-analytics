@@ -110,7 +110,7 @@ def upsert_team_info(file_path):
             }
             NbaTeamInfo.insert(nba_team_info).on_conflict(
                 conflict_target=[
-                    NbaTeamInfo.team_name_short
+                    NbaTeamInfo.team
                 ],
                 update=nba_team_info
             ).execute()
@@ -123,14 +123,16 @@ def upsert_player_info(file_path):
             entry = json.loads(line)
             nba_player_info = {
                 'player': entry['player'],
-                'team': entry['team'],
                 'position': entry['position'],
-                'height': entry['height'],
-                'weight': entry['weight'],
-                'birth_date': datetime.strptime(entry['birth_date'], "%Y-%m-%d"),
-                'age': entry['age'],
-                'exp': entry['exp'],
-                'college': entry['college'],
+                'height_ft': entry['height_ft'],
+                'height_m': entry['height_m'],
+                'weight_pounds': entry['weight_pounds'],
+                'weight_kg': entry['weight_kg'],
+                'birth': datetime.strptime(entry['birth'], "%Y-%m-%d"),
+                'country': entry['country'],
+                'draft_year': entry['draft_year'],
+                'draft_round': entry['draft_round'],
+                'draft_pick': entry['draft_pick'],
             }
             NbaPlayerInfo.insert(nba_player_info).on_conflict(
                 conflict_target=[

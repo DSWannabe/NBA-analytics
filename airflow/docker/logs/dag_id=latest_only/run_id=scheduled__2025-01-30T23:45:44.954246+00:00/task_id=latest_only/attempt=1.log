@@ -1,0 +1,16 @@
+[2025-01-31T03:46:55.317+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: latest_only.latest_only scheduled__2025-01-30T23:45:44.954246+00:00 [queued]>
+[2025-01-31T03:46:55.335+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: latest_only.latest_only scheduled__2025-01-30T23:45:44.954246+00:00 [queued]>
+[2025-01-31T03:46:55.336+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-01-31T03:46:55.384+0000] {taskinstance.py:1382} INFO - Executing <Task(LatestOnlyOperator): latest_only> on 2025-01-30 23:45:44.954246+00:00
+[2025-01-31T03:46:55.400+0000] {standard_task_runner.py:57} INFO - Started process 433 to run task
+[2025-01-31T03:46:55.408+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'latest_only', 'latest_only', 'scheduled__2025-01-30T23:45:44.954246+00:00', '--job-id', '109', '--raw', '--subdir', '/home/***/.local/lib/python3.8/site-packages/***/example_dags/example_latest_only.py', '--cfg-path', '/tmp/tmpo3svrbi1']
+[2025-01-31T03:46:55.417+0000] {standard_task_runner.py:85} INFO - Job 109: Subtask latest_only
+[2025-01-31T03:46:55.621+0000] {task_command.py:415} INFO - Running <TaskInstance: latest_only.latest_only scheduled__2025-01-30T23:45:44.954246+00:00 [running]> on host f128b98fd85e
+[2025-01-31T03:46:55.866+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='latest_only' AIRFLOW_CTX_TASK_ID='latest_only' AIRFLOW_CTX_EXECUTION_DATE='2025-01-30T23:45:44.954246+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-01-30T23:45:44.954246+00:00'
+[2025-01-31T03:46:55.870+0000] {latest_only.py:62} INFO - Checking latest only with left_window: 2025-01-31T03:45:44.954246+00:00 right_window: 2025-01-31T07:45:44.954246+00:00 now: 2025-01-31T03:46:55.870204+00:00
+[2025-01-31T03:46:55.870+0000] {latest_only.py:75} INFO - Latest, allowing execution to proceed.
+[2025-01-31T03:46:55.871+0000] {skipmixin.py:173} INFO - Following branch ['task1']
+[2025-01-31T03:46:55.920+0000] {skipmixin.py:239} INFO - Skipping tasks []
+[2025-01-31T03:46:56.040+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=latest_only, task_id=latest_only, execution_date=20250130T234544, start_date=20250131T034655, end_date=20250131T034656
+[2025-01-31T03:46:56.116+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-01-31T03:46:56.206+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check

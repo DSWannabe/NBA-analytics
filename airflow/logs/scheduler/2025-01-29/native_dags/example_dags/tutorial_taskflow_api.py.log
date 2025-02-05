@@ -1,0 +1,225 @@
+[2025-01-30T02:35:20.854+0800] {processor.py:186} INFO - Started process (PID=14590) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:35:20.856+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T02:35:20.858+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:20.858+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:35:20.865+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:35:20.961+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:20.960+0800] {override.py:1911} INFO - Created Permission View: can delete on DAG:tutorial_taskflow_api
+[2025-01-30T02:35:20.983+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:20.983+0800] {override.py:1911} INFO - Created Permission View: can read on DAG:tutorial_taskflow_api
+[2025-01-30T02:35:20.997+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:20.997+0800] {override.py:1911} INFO - Created Permission View: can edit on DAG:tutorial_taskflow_api
+[2025-01-30T02:35:21.032+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:21.032+0800] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:tutorial_taskflow_api
+[2025-01-30T02:35:21.047+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:21.047+0800] {override.py:1911} INFO - Created Permission View: can create on DAG Run:tutorial_taskflow_api
+[2025-01-30T02:35:21.070+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:21.069+0800] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:tutorial_taskflow_api
+[2025-01-30T02:35:21.096+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:21.095+0800] {override.py:1911} INFO - Created Permission View: can read on DAG Run:tutorial_taskflow_api
+[2025-01-30T02:35:21.096+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:21.096+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:35:21.110+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:21.110+0800] {dag.py:3262} INFO - Creating ORM DAG for tutorial_taskflow_api
+[2025-01-30T02:35:21.111+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:35:21.111+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T02:35:21.155+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.315 seconds
+[2025-01-30T02:36:24.274+0800] {processor.py:186} INFO - Started process (PID=14973) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:36:24.280+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T02:36:24.286+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:36:24.285+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:36:24.297+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:36:24.314+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:36:24.314+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:36:24.322+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:36:24.322+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T02:36:24.349+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.091 seconds
+[2025-01-30T02:48:23.227+0800] {processor.py:186} INFO - Started process (PID=19179) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:48:23.232+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T02:48:23.237+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:48:23.236+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:48:23.252+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:48:23.263+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:48:23.263+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:48:23.271+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:48:23.271+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T02:48:23.303+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.089 seconds
+[2025-01-30T02:49:20.004+0800] {processor.py:186} INFO - Started process (PID=19492) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:49:20.006+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T02:49:20.008+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:49:20.008+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:49:20.018+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:49:20.032+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:49:20.032+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:49:20.041+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:49:20.041+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T02:49:20.068+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.073 seconds
+[2025-01-30T02:50:17.163+0800] {processor.py:186} INFO - Started process (PID=19833) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:50:17.166+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T02:50:17.172+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:50:17.171+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:50:17.195+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:50:17.218+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:50:17.217+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:50:17.234+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:50:17.233+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T02:50:17.269+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.121 seconds
+[2025-01-30T02:51:13.064+0800] {processor.py:186} INFO - Started process (PID=20157) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:51:13.066+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T02:51:13.069+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:51:13.069+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:51:13.081+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:51:13.096+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:51:13.096+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:51:13.105+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:51:13.105+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T02:51:13.139+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.088 seconds
+[2025-01-30T02:52:04.873+0800] {processor.py:186} INFO - Started process (PID=20439) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:52:04.875+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T02:52:04.880+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:52:04.880+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:52:04.896+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:52:04.907+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:52:04.907+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:52:04.918+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:52:04.918+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T02:52:04.953+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.084 seconds
+[2025-01-30T02:52:57.719+0800] {processor.py:186} INFO - Started process (PID=20773) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:52:57.720+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T02:52:57.726+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:52:57.725+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:52:57.747+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:52:57.757+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:52:57.757+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:52:57.765+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:52:57.765+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T02:52:57.804+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.093 seconds
+[2025-01-30T02:53:52.787+0800] {processor.py:186} INFO - Started process (PID=21077) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:53:52.789+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T02:53:52.790+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:53:52.790+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:53:52.796+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:53:52.805+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:53:52.805+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:53:52.813+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:53:52.813+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T02:53:52.836+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.053 seconds
+[2025-01-30T02:54:41.473+0800] {processor.py:186} INFO - Started process (PID=21356) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:54:41.477+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T02:54:41.479+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:54:41.478+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:54:41.485+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:54:41.495+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:54:41.495+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:54:41.504+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:54:41.504+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T02:54:41.527+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.059 seconds
+[2025-01-30T02:55:32.263+0800] {processor.py:186} INFO - Started process (PID=21664) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:55:32.264+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T02:55:32.267+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:55:32.266+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:55:32.276+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:55:32.289+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:55:32.289+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:55:32.302+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:55:32.301+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T02:55:32.327+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.069 seconds
+[2025-01-30T02:56:19.568+0800] {processor.py:186} INFO - Started process (PID=21933) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:56:19.570+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T02:56:19.571+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:56:19.571+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:56:19.578+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:56:19.587+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:56:19.587+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:56:19.595+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:56:19.595+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T02:56:19.617+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.053 seconds
+[2025-01-30T02:57:06.321+0800] {processor.py:186} INFO - Started process (PID=22206) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:57:06.322+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T02:57:06.324+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:57:06.323+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:57:06.330+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:57:06.340+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:57:06.340+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:57:06.348+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:57:06.348+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T02:57:06.370+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.054 seconds
+[2025-01-30T02:57:55.388+0800] {processor.py:186} INFO - Started process (PID=22532) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:57:55.392+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T02:57:55.394+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:57:55.394+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:57:55.401+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:57:55.412+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:57:55.412+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:57:55.421+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:57:55.421+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T02:57:55.448+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.064 seconds
+[2025-01-30T02:58:46.324+0800] {processor.py:186} INFO - Started process (PID=22821) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:58:46.326+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T02:58:46.328+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:58:46.327+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:58:46.335+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:58:46.346+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:58:46.346+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:58:46.356+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:58:46.355+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T02:58:46.384+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.065 seconds
+[2025-01-30T02:59:36.847+0800] {processor.py:186} INFO - Started process (PID=23108) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:59:36.851+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T02:59:36.853+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:59:36.853+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:59:36.859+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T02:59:36.869+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:59:36.868+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T02:59:36.877+0800] {logging_mixin.py:190} INFO - [2025-01-30T02:59:36.877+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T02:59:36.898+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.055 seconds
+[2025-01-30T03:00:25.449+0800] {processor.py:186} INFO - Started process (PID=23410) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:00:25.450+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T03:00:25.452+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:00:25.452+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:00:25.458+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:00:25.468+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:00:25.467+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:00:25.475+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:00:25.475+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T03:00:25.498+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.053 seconds
+[2025-01-30T03:01:14.366+0800] {processor.py:186} INFO - Started process (PID=23689) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:01:14.368+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T03:01:14.369+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:01:14.369+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:01:14.375+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:01:14.385+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:01:14.385+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:01:14.393+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:01:14.393+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T03:01:14.416+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.055 seconds
+[2025-01-30T03:02:01.901+0800] {processor.py:186} INFO - Started process (PID=23956) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:02:01.902+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T03:02:01.904+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:02:01.904+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:02:01.911+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:02:01.922+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:02:01.922+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:02:01.931+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:02:01.931+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T03:02:01.955+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.058 seconds
+[2025-01-30T03:02:50.535+0800] {processor.py:186} INFO - Started process (PID=24271) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:02:50.536+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T03:02:50.538+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:02:50.537+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:02:50.543+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:02:50.553+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:02:50.553+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:02:50.561+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:02:50.561+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T03:02:50.585+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.054 seconds
+[2025-01-30T03:03:38.732+0800] {processor.py:186} INFO - Started process (PID=24547) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:03:38.734+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T03:03:38.735+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:03:38.735+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:03:38.742+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:03:38.752+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:03:38.751+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:03:38.760+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:03:38.759+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T03:03:38.783+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.055 seconds
+[2025-01-30T03:04:26.558+0800] {processor.py:186} INFO - Started process (PID=24851) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:04:26.562+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T03:04:26.563+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:04:26.563+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:04:26.570+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:04:26.579+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:04:26.579+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:04:26.587+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:04:26.587+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T03:04:26.609+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.056 seconds
+[2025-01-30T03:05:16.950+0800] {processor.py:186} INFO - Started process (PID=25147) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:05:16.951+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T03:05:16.953+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:05:16.953+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:05:16.959+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:05:16.969+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:05:16.969+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:05:16.977+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:05:16.977+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T03:05:17.002+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.056 seconds
+[2025-01-30T03:06:05.601+0800] {processor.py:186} INFO - Started process (PID=25426) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:06:05.602+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T03:06:05.604+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:06:05.604+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:06:05.612+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:06:05.623+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:06:05.623+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:06:05.632+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:06:05.632+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T03:06:05.655+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.059 seconds
+[2025-01-30T03:06:55.017+0800] {processor.py:186} INFO - Started process (PID=25720) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:06:55.018+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T03:06:55.023+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:06:55.022+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:06:55.036+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:06:55.050+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:06:55.049+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:06:55.059+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:06:55.059+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T03:06:55.083+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.073 seconds
+[2025-01-30T03:07:46.535+0800] {processor.py:186} INFO - Started process (PID=26032) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:07:46.536+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T03:07:46.538+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:07:46.537+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:07:46.545+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:07:46.556+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:07:46.555+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:07:46.565+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:07:46.565+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T03:07:46.588+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.059 seconds
+[2025-01-30T03:08:32.812+0800] {processor.py:186} INFO - Started process (PID=26302) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:08:32.813+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T03:08:32.815+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:08:32.814+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:08:32.822+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:08:32.833+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:08:32.833+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:08:32.843+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:08:32.842+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T03:08:32.866+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.059 seconds
+[2025-01-30T03:09:20.873+0800] {processor.py:186} INFO - Started process (PID=26574) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:09:20.874+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T03:09:20.876+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:09:20.875+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:09:20.882+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T03:09:20.893+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:09:20.893+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T03:09:20.902+0800] {logging_mixin.py:190} INFO - [2025-01-30T03:09:20.902+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T03:09:20.925+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.057 seconds
+[2025-01-30T06:11:59.822+0800] {processor.py:186} INFO - Started process (PID=27040) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T06:11:59.824+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T06:11:59.827+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:11:59.826+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T06:11:59.834+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T06:11:59.844+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:11:59.844+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T06:11:59.852+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:11:59.852+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T06:11:59.880+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.069 seconds
+[2025-01-30T06:12:54.325+0800] {processor.py:186} INFO - Started process (PID=27352) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T06:12:54.329+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T06:12:54.331+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:12:54.330+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T06:12:54.337+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T06:12:54.347+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:12:54.347+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T06:12:54.355+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:12:54.355+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T06:12:54.382+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.061 seconds
+[2025-01-30T06:13:43.607+0800] {processor.py:186} INFO - Started process (PID=27676) to work on /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T06:13:43.608+0800] {processor.py:914} INFO - Processing file /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-30T06:13:43.610+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:13:43.609+0800] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T06:13:43.616+0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-01-30T06:13:43.626+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:13:43.626+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T06:13:43.635+0800] {logging_mixin.py:190} INFO - [2025-01-30T06:13:43.635+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-01-30T06:13:43.660+0800] {processor.py:208} INFO - Processing /home/anhtupham99/miniforge3/envs/nba/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.062 seconds
