@@ -145,7 +145,7 @@ def upsert_player_info(file_path):
 if __name__ == "__main__":
     db.connect()
     upsert_player_seasonal_stats("data/nba_players_seasonal_stats.jsonl")
-    upsert_player_game_stats("data/nba_players_game_stats.jsonl")
-    upsert_team_info("data/teams_nba.jsonl")
-    upsert_player_info("data/player_info2.jsonl")
+    # upsert_player_game_stats("data/nba_players_game_stats.jsonl")
+    # upsert_team_info("data/teams_nba.jsonl")
+    # upsert_player_info("data/player_info2.jsonl")
     db.close()

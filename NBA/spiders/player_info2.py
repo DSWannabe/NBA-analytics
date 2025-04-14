@@ -19,10 +19,12 @@ class NbaScraping(scrapy.Spider):
         settings.set("PLAYWRIGHT_LAUNCH_OPTIONS", {"headless": False})
         settings.set("PLAYWRIGHT_MAX_PAGES_PER_CONTEXT", 1)
         settings.set("PLAYWRIGHT_MAX_CONTEXTS", 1)
-        settings.set("CONCURRENT_REQUESTS", 100)
+        settings.set("CONCURRENT_REQUESTS", 16)
         settings.set("DOWNLOAD_DELAY", 0.5)
-        settings.set("AUTOTHROTTLE_TARGET_CONCURRENCY", 100)
-        settings.set("CONCURRENT_REQUESTS_PER_DOMAIN", 32)
+        settings.set("AUTOTHROTTLE_TARGET_CONCURRENCY", 16)
+        settings.set("CONCURRENT_REQUESTS_PER_DOMAIN", 16)
+        settings.set("AUTOTHROTTLE_START_DELAY", 0.1)
+        settings.set("USER_AGENT", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
 
     def start_requests(self):
         start_urls = []
@@ -40,6 +42,10 @@ class NbaScraping(scrapy.Spider):
 
     def parse(self, response):
         soup = BeautifulSoup(response.text, "html.parser")
+
+        # players' id
+        player_id_match = re.search(r"/player/(\d+)", response.url)
+        player_id = player_id_match.group(1) if player_id_match else "Unknown"
 
         # players' name
         name_elements = response.css('div.PlayerSummary_mainInnerBio__JQkoj h1.PlayerSummary_playerNameText___MhqC::text').getall()
@@ -114,6 +120,7 @@ class NbaScraping(scrapy.Spider):
             qualified_elements['draft_pick'] = 'N/A'
 
         dictionary = player_info2(
+            player_id=player_id,
             player=name,
             height_m=qualified_elements['height_m'],
             height_ft=qualified_elements['height_ft'],
@@ -127,3 +134,10 @@ class NbaScraping(scrapy.Spider):
         )
 
         yield dictionary
+
+    def logresult(self, result):
+        cnt = 0
+        with open("data/player_info2.jsonl", "a") as file:
+            for line in file:
+                cnt += 1
+        self.log(f"total row: {cnt}")

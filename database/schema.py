@@ -15,6 +15,7 @@ from peewee import (
     PostgresqlDatabase,
     DecimalField,
 )
+# DB password: postgres
 
 db = PostgresqlDatabase("postgresql://postgres:postgres@localhost:5432/nba_data")
 

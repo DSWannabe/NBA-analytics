@@ -90,11 +90,12 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    "NBA.pipelines.GameStatsPipeline": 300,
+    # "NBA.pipelines.PlayerGameStatsPipeline": 300,
     # "NBA.pipelines.SeasonalStatsPipeline": 301,
     # "NBA.pipelines.PlayerUrlsPipeline": 302,
     # "NBA.pipelines.PlayerInfoPipeline": 303,
     # "NBA.pipelines.PlayerInfoPipeline2": 304,
+    "NBA.pipelines.GameResultsPipeline": 305,
 }
 
 NBA_PIPELINE_OUTPUT_FOLDER = os.path.expanduser("./data")
