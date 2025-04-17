@@ -7,7 +7,7 @@
 # useful for handling different item types with a single interface
 import json
 from dataclasses import asdict
-from NBA.items import nba_scraping, player_game_stats, player_urls_lst, player_info, player_info2, game_results
+from NBA.items import nba_scraping, player_game_stats, player_urls_lst, player_info, game_results
 import os
 from scrapy.exceptions import NotConfigured
 

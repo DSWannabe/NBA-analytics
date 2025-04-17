@@ -1,0 +1,693 @@
+[2025-04-15T23:46:59.162+0700] {processor.py:186} INFO - Started process (PID=298013) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:46:59.163+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-15T23:46:59.165+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:59.164+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:46:59.167+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:59.167+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-15T23:46:59.167+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:59.167+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-15T23:46:59.168+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:46:59.177+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.021 seconds
+[2025-04-15T23:47:59.749+0700] {processor.py:186} INFO - Started process (PID=299376) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:47:59.751+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-15T23:47:59.754+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:59.754+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:47:59.759+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:59.758+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-15T23:47:59.759+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:59.759+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-15T23:47:59.760+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:47:59.772+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.028 seconds
+[2025-04-15T23:48:55.832+0700] {processor.py:186} INFO - Started process (PID=300704) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:48:55.834+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-15T23:48:55.836+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:48:55.835+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:48:55.838+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:48:55.838+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-15T23:48:55.839+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:48:55.839+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-15T23:48:55.839+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:48:55.849+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.021 seconds
+[2025-04-15T23:49:49.417+0700] {processor.py:186} INFO - Started process (PID=301887) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:49:49.421+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-15T23:49:49.423+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:49:49.422+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:49:49.427+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:49:49.426+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-15T23:49:49.427+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:49:49.427+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-15T23:49:49.427+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:49:49.437+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.026 seconds
+[2025-04-15T23:50:40.589+0700] {processor.py:186} INFO - Started process (PID=302962) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:50:40.591+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-15T23:50:40.593+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:50:40.593+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:50:40.596+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:50:40.596+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-15T23:50:40.597+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:50:40.596+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-15T23:50:40.597+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:50:40.608+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
+[2025-04-15T23:51:33.547+0700] {processor.py:186} INFO - Started process (PID=303930) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:51:33.548+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-15T23:51:33.550+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:51:33.550+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:51:33.552+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:51:33.552+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-15T23:51:33.552+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:51:33.552+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-15T23:51:33.552+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:51:33.560+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.017 seconds
+[2025-04-15T23:52:18.793+0700] {processor.py:186} INFO - Started process (PID=304786) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:52:18.795+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-15T23:52:18.797+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:52:18.797+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:52:18.802+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:52:18.801+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-15T23:52:18.802+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:52:18.802+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-15T23:52:18.802+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:52:18.813+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.026 seconds
+[2025-04-15T23:53:07.692+0700] {processor.py:186} INFO - Started process (PID=305782) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:53:07.695+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-15T23:53:07.697+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:53:07.697+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:53:07.699+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:53:07.699+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-15T23:53:07.699+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:53:07.699+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-15T23:53:07.699+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:53:07.708+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.020 seconds
+[2025-04-15T23:53:55.607+0700] {processor.py:186} INFO - Started process (PID=306668) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:53:55.608+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-15T23:53:55.610+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:53:55.609+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:53:55.612+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:53:55.612+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-15T23:53:55.613+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:53:55.612+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-15T23:53:55.613+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:53:55.623+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.022 seconds
+[2025-04-15T23:54:41.341+0700] {processor.py:186} INFO - Started process (PID=307499) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:54:41.343+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-15T23:54:41.344+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:54:41.344+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:54:41.347+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:54:41.346+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-15T23:54:41.347+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:54:41.347+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-15T23:54:41.347+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:54:41.356+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2025-04-15T23:55:31.294+0700] {processor.py:186} INFO - Started process (PID=309778) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:55:31.295+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-15T23:55:31.297+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:55:31.297+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:55:31.300+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:55:31.299+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-15T23:55:31.300+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:55:31.300+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-15T23:55:31.300+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:55:31.309+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.020 seconds
+[2025-04-15T23:56:22.904+0700] {processor.py:186} INFO - Started process (PID=311643) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:56:22.905+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-15T23:56:22.907+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:56:22.907+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:56:22.909+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:56:22.909+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-15T23:56:22.909+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:56:22.909+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-15T23:56:22.910+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:56:22.917+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.017 seconds
+[2025-04-15T23:57:09.599+0700] {processor.py:186} INFO - Started process (PID=312495) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:57:09.600+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-15T23:57:09.603+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:57:09.603+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:57:09.607+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:57:09.606+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-15T23:57:09.607+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:57:09.607+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-15T23:57:09.607+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:57:09.618+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.026 seconds
+[2025-04-15T23:57:58.074+0700] {processor.py:186} INFO - Started process (PID=313423) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:57:58.076+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-15T23:57:58.077+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:57:58.077+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:57:58.079+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:57:58.079+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-15T23:57:58.079+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:57:58.079+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-15T23:57:58.080+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:57:58.088+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.018 seconds
+[2025-04-15T23:58:48.611+0700] {processor.py:186} INFO - Started process (PID=314428) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:58:48.613+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-15T23:58:48.614+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:58:48.614+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:58:48.617+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:58:48.617+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-15T23:58:48.617+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:58:48.617+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-15T23:58:48.617+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:58:48.626+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2025-04-15T23:59:34.939+0700] {processor.py:186} INFO - Started process (PID=315402) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:59:34.943+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-15T23:59:34.945+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:59:34.945+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:59:34.948+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:59:34.947+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-15T23:59:34.948+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:59:34.948+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-15T23:59:34.948+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-15T23:59:34.955+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.021 seconds
+[2025-04-16T00:00:24.931+0700] {processor.py:186} INFO - Started process (PID=316489) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:00:24.933+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:00:24.934+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:00:24.934+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:00:24.937+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:00:24.937+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:00:24.938+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:00:24.938+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:00:24.938+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:00:24.947+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.020 seconds
+[2025-04-16T00:01:10.781+0700] {processor.py:186} INFO - Started process (PID=317362) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:01:10.783+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:01:10.784+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:01:10.784+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:01:10.787+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:01:10.787+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:01:10.787+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:01:10.787+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:01:10.788+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:01:10.795+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2025-04-16T00:01:58.811+0700] {processor.py:186} INFO - Started process (PID=318225) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:01:58.816+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:01:58.817+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:01:58.817+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:01:58.819+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:01:58.819+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:01:58.820+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:01:58.819+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:01:58.820+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:01:58.827+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2025-04-16T00:02:43.508+0700] {processor.py:186} INFO - Started process (PID=319119) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:02:43.509+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:02:43.511+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:02:43.511+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:02:43.514+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:02:43.513+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:02:43.514+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:02:43.514+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:02:43.514+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:02:43.522+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2025-04-16T00:03:31.704+0700] {processor.py:186} INFO - Started process (PID=320031) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:03:31.705+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:03:31.707+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:03:31.706+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:03:31.709+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:03:31.709+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:03:31.709+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:03:31.709+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:03:31.710+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:03:31.717+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.018 seconds
+[2025-04-16T00:04:17.941+0700] {processor.py:186} INFO - Started process (PID=321170) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:04:17.942+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:04:17.944+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:04:17.944+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:04:17.947+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:04:17.947+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:04:17.947+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:04:17.947+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:04:17.947+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:04:17.957+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.022 seconds
+[2025-04-16T00:05:05.461+0700] {processor.py:186} INFO - Started process (PID=322040) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:05:05.465+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:05:05.467+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:05:05.467+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:05:05.470+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:05:05.470+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:05:05.470+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:05:05.470+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:05:05.470+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:05:05.480+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.025 seconds
+[2025-04-16T00:05:55.502+0700] {processor.py:186} INFO - Started process (PID=322947) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:05:55.503+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:05:55.505+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:05:55.505+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:05:55.508+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:05:55.507+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:05:55.508+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:05:55.508+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:05:55.508+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:05:55.517+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.020 seconds
+[2025-04-16T00:06:44.134+0700] {processor.py:186} INFO - Started process (PID=323857) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:06:44.138+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:06:44.141+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:06:44.140+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:06:44.144+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:06:44.143+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:06:44.144+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:06:44.144+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:06:44.145+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:06:44.158+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.029 seconds
+[2025-04-16T00:07:32.081+0700] {processor.py:186} INFO - Started process (PID=324973) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:07:32.083+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:07:32.084+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:07:32.084+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:07:32.087+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:07:32.087+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:07:32.087+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:07:32.087+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:07:32.088+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:07:32.096+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.020 seconds
+[2025-04-16T00:08:17.624+0700] {processor.py:186} INFO - Started process (PID=325820) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:08:17.625+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:08:17.627+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:08:17.626+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:08:17.630+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:08:17.629+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:08:17.630+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:08:17.630+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:08:17.630+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:08:17.640+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.022 seconds
+[2025-04-16T00:09:04.976+0700] {processor.py:186} INFO - Started process (PID=326681) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:09:04.978+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:09:04.980+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:09:04.979+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:09:04.983+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:09:04.982+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:09:04.983+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:09:04.983+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:09:04.983+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:09:04.993+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2025-04-16T00:09:54.909+0700] {processor.py:186} INFO - Started process (PID=327938) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:09:54.910+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:09:54.912+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:09:54.912+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:09:54.916+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:09:54.915+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:09:54.916+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:09:54.916+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:09:54.916+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:09:54.927+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
+[2025-04-16T00:10:40.304+0700] {processor.py:186} INFO - Started process (PID=328898) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:10:40.305+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:10:40.306+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:10:40.306+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:10:40.309+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:10:40.308+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:10:40.309+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:10:40.309+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:10:40.309+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:10:40.316+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.017 seconds
+[2025-04-16T00:11:30.818+0700] {processor.py:186} INFO - Started process (PID=329924) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:11:30.820+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:11:30.822+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:11:30.821+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:11:30.825+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:11:30.824+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:11:30.825+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:11:30.825+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:11:30.825+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:11:30.835+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2025-04-16T00:12:16.715+0700] {processor.py:186} INFO - Started process (PID=331158) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:12:16.718+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:12:16.720+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:12:16.720+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:12:16.725+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:12:16.724+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:12:16.725+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:12:16.725+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:12:16.726+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:12:16.741+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.034 seconds
+[2025-04-16T00:13:02.933+0700] {processor.py:186} INFO - Started process (PID=332749) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:13:02.934+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:13:02.936+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:13:02.935+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:13:02.938+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:13:02.938+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:13:02.938+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:13:02.938+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:13:02.938+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:13:02.947+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2025-04-16T00:13:52.405+0700] {processor.py:186} INFO - Started process (PID=334804) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:13:52.407+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:13:52.408+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:13:52.408+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:13:52.411+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:13:52.410+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:13:52.411+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:13:52.411+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:13:52.411+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:13:52.421+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.021 seconds
+[2025-04-16T00:14:42.865+0700] {processor.py:186} INFO - Started process (PID=336323) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:14:42.866+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:14:42.868+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:14:42.868+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:14:42.870+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:14:42.870+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:14:42.871+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:14:42.870+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:14:42.871+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:14:42.879+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2025-04-16T00:15:32.165+0700] {processor.py:186} INFO - Started process (PID=338761) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:15:32.166+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:15:32.168+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:15:32.168+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:15:32.171+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:15:32.171+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:15:32.171+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:15:32.171+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:15:32.171+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:15:32.180+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2025-04-16T00:16:22.168+0700] {processor.py:186} INFO - Started process (PID=341555) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:16:22.170+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:16:22.172+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:16:22.172+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:16:22.175+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:16:22.175+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:16:22.175+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:16:22.175+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:16:22.176+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:16:22.184+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.021 seconds
+[2025-04-16T00:17:13.272+0700] {processor.py:186} INFO - Started process (PID=343573) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:17:13.273+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:17:13.275+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:17:13.275+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:17:13.278+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:17:13.277+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:17:13.278+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:17:13.278+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:17:13.278+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:17:13.287+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.020 seconds
+[2025-04-16T00:18:01.637+0700] {processor.py:186} INFO - Started process (PID=345529) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:18:01.638+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:18:01.640+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:18:01.640+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:18:01.644+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:18:01.643+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:18:01.644+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:18:01.644+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:18:01.644+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:18:01.653+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.022 seconds
+[2025-04-16T00:18:52.258+0700] {processor.py:186} INFO - Started process (PID=348212) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:18:52.260+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:18:52.262+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:18:52.261+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:18:52.265+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:18:52.264+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:18:52.265+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:18:52.265+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:18:52.265+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:18:52.275+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.022 seconds
+[2025-04-16T00:19:42.742+0700] {processor.py:186} INFO - Started process (PID=350365) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:19:42.743+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:19:42.745+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:19:42.745+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:19:42.748+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:19:42.747+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:19:42.748+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:19:42.748+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:19:42.748+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:19:42.757+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.021 seconds
+[2025-04-16T00:20:30.264+0700] {processor.py:186} INFO - Started process (PID=352220) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:20:30.266+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:20:30.268+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:20:30.267+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:20:30.271+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:20:30.270+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:20:30.271+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:20:30.271+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:20:30.271+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:20:30.279+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.022 seconds
+[2025-04-16T00:21:21.103+0700] {processor.py:186} INFO - Started process (PID=354011) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:21:21.105+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:21:21.108+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:21:21.107+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:21:21.111+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:21:21.110+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:21:21.111+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:21:21.111+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:21:21.111+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:21:21.122+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.026 seconds
+[2025-04-16T00:22:11.913+0700] {processor.py:186} INFO - Started process (PID=356415) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:22:11.915+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:22:11.917+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:22:11.917+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:22:11.921+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:22:11.920+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:22:11.921+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:22:11.921+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:22:11.921+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:22:11.933+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.027 seconds
+[2025-04-16T00:23:03.532+0700] {processor.py:186} INFO - Started process (PID=357514) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:23:03.534+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:23:03.537+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:23:03.536+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:23:03.540+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:23:03.539+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:23:03.540+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:23:03.540+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:23:03.540+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:23:03.551+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.025 seconds
+[2025-04-16T00:23:47.739+0700] {processor.py:186} INFO - Started process (PID=358861) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:23:47.740+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:23:47.742+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:23:47.741+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:23:47.744+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:23:47.744+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:23:47.744+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:23:47.744+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:23:47.744+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:23:47.752+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.018 seconds
+[2025-04-16T00:24:37.878+0700] {processor.py:186} INFO - Started process (PID=360947) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:24:37.879+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:24:37.882+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:24:37.881+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:24:37.884+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:24:37.884+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:24:37.885+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:24:37.885+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:24:37.885+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:24:37.895+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2025-04-16T00:25:28.205+0700] {processor.py:186} INFO - Started process (PID=363320) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:25:28.206+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:25:28.209+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:25:28.209+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:25:28.213+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:25:28.212+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:25:28.213+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:25:28.213+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:25:28.214+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:25:28.223+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.025 seconds
+[2025-04-16T00:26:14.306+0700] {processor.py:186} INFO - Started process (PID=364446) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:26:14.307+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:26:14.309+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:26:14.308+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:26:14.312+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:26:14.311+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:26:14.312+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:26:14.312+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:26:14.312+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:26:14.325+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.025 seconds
+[2025-04-16T00:27:03.868+0700] {processor.py:186} INFO - Started process (PID=365582) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:27:03.869+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:27:03.871+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:27:03.870+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:27:03.874+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:27:03.873+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:27:03.874+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:27:03.874+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:27:03.875+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:27:03.884+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.021 seconds
+[2025-04-16T00:27:50.566+0700] {processor.py:186} INFO - Started process (PID=366701) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:27:50.567+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:27:50.569+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:27:50.569+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:27:50.571+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:27:50.571+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:27:50.571+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:27:50.571+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:27:50.572+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:27:50.580+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.018 seconds
+[2025-04-16T00:28:39.483+0700] {processor.py:186} INFO - Started process (PID=368041) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:28:39.484+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:28:39.487+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:28:39.486+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:28:39.492+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:28:39.491+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:28:39.492+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:28:39.492+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:28:39.493+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:28:39.506+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.031 seconds
+[2025-04-16T00:29:26.303+0700] {processor.py:186} INFO - Started process (PID=369098) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:29:26.304+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:29:26.306+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:29:26.305+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:29:26.308+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:29:26.307+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:29:26.308+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:29:26.308+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:29:26.308+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:29:26.316+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.018 seconds
+[2025-04-16T00:30:15.790+0700] {processor.py:186} INFO - Started process (PID=370245) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:30:15.794+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:30:15.795+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:30:15.795+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:30:15.798+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:30:15.797+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:30:15.798+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:30:15.798+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:30:15.798+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:30:15.805+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.020 seconds
+[2025-04-16T00:31:03.218+0700] {processor.py:186} INFO - Started process (PID=371634) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:31:03.219+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:31:03.221+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:31:03.221+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:31:03.227+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:31:03.225+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:31:03.227+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:31:03.227+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:31:03.227+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:31:03.239+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.028 seconds
+[2025-04-16T00:31:47.560+0700] {processor.py:186} INFO - Started process (PID=372749) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:31:47.562+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:31:47.563+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:31:47.563+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:31:47.566+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:31:47.565+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:31:47.566+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:31:47.566+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:31:47.566+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:31:47.573+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.018 seconds
+[2025-04-16T00:32:32.571+0700] {processor.py:186} INFO - Started process (PID=373833) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:32:32.573+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:32:32.575+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:32:32.574+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:32:32.577+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:32:32.577+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:32:32.577+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:32:32.577+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:32:32.577+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:32:32.584+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.017 seconds
+[2025-04-16T00:33:19.677+0700] {processor.py:186} INFO - Started process (PID=375031) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:33:19.681+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:33:19.683+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:33:19.682+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:33:19.686+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:33:19.686+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:33:19.686+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:33:19.686+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:33:19.687+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:33:19.695+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.025 seconds
+[2025-04-16T00:34:07.707+0700] {processor.py:186} INFO - Started process (PID=376050) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:34:07.708+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:34:07.710+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:34:07.710+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:34:07.713+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:34:07.713+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:34:07.713+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:34:07.713+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:34:07.714+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:34:07.723+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.020 seconds
+[2025-04-16T00:34:56.110+0700] {processor.py:186} INFO - Started process (PID=377234) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:34:56.112+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:34:56.115+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:34:56.114+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:34:56.118+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:34:56.118+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:34:56.118+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:34:56.118+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:34:56.119+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:34:56.129+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.025 seconds
+[2025-04-16T00:35:42.519+0700] {processor.py:186} INFO - Started process (PID=378400) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:35:42.520+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:35:42.522+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:35:42.521+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:35:42.524+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:35:42.524+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:35:42.524+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:35:42.524+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:35:42.524+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:35:42.532+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.018 seconds
+[2025-04-16T00:36:31.775+0700] {processor.py:186} INFO - Started process (PID=379614) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:36:31.776+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:36:31.778+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:36:31.778+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:36:31.781+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:36:31.780+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:36:31.781+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:36:31.781+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:36:31.781+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:36:31.789+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2025-04-16T00:37:18.010+0700] {processor.py:186} INFO - Started process (PID=381067) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:37:18.012+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-16T00:37:18.014+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:37:18.014+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:37:18.017+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:37:18.017+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-16T00:37:18.018+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:37:18.018+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-16T00:37:18.018+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-16T00:37:18.028+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds

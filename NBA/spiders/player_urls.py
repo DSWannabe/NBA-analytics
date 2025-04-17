@@ -6,7 +6,7 @@ import re
 from scrapy_playwright.page import PageMethod
 
 
-class NbaScraping(scrapy.Spider):
+class PlayerURL(scrapy.Spider):
     name = "url"
 
     @classmethod

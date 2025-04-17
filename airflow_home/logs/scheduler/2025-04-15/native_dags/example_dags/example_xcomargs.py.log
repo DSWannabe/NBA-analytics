@@ -1,0 +1,528 @@
+[2025-04-15T23:46:40.516+0700] {processor.py:186} INFO - Started process (PID=297650) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:46:40.518+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-15T23:46:40.521+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:40.520+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:46:40.536+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:46:40.683+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:40.682+0700] {override.py:1912} INFO - Created Permission View: can delete on DAG:example_xcom_args_with_operators
+[2025-04-15T23:46:40.703+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:40.702+0700] {override.py:1912} INFO - Created Permission View: can edit on DAG:example_xcom_args_with_operators
+[2025-04-15T23:46:40.721+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:40.720+0700] {override.py:1912} INFO - Created Permission View: can read on DAG:example_xcom_args_with_operators
+[2025-04-15T23:46:40.751+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:40.751+0700] {override.py:1912} INFO - Created Permission View: can create on DAG Run:example_xcom_args_with_operators
+[2025-04-15T23:46:40.766+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:40.766+0700] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:example_xcom_args_with_operators
+[2025-04-15T23:46:40.782+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:40.782+0700] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:example_xcom_args_with_operators
+[2025-04-15T23:46:40.798+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:40.797+0700] {override.py:1912} INFO - Created Permission View: can read on DAG Run:example_xcom_args_with_operators
+[2025-04-15T23:46:40.834+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:40.833+0700] {override.py:1912} INFO - Created Permission View: can delete on DAG:example_xcom_args
+[2025-04-15T23:46:40.848+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:40.847+0700] {override.py:1912} INFO - Created Permission View: can edit on DAG:example_xcom_args
+[2025-04-15T23:46:40.864+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:40.863+0700] {override.py:1912} INFO - Created Permission View: can read on DAG:example_xcom_args
+[2025-04-15T23:46:40.895+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:40.894+0700] {override.py:1912} INFO - Created Permission View: can create on DAG Run:example_xcom_args
+[2025-04-15T23:46:40.911+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:40.910+0700] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:example_xcom_args
+[2025-04-15T23:46:40.926+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:40.926+0700] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:example_xcom_args
+[2025-04-15T23:46:40.942+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:40.942+0700] {override.py:1912} INFO - Created Permission View: can read on DAG Run:example_xcom_args
+[2025-04-15T23:46:40.943+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:40.943+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-15T23:46:40.954+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:40.953+0700] {dag.py:3262} INFO - Creating ORM DAG for example_xcom_args_with_operators
+[2025-04-15T23:46:40.954+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:40.954+0700] {dag.py:3262} INFO - Creating ORM DAG for example_xcom_args
+[2025-04-15T23:46:40.954+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:40.954+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-15T23:46:40.955+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:40.955+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-15T23:46:40.977+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.474 seconds
+[2025-04-15T23:47:45.359+0700] {processor.py:186} INFO - Started process (PID=299020) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:47:45.360+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-15T23:47:45.362+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:45.361+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:47:45.370+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:47:45.384+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:45.383+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-15T23:47:45.392+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:45.392+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-15T23:47:45.394+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:45.394+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-15T23:47:45.420+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.066 seconds
+[2025-04-15T23:48:40.917+0700] {processor.py:186} INFO - Started process (PID=300472) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:48:40.918+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-15T23:48:40.920+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:48:40.919+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:48:40.927+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:48:40.939+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:48:40.939+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-15T23:48:40.948+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:48:40.947+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-15T23:48:40.949+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:48:40.949+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-15T23:48:40.971+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.059 seconds
+[2025-04-15T23:49:28.569+0700] {processor.py:186} INFO - Started process (PID=301418) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:49:28.571+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-15T23:49:28.574+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:49:28.573+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:49:28.585+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:49:28.602+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:49:28.602+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-15T23:49:28.613+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:49:28.612+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-15T23:49:28.616+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:49:28.615+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-15T23:49:28.641+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.078 seconds
+[2025-04-15T23:50:15.995+0700] {processor.py:186} INFO - Started process (PID=302408) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:50:15.996+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-15T23:50:15.998+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:50:15.998+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:50:16.008+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:50:16.021+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:50:16.021+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-15T23:50:16.121+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:50:16.121+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-15T23:50:16.123+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:50:16.123+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-15T23:50:16.144+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.154 seconds
+[2025-04-15T23:51:11.589+0700] {processor.py:186} INFO - Started process (PID=303514) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:51:11.590+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-15T23:51:11.592+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:51:11.591+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:51:11.599+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:51:11.611+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:51:11.611+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-15T23:51:11.619+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:51:11.619+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-15T23:51:11.621+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:51:11.621+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-15T23:51:11.647+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.062 seconds
+[2025-04-15T23:51:58.656+0700] {processor.py:186} INFO - Started process (PID=304378) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:51:58.659+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-15T23:51:58.661+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:51:58.661+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:51:58.669+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:51:58.682+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:51:58.682+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-15T23:51:58.691+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:51:58.691+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-15T23:51:58.693+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:51:58.693+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-15T23:51:58.713+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.062 seconds
+[2025-04-15T23:52:45.494+0700] {processor.py:186} INFO - Started process (PID=305377) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:52:45.496+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-15T23:52:45.497+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:52:45.497+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:52:45.505+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:52:45.518+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:52:45.518+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-15T23:52:45.528+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:52:45.528+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-15T23:52:45.530+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:52:45.530+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-15T23:52:45.551+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.062 seconds
+[2025-04-15T23:53:33.779+0700] {processor.py:186} INFO - Started process (PID=306285) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:53:33.780+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-15T23:53:33.782+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:53:33.782+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:53:33.792+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:53:33.806+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:53:33.806+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-15T23:53:33.816+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:53:33.816+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-15T23:53:33.819+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:53:33.818+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-15T23:53:33.841+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.067 seconds
+[2025-04-15T23:54:19.673+0700] {processor.py:186} INFO - Started process (PID=307110) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:54:19.675+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-15T23:54:19.677+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:54:19.676+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:54:19.687+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:54:19.707+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:54:19.706+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-15T23:54:19.723+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:54:19.723+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-15T23:54:19.727+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:54:19.726+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-15T23:54:19.758+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.093 seconds
+[2025-04-15T23:55:07.950+0700] {processor.py:186} INFO - Started process (PID=308087) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:55:07.952+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-15T23:55:07.953+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:55:07.953+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:55:07.961+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:55:07.972+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:55:07.972+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-15T23:55:07.981+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:55:07.981+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-15T23:55:07.983+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:55:07.983+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-15T23:55:08.003+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.057 seconds
+[2025-04-15T23:56:00.228+0700] {processor.py:186} INFO - Started process (PID=311026) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:56:00.229+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-15T23:56:00.231+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:56:00.231+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:56:00.239+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:56:00.252+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:56:00.251+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-15T23:56:00.261+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:56:00.260+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-15T23:56:00.263+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:56:00.263+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-15T23:56:00.284+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.061 seconds
+[2025-04-15T23:56:48.334+0700] {processor.py:186} INFO - Started process (PID=312090) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:56:48.336+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-15T23:56:48.337+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:56:48.337+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:56:48.348+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:56:48.363+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:56:48.363+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-15T23:56:48.375+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:56:48.375+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-15T23:56:48.378+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:56:48.378+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-15T23:56:48.402+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.073 seconds
+[2025-04-15T23:57:35.165+0700] {processor.py:186} INFO - Started process (PID=313012) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:57:35.166+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-15T23:57:35.168+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:57:35.168+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:57:35.177+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:57:35.191+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:57:35.191+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-15T23:57:35.201+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:57:35.201+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-15T23:57:35.203+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:57:35.203+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-15T23:57:35.224+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.064 seconds
+[2025-04-15T23:58:26.216+0700] {processor.py:186} INFO - Started process (PID=313989) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:58:26.217+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-15T23:58:26.219+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:58:26.219+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:58:26.229+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:58:26.243+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:58:26.243+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-15T23:58:26.253+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:58:26.252+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-15T23:58:26.255+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:58:26.255+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-15T23:58:26.286+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.075 seconds
+[2025-04-15T23:59:13.507+0700] {processor.py:186} INFO - Started process (PID=315002) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:59:13.508+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-15T23:59:13.510+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:59:13.510+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:59:13.519+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-15T23:59:13.534+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:59:13.534+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-15T23:59:13.544+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:59:13.544+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-15T23:59:13.547+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:59:13.546+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-15T23:59:13.568+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.066 seconds
+[2025-04-16T00:00:02.987+0700] {processor.py:186} INFO - Started process (PID=316074) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:00:02.988+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:00:02.990+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:00:02.990+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:00:03.000+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:00:03.014+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:00:03.014+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:00:03.025+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:00:03.025+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:00:03.028+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:00:03.027+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:00:03.050+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.068 seconds
+[2025-04-16T00:00:50.169+0700] {processor.py:186} INFO - Started process (PID=316957) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:00:50.170+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:00:50.172+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:00:50.172+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:00:50.181+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:00:50.195+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:00:50.195+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:00:50.205+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:00:50.204+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:00:50.207+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:00:50.207+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:00:50.228+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.064 seconds
+[2025-04-16T00:01:37.372+0700] {processor.py:186} INFO - Started process (PID=317845) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:01:37.373+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:01:37.375+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:01:37.374+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:01:37.382+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:01:37.394+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:01:37.393+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:01:37.402+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:01:37.402+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:01:37.404+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:01:37.404+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:01:37.425+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.058 seconds
+[2025-04-16T00:02:23.420+0700] {processor.py:186} INFO - Started process (PID=318696) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:02:23.422+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:02:23.425+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:02:23.424+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:02:23.440+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:02:23.459+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:02:23.459+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:02:23.472+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:02:23.472+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:02:23.475+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:02:23.475+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:02:23.502+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.088 seconds
+[2025-04-16T00:03:06.402+0700] {processor.py:186} INFO - Started process (PID=319534) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:03:06.406+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:03:06.408+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:03:06.408+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:03:06.418+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:03:06.432+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:03:06.432+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:03:06.441+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:03:06.441+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:03:06.444+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:03:06.444+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:03:06.467+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.069 seconds
+[2025-04-16T00:03:51.150+0700] {processor.py:186} INFO - Started process (PID=320495) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:03:51.151+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:03:51.153+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:03:51.152+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:03:51.163+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:03:51.178+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:03:51.178+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:03:51.189+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:03:51.188+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:03:51.191+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:03:51.191+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:03:51.215+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.071 seconds
+[2025-04-16T00:04:39.266+0700] {processor.py:186} INFO - Started process (PID=321523) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:04:39.267+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:04:39.269+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:04:39.269+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:04:39.279+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:04:39.296+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:04:39.296+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:04:39.307+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:04:39.306+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:04:39.309+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:04:39.309+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:04:39.339+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.079 seconds
+[2025-04-16T00:05:27.544+0700] {processor.py:186} INFO - Started process (PID=322408) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:05:27.545+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:05:27.547+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:05:27.547+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:05:27.557+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:05:27.573+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:05:27.573+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:05:27.584+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:05:27.583+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:05:27.587+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:05:27.587+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:05:27.613+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.075 seconds
+[2025-04-16T00:06:18.248+0700] {processor.py:186} INFO - Started process (PID=323368) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:06:18.253+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:06:18.255+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:06:18.254+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:06:18.265+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:06:18.282+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:06:18.282+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:06:18.293+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:06:18.293+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:06:18.295+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:06:18.295+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:06:18.320+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.077 seconds
+[2025-04-16T00:07:04.715+0700] {processor.py:186} INFO - Started process (PID=324453) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:07:04.716+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:07:04.718+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:07:04.718+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:07:04.726+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:07:04.740+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:07:04.740+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:07:04.749+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:07:04.749+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:07:04.751+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:07:04.751+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:07:04.773+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.063 seconds
+[2025-04-16T00:07:52.550+0700] {processor.py:186} INFO - Started process (PID=325306) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:07:52.551+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:07:52.554+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:07:52.553+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:07:52.566+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:07:52.585+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:07:52.585+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:07:52.598+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:07:52.598+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:07:52.601+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:07:52.601+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:07:52.629+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.085 seconds
+[2025-04-16T00:08:37.886+0700] {processor.py:186} INFO - Started process (PID=326207) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:08:37.887+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:08:37.889+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:08:37.889+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:08:37.898+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:08:37.911+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:08:37.911+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:08:37.921+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:08:37.921+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:08:37.924+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:08:37.924+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:08:37.945+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.063 seconds
+[2025-04-16T00:09:27.753+0700] {processor.py:186} INFO - Started process (PID=327145) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:09:27.754+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:09:27.756+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:09:27.756+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:09:27.769+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:09:27.786+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:09:27.786+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:09:27.798+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:09:27.797+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:09:27.802+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:09:27.802+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:09:27.830+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.081 seconds
+[2025-04-16T00:10:15.126+0700] {processor.py:186} INFO - Started process (PID=328353) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:10:15.128+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:10:15.130+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:10:15.130+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:10:15.141+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:10:15.159+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:10:15.158+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:10:15.171+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:10:15.171+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:10:15.174+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:10:15.174+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:10:15.199+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.079 seconds
+[2025-04-16T00:11:03.143+0700] {processor.py:186} INFO - Started process (PID=329415) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:11:03.145+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:11:03.147+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:11:03.147+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:11:03.157+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:11:03.174+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:11:03.173+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:11:03.184+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:11:03.184+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:11:03.186+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:11:03.186+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:11:03.209+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.072 seconds
+[2025-04-16T00:11:51.707+0700] {processor.py:186} INFO - Started process (PID=330459) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:11:51.708+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:11:51.710+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:11:51.710+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:11:51.719+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:11:51.734+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:11:51.734+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:11:51.745+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:11:51.745+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:11:51.748+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:11:51.748+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:11:51.770+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.068 seconds
+[2025-04-16T00:12:35.851+0700] {processor.py:186} INFO - Started process (PID=331958) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:12:35.853+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:12:35.857+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:12:35.856+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:12:35.874+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:12:35.902+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:12:35.901+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:12:35.916+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:12:35.916+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:12:35.920+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:12:35.919+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:12:35.947+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.104 seconds
+[2025-04-16T00:13:25.020+0700] {processor.py:186} INFO - Started process (PID=333388) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:13:25.023+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:13:25.025+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:13:25.025+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:13:25.034+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:13:25.051+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:13:25.051+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:13:25.063+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:13:25.063+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:13:25.066+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:13:25.065+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:13:25.089+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.074 seconds
+[2025-04-16T00:14:16.246+0700] {processor.py:186} INFO - Started process (PID=335411) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:14:16.247+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:14:16.248+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:14:16.248+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:14:16.256+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:14:16.273+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:14:16.273+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:14:16.286+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:14:16.285+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:14:16.288+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:14:16.288+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:14:16.313+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.071 seconds
+[2025-04-16T00:15:04.319+0700] {processor.py:186} INFO - Started process (PID=337555) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:15:04.320+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:15:04.322+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:15:04.322+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:15:04.331+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:15:04.345+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:15:04.345+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:15:04.354+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:15:04.354+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:15:04.357+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:15:04.357+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:15:04.383+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.068 seconds
+[2025-04-16T00:15:53.482+0700] {processor.py:186} INFO - Started process (PID=339865) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:15:53.483+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:15:53.485+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:15:53.484+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:15:53.493+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:15:53.506+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:15:53.506+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:15:53.516+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:15:53.516+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:15:53.518+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:15:53.518+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:15:53.542+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.065 seconds
+[2025-04-16T00:16:44.601+0700] {processor.py:186} INFO - Started process (PID=342399) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:16:44.603+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:16:44.605+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:16:44.605+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:16:44.614+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:16:44.630+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:16:44.630+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:16:44.640+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:16:44.640+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:16:44.643+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:16:44.643+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:16:44.672+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.076 seconds
+[2025-04-16T00:17:34.424+0700] {processor.py:186} INFO - Started process (PID=344357) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:17:34.425+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:17:34.428+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:17:34.428+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:17:34.439+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:17:34.458+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:17:34.458+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:17:34.471+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:17:34.470+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:17:34.474+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:17:34.474+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:17:34.506+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.089 seconds
+[2025-04-16T00:18:24.961+0700] {processor.py:186} INFO - Started process (PID=346689) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:18:24.962+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:18:24.964+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:18:24.963+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:18:24.973+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:18:24.988+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:18:24.988+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:18:24.998+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:18:24.998+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:18:25.002+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:18:25.001+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:18:25.030+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.075 seconds
+[2025-04-16T00:19:13.583+0700] {processor.py:186} INFO - Started process (PID=349197) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:19:13.585+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:19:13.588+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:19:13.587+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:19:13.602+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:19:13.624+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:19:13.623+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:19:13.639+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:19:13.638+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:19:13.642+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:19:13.642+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:19:13.670+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.094 seconds
+[2025-04-16T00:20:03.918+0700] {processor.py:186} INFO - Started process (PID=351267) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:20:03.920+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:20:03.922+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:20:03.921+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:20:03.934+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:20:03.952+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:20:03.952+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:20:03.965+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:20:03.965+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:20:03.970+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:20:03.969+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:20:03.996+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.084 seconds
+[2025-04-16T00:20:52.820+0700] {processor.py:186} INFO - Started process (PID=352961) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:20:52.821+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:20:52.823+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:20:52.823+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:20:52.834+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:20:52.851+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:20:52.850+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:20:52.126+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:20:52.126+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:20:52.129+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:20:52.129+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:20:52.155+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.076 seconds
+[2025-04-16T00:21:43.341+0700] {processor.py:186} INFO - Started process (PID=355027) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:21:43.345+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:21:43.347+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:21:43.346+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:21:43.357+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:21:43.374+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:21:43.374+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:21:43.386+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:21:43.386+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:21:43.389+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:21:43.389+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:21:43.414+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.079 seconds
+[2025-04-16T00:22:35.191+0700] {processor.py:186} INFO - Started process (PID=356951) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:22:35.193+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:22:35.195+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:22:35.194+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:22:35.204+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:22:35.216+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:22:35.216+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:22:35.225+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:22:35.225+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:22:35.227+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:22:35.227+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:22:35.249+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.063 seconds
+[2025-04-16T00:23:24.056+0700] {processor.py:186} INFO - Started process (PID=358311) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:23:24.058+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:23:24.060+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:23:24.060+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:23:24.073+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:23:24.090+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:23:24.089+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:23:24.100+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:23:24.100+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:23:24.103+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:23:24.103+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:23:24.126+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.075 seconds
+[2025-04-16T00:24:08.805+0700] {processor.py:186} INFO - Started process (PID=359902) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:24:08.807+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:24:08.809+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:24:08.808+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:24:08.817+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:24:08.834+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:24:08.834+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:24:08.846+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:24:08.846+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:24:08.849+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:24:08.849+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:24:08.882+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.081 seconds
+[2025-04-16T00:25:00.121+0700] {processor.py:186} INFO - Started process (PID=361976) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:25:00.123+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:25:00.125+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:25:00.124+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:25:00.137+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:25:00.153+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:25:00.153+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:25:00.163+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:25:00.163+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:25:00.166+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:25:00.166+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:25:00.190+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.076 seconds
+[2025-04-16T00:25:48.188+0700] {processor.py:186} INFO - Started process (PID=363792) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:25:48.189+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:25:48.191+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:25:48.191+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:25:48.199+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:25:48.216+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:25:48.216+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:25:48.229+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:25:48.229+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:25:48.232+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:25:48.232+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:25:48.259+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.077 seconds
+[2025-04-16T00:26:36.543+0700] {processor.py:186} INFO - Started process (PID=364963) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:26:36.545+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:26:36.546+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:26:36.546+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:26:36.554+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:26:36.566+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:26:36.566+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:26:36.574+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:26:36.574+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:26:36.576+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:26:36.576+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:26:36.602+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.063 seconds
+[2025-04-16T00:27:25.878+0700] {processor.py:186} INFO - Started process (PID=366100) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:27:25.879+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:27:25.881+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:27:25.881+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:27:25.890+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:27:25.904+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:27:25.904+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:27:25.914+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:27:25.913+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:27:25.916+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:27:25.916+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:27:25.936+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.063 seconds
+[2025-04-16T00:28:13.036+0700] {processor.py:186} INFO - Started process (PID=367404) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:28:13.038+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:28:13.040+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:28:13.040+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:28:13.051+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:28:13.067+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:28:13.066+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:28:13.078+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:28:13.077+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:28:13.080+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:28:13.080+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:28:13.107+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.077 seconds
+[2025-04-16T00:28:59.176+0700] {processor.py:186} INFO - Started process (PID=368441) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:28:59.179+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:28:59.181+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:28:59.181+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:28:59.193+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:28:59.210+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:28:59.210+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:28:59.221+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:28:59.221+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:28:59.224+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:28:59.224+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:28:59.250+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.080 seconds
+[2025-04-16T00:29:47.630+0700] {processor.py:186} INFO - Started process (PID=369610) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:29:47.632+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:29:47.634+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:29:47.633+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:29:47.641+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:29:47.654+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:29:47.654+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:29:47.663+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:29:47.662+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:29:47.665+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:29:47.665+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:29:47.687+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.060 seconds
+[2025-04-16T00:30:36.809+0700] {processor.py:186} INFO - Started process (PID=370753) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:30:36.811+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:30:36.813+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:30:36.813+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:30:36.823+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:30:36.836+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:30:36.836+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:30:36.845+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:30:36.845+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:30:36.847+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:30:36.847+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:30:36.868+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.064 seconds
+[2025-04-16T00:31:23.068+0700] {processor.py:186} INFO - Started process (PID=372117) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:31:23.069+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:31:23.071+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:31:23.071+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:31:23.079+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:31:23.091+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:31:23.091+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:31:23.099+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:31:23.099+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:31:23.101+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:31:23.101+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:31:23.128+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.064 seconds
+[2025-04-16T00:32:07.718+0700] {processor.py:186} INFO - Started process (PID=373195) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:32:07.720+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:32:07.722+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:32:07.722+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:32:07.732+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:32:07.747+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:32:07.747+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:32:07.757+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:32:07.756+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:32:07.759+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:32:07.759+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:32:07.780+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.066 seconds
+[2025-04-16T00:32:53.517+0700] {processor.py:186} INFO - Started process (PID=374361) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:32:53.518+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:32:53.521+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:32:53.520+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:32:53.531+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:32:53.549+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:32:53.549+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:32:53.566+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:32:53.565+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:32:53.568+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:32:53.568+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:32:53.590+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.079 seconds
+[2025-04-16T00:33:41.229+0700] {processor.py:186} INFO - Started process (PID=375435) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:33:41.230+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:33:41.232+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:33:41.232+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:33:41.240+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:33:41.253+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:33:41.253+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:33:41.262+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:33:41.262+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:33:41.264+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:33:41.264+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:33:41.286+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.061 seconds
+[2025-04-16T00:34:29.778+0700] {processor.py:186} INFO - Started process (PID=376559) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:34:29.779+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:34:29.781+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:34:29.781+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:34:29.790+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:34:29.806+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:34:29.806+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:34:29.816+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:34:29.816+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:34:29.819+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:34:29.818+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:34:29.845+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.073 seconds
+[2025-04-16T00:35:17.763+0700] {processor.py:186} INFO - Started process (PID=377743) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:35:17.765+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:35:17.766+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:35:17.766+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:35:17.774+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:35:17.785+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:35:17.785+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:35:17.794+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:35:17.794+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:35:17.796+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:35:17.796+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:35:17.818+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.059 seconds
+[2025-04-16T00:36:03.058+0700] {processor.py:186} INFO - Started process (PID=378921) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:36:03.060+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:36:03.062+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:36:03.062+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:36:03.069+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:36:03.081+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:36:03.081+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:36:03.090+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:36:03.089+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:36:03.092+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:36:03.091+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:36:03.112+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.058 seconds
+[2025-04-16T00:36:53.182+0700] {processor.py:186} INFO - Started process (PID=380278) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:36:53.184+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:36:53.186+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:36:53.186+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:36:53.198+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:36:53.217+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:36:53.216+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:36:53.229+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:36:53.229+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:36:53.232+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:36:53.232+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:36:53.258+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.084 seconds
+[2025-04-16T00:37:38.088+0700] {processor.py:186} INFO - Started process (PID=381534) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:37:38.089+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-04-16T00:37:38.092+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:37:38.091+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:37:38.101+0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-04-16T00:37:38.118+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:37:38.118+0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-16T00:37:38.129+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:37:38.129+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-04-16T00:37:38.132+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:37:38.132+0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-04-16T00:37:38.158+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.077 seconds

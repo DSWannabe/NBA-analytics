@@ -6,7 +6,7 @@ import re
 from scrapy_playwright.page import PageMethod
 from playwright.async_api import async_playwright
 
-class NbaScraping(scrapy.Spider):
+class SeasonalStats(scrapy.Spider):
     name = "nba"
 
     @classmethod

@@ -1,0 +1,456 @@
+[2025-04-15T23:46:49.936+0700] {processor.py:186} INFO - Started process (PID=297870) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:46:49.937+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-15T23:46:49.939+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:49.938+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:46:49.948+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:46:50.055+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:50.055+0700] {override.py:1912} INFO - Created Permission View: can delete on DAG:example_display_name
+[2025-04-15T23:46:50.075+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:50.075+0700] {override.py:1912} INFO - Created Permission View: can edit on DAG:example_display_name
+[2025-04-15T23:46:50.090+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:50.089+0700] {override.py:1912} INFO - Created Permission View: can read on DAG:example_display_name
+[2025-04-15T23:46:50.116+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:50.116+0700] {override.py:1912} INFO - Created Permission View: can create on DAG Run:example_display_name
+[2025-04-15T23:46:50.130+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:50.130+0700] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:example_display_name
+[2025-04-15T23:46:50.145+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:50.144+0700] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:example_display_name
+[2025-04-15T23:46:50.159+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:50.158+0700] {override.py:1912} INFO - Created Permission View: can read on DAG Run:example_display_name
+[2025-04-15T23:46:50.159+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:50.159+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:46:50.169+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:50.169+0700] {dag.py:3262} INFO - Creating ORM DAG for example_display_name
+[2025-04-15T23:46:50.170+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:46:50.170+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-15T23:46:50.195+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.265 seconds
+[2025-04-15T23:47:53.101+0700] {processor.py:186} INFO - Started process (PID=299234) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:47:53.102+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-15T23:47:53.104+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:53.104+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:47:53.109+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:47:53.120+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:53.120+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:47:53.129+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:53.129+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-15T23:47:53.153+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.056 seconds
+[2025-04-15T23:48:49.028+0700] {processor.py:186} INFO - Started process (PID=300606) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:48:49.030+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-15T23:48:49.032+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:48:49.032+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:48:49.041+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:48:49.054+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:48:49.054+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:48:49.064+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:48:49.064+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-15T23:48:49.093+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.070 seconds
+[2025-04-15T23:49:35.519+0700] {processor.py:186} INFO - Started process (PID=301554) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:49:35.523+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-15T23:49:35.525+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:49:35.525+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:49:35.533+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:49:35.547+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:49:35.547+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:49:35.557+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:49:35.556+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-15T23:49:35.581+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.069 seconds
+[2025-04-15T23:50:25.499+0700] {processor.py:186} INFO - Started process (PID=302596) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:50:25.500+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-15T23:50:25.503+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:50:25.503+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:50:25.510+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:50:25.524+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:50:25.524+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:50:25.634+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:50:25.634+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-15T23:50:25.657+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.163 seconds
+[2025-04-15T23:51:19.181+0700] {processor.py:186} INFO - Started process (PID=303652) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:51:19.182+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-15T23:51:19.184+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:51:19.184+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:51:19.189+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:51:19.199+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:51:19.199+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:51:19.208+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:51:19.208+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-15T23:51:19.231+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.054 seconds
+[2025-04-15T23:52:06.394+0700] {processor.py:186} INFO - Started process (PID=304562) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:52:06.399+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-15T23:52:06.401+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:52:06.401+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:52:06.408+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:52:06.420+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:52:06.420+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:52:06.430+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:52:06.430+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-15T23:52:06.455+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.066 seconds
+[2025-04-15T23:52:52.262+0700] {processor.py:186} INFO - Started process (PID=305499) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:52:52.263+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-15T23:52:52.265+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:52:52.265+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:52:52.272+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:52:52.284+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:52:52.284+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:52:52.293+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:52:52.293+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-15T23:52:52.318+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.061 seconds
+[2025-04-15T23:53:41.268+0700] {processor.py:186} INFO - Started process (PID=306379) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:53:41.270+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-15T23:53:41.272+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:53:41.271+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:53:41.277+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:53:41.288+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:53:41.288+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:53:41.297+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:53:41.297+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-15T23:53:41.319+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.055 seconds
+[2025-04-15T23:54:26.281+0700] {processor.py:186} INFO - Started process (PID=307230) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:54:26.283+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-15T23:54:26.285+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:54:26.284+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:54:26.291+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:54:26.302+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:54:26.301+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:54:26.313+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:54:26.312+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-15T23:54:26.334+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.057 seconds
+[2025-04-15T23:55:16.499+0700] {processor.py:186} INFO - Started process (PID=308217) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:55:16.500+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-15T23:55:16.502+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:55:16.502+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:55:16.508+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:55:16.517+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:55:16.517+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:55:16.525+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:55:16.525+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-15T23:55:16.549+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.055 seconds
+[2025-04-15T23:56:08.225+0700] {processor.py:186} INFO - Started process (PID=311187) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:56:08.227+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-15T23:56:08.229+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:56:08.228+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:56:08.234+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:56:08.245+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:56:08.245+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:56:08.253+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:56:08.253+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-15T23:56:08.279+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.058 seconds
+[2025-04-15T23:56:55.259+0700] {processor.py:186} INFO - Started process (PID=312212) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:56:55.261+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-15T23:56:55.263+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:56:55.263+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:56:55.270+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:56:55.283+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:56:55.283+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:56:55.294+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:56:55.294+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-15T23:56:55.320+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.067 seconds
+[2025-04-15T23:57:43.212+0700] {processor.py:186} INFO - Started process (PID=313174) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:57:43.214+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-15T23:57:43.216+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:57:43.215+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:57:43.222+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:57:43.234+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:57:43.234+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:57:43.243+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:57:43.243+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-15T23:57:43.272+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.064 seconds
+[2025-04-15T23:58:33.286+0700] {processor.py:186} INFO - Started process (PID=314150) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:58:33.287+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-15T23:58:33.290+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:58:33.289+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:58:33.297+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:58:33.311+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:58:33.310+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:58:33.321+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:58:33.320+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-15T23:58:33.347+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.066 seconds
+[2025-04-15T23:59:20.610+0700] {processor.py:186} INFO - Started process (PID=315131) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:59:20.612+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-15T23:59:20.614+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:59:20.614+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:59:20.623+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-15T23:59:20.639+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:59:20.638+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:59:20.651+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:59:20.651+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-15T23:59:20.681+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.076 seconds
+[2025-04-16T00:00:10.388+0700] {processor.py:186} INFO - Started process (PID=316261) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:00:10.391+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:00:10.394+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:00:10.393+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:00:10.399+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:00:10.411+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:00:10.411+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:00:10.419+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:00:10.419+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:00:10.441+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.058 seconds
+[2025-04-16T00:00:58.176+0700] {processor.py:186} INFO - Started process (PID=317096) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:00:58.178+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:00:58.181+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:00:58.181+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:00:58.188+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:00:58.201+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:00:58.201+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:00:58.210+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:00:58.210+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:00:58.235+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.064 seconds
+[2025-04-16T00:01:44.620+0700] {processor.py:186} INFO - Started process (PID=317984) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:01:44.621+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:01:44.623+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:01:44.623+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:01:44.629+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:01:44.640+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:01:44.640+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:01:44.649+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:01:44.648+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:01:44.670+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.055 seconds
+[2025-04-16T00:02:31.120+0700] {processor.py:186} INFO - Started process (PID=318814) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:02:31.121+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:02:31.124+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:02:31.123+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:02:31.130+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:02:31.143+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:02:31.143+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:02:31.153+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:02:31.152+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:02:31.179+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.064 seconds
+[2025-04-16T00:03:25.016+0700] {processor.py:186} INFO - Started process (PID=319905) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:03:25.019+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:03:25.021+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:03:25.021+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:03:25.028+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:03:25.038+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:03:25.038+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:03:25.051+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:03:25.051+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:03:25.074+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.063 seconds
+[2025-04-16T00:04:11.301+0700] {processor.py:186} INFO - Started process (PID=321014) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:04:11.302+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:04:11.304+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:04:11.304+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:04:11.312+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:04:11.326+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:04:11.325+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:04:11.336+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:04:11.336+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:04:11.363+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.067 seconds
+[2025-04-16T00:04:58.509+0700] {processor.py:186} INFO - Started process (PID=321872) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:04:58.513+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:04:58.515+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:04:58.515+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:04:58.524+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:04:58.538+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:04:58.538+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:04:58.549+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:04:58.549+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:04:58.575+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.072 seconds
+[2025-04-16T00:05:49.982+0700] {processor.py:186} INFO - Started process (PID=322790) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:05:49.984+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:05:49.986+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:05:49.986+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:05:49.994+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:05:50.009+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:05:50.008+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:05:50.020+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:05:50.020+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:05:50.047+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.070 seconds
+[2025-04-16T00:06:36.960+0700] {processor.py:186} INFO - Started process (PID=323730) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:06:36.964+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:06:36.966+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:06:36.966+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:06:36.974+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:06:36.988+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:06:36.988+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:06:36.999+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:06:36.998+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:06:37.027+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.073 seconds
+[2025-04-16T00:07:25.692+0700] {processor.py:186} INFO - Started process (PID=324857) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:07:25.693+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:07:25.695+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:07:25.695+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:07:25.701+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:07:25.712+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:07:25.711+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:07:25.720+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:07:25.720+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:07:25.745+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.057 seconds
+[2025-04-16T00:08:11.247+0700] {processor.py:186} INFO - Started process (PID=325711) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:08:11.251+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:08:11.253+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:08:11.252+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:08:11.260+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:08:11.271+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:08:11.270+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:08:11.279+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:08:11.279+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:08:11.302+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.060 seconds
+[2025-04-16T00:08:59.292+0700] {processor.py:186} INFO - Started process (PID=326577) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:08:59.294+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:08:59.295+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:08:59.295+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:08:59.304+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:08:59.318+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:08:59.318+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:08:59.329+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:08:59.328+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:08:59.354+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.067 seconds
+[2025-04-16T00:09:47.371+0700] {processor.py:186} INFO - Started process (PID=327780) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:09:47.372+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:09:47.374+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:09:47.374+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:09:47.381+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:09:47.393+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:09:47.393+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:09:47.402+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:09:47.402+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:09:47.425+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.059 seconds
+[2025-04-16T00:10:35.353+0700] {processor.py:186} INFO - Started process (PID=328785) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:10:35.354+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:10:35.357+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:10:35.356+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:10:35.367+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:10:35.383+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:10:35.382+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:10:35.393+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:10:35.393+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:10:35.419+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.073 seconds
+[2025-04-16T00:11:24.016+0700] {processor.py:186} INFO - Started process (PID=329831) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:11:24.017+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:11:24.019+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:11:24.019+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:11:24.027+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:11:24.038+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:11:24.038+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:11:24.047+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:11:24.046+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:11:24.069+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.059 seconds
+[2025-04-16T00:12:10.517+0700] {processor.py:186} INFO - Started process (PID=330983) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:12:10.519+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:12:10.522+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:12:10.522+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:12:10.529+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:12:10.546+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:12:10.546+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:12:10.557+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:12:10.557+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:12:10.589+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.077 seconds
+[2025-04-16T00:12:56.081+0700] {processor.py:186} INFO - Started process (PID=332601) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:12:56.082+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:12:56.084+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:12:56.084+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:12:56.091+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:12:56.102+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:12:56.102+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:12:56.111+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:12:56.111+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:12:56.135+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.059 seconds
+[2025-04-16T00:13:45.739+0700] {processor.py:186} INFO - Started process (PID=334264) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:13:45.742+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:13:45.744+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:13:45.744+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:13:45.759+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:13:45.783+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:13:45.783+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:13:45.798+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:13:45.798+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:13:45.830+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.098 seconds
+[2025-04-16T00:14:36.892+0700] {processor.py:186} INFO - Started process (PID=336197) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:14:36.893+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:14:36.896+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:14:36.895+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:14:36.903+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:14:36.916+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:14:36.916+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:14:36.929+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:14:36.929+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:14:36.961+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.075 seconds
+[2025-04-16T00:15:25.016+0700] {processor.py:186} INFO - Started process (PID=338476) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:15:25.017+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:15:25.019+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:15:25.019+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:15:25.026+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:15:25.037+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:15:25.037+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:15:25.046+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:15:25.046+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:15:25.070+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.059 seconds
+[2025-04-16T00:16:14.909+0700] {processor.py:186} INFO - Started process (PID=341094) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:16:14.913+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:16:14.915+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:16:14.914+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:16:14.921+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:16:14.931+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:16:14.931+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:16:14.940+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:16:14.939+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:16:14.963+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.058 seconds
+[2025-04-16T00:17:06.118+0700] {processor.py:186} INFO - Started process (PID=343405) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:17:06.119+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:17:06.121+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:17:06.121+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:17:06.127+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:17:06.139+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:17:06.139+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:17:06.148+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:17:06.148+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:17:06.172+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.059 seconds
+[2025-04-16T00:17:54.870+0700] {processor.py:186} INFO - Started process (PID=345196) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:17:54.874+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:17:54.875+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:17:54.875+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:17:54.881+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:17:54.892+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:17:54.891+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:17:54.900+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:17:54.900+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:17:54.929+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.063 seconds
+[2025-04-16T00:18:44.752+0700] {processor.py:186} INFO - Started process (PID=347990) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:18:44.754+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:18:44.756+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:18:44.756+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:18:44.763+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:18:44.779+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:18:44.779+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:18:44.791+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:18:44.791+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:18:44.829+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.084 seconds
+[2025-04-16T00:19:35.774+0700] {processor.py:186} INFO - Started process (PID=350240) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:19:35.776+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:19:35.779+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:19:35.778+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:19:35.787+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:19:35.800+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:19:35.800+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:19:35.810+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:19:35.810+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:19:35.839+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.070 seconds
+[2025-04-16T00:20:23.550+0700] {processor.py:186} INFO - Started process (PID=351825) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:20:23.551+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:20:23.553+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:20:23.553+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:20:23.561+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:20:23.573+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:20:23.573+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:20:23.582+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:20:23.582+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:20:23.606+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.061 seconds
+[2025-04-16T00:21:13.629+0700] {processor.py:186} INFO - Started process (PID=353873) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:21:13.630+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:21:13.632+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:21:13.632+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:21:13.640+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:21:13.654+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:21:13.654+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:21:13.664+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:21:13.664+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:21:13.693+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.070 seconds
+[2025-04-16T00:22:04.525+0700] {processor.py:186} INFO - Started process (PID=355988) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:22:04.526+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:22:04.528+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:22:04.528+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:22:04.535+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:22:04.547+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:22:04.546+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:22:04.555+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:22:04.555+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:22:04.580+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.060 seconds
+[2025-04-16T00:22:58.022+0700] {processor.py:186} INFO - Started process (PID=357367) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:22:58.024+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:22:58.026+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:22:58.026+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:22:58.034+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:22:58.047+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:22:58.047+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:22:58.058+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:22:58.057+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:22:58.084+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.067 seconds
+[2025-04-16T00:23:40.345+0700] {processor.py:186} INFO - Started process (PID=358715) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:23:40.350+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:23:40.352+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:23:40.352+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:23:40.360+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:23:40.373+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:23:40.373+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:23:40.384+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:23:40.383+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:23:40.411+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.071 seconds
+[2025-04-16T00:24:31.063+0700] {processor.py:186} INFO - Started process (PID=360700) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:24:31.065+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:24:31.069+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:24:31.068+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:24:31.080+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:24:31.098+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:24:31.097+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:24:31.113+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:24:31.112+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:24:31.156+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.099 seconds
+[2025-04-16T00:25:21.059+0700] {processor.py:186} INFO - Started process (PID=362977) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:25:21.061+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:25:21.065+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:25:21.064+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:25:21.074+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:25:21.092+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:25:21.092+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:25:21.109+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:25:21.108+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:25:21.143+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.090 seconds
+[2025-04-16T00:26:07.634+0700] {processor.py:186} INFO - Started process (PID=364295) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:26:07.636+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:26:07.638+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:26:07.637+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:26:07.644+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:26:07.657+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:26:07.657+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:26:07.670+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:26:07.669+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:26:07.706+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.077 seconds
+[2025-04-16T00:26:56.702+0700] {processor.py:186} INFO - Started process (PID=365379) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:26:56.703+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:26:56.705+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:26:56.705+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:26:56.713+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:26:56.726+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:26:56.726+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:26:56.736+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:26:56.735+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:26:56.761+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.065 seconds
+[2025-04-16T00:27:44.138+0700] {processor.py:186} INFO - Started process (PID=366552) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:27:44.139+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:27:44.141+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:27:44.140+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:27:44.146+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:27:44.157+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:27:44.156+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:27:44.165+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:27:44.164+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:27:44.188+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.054 seconds
+[2025-04-16T00:28:31.839+0700] {processor.py:186} INFO - Started process (PID=367832) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:28:31.840+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:28:31.842+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:28:31.842+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:28:31.850+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:28:31.864+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:28:31.864+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:28:31.876+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:28:31.876+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:28:31.903+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.071 seconds
+[2025-04-16T00:29:19.842+0700] {processor.py:186} INFO - Started process (PID=368914) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:29:19.843+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:29:19.845+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:29:19.844+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:29:19.852+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:29:19.864+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:29:19.864+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:29:19.873+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:29:19.873+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:29:19.901+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.064 seconds
+[2025-04-16T00:30:08.381+0700] {processor.py:186} INFO - Started process (PID=370057) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:30:08.383+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:30:08.384+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:30:08.384+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:30:08.390+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:30:08.400+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:30:08.400+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:30:08.408+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:30:08.408+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:30:08.432+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.055 seconds
+[2025-04-16T00:30:56.214+0700] {processor.py:186} INFO - Started process (PID=371472) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:30:56.216+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:30:56.217+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:30:56.217+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:30:56.224+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:30:56.235+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:30:56.234+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:30:56.243+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:30:56.243+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:30:56.270+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.061 seconds
+[2025-04-16T00:31:41.988+0700] {processor.py:186} INFO - Started process (PID=372578) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:31:41.990+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:31:41.992+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:31:41.992+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:31:41.998+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:31:42.009+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:31:42.009+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:31:42.017+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:31:42.017+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:31:42.042+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.058 seconds
+[2025-04-16T00:32:26.531+0700] {processor.py:186} INFO - Started process (PID=373699) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:32:26.532+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:32:26.534+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:32:26.534+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:32:26.544+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:32:26.561+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:32:26.560+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:32:26.574+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:32:26.574+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:32:26.603+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.078 seconds
+[2025-04-16T00:33:14.039+0700] {processor.py:186} INFO - Started process (PID=374814) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:33:14.040+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:33:14.042+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:33:14.042+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:33:14.049+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:33:14.061+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:33:14.061+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:33:14.071+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:33:14.071+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:33:14.096+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.062 seconds
+[2025-04-16T00:34:01.039+0700] {processor.py:186} INFO - Started process (PID=375907) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:34:01.040+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:34:01.042+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:34:01.041+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:34:01.047+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:34:01.057+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:34:01.057+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:34:01.067+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:34:01.067+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:34:01.097+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.062 seconds
+[2025-04-16T00:34:50.145+0700] {processor.py:186} INFO - Started process (PID=377062) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:34:50.147+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:34:50.149+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:34:50.149+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:34:50.156+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:34:50.168+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:34:50.168+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:34:50.178+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:34:50.178+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:34:50.202+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.061 seconds
+[2025-04-16T00:35:35.245+0700] {processor.py:186} INFO - Started process (PID=378253) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:35:35.247+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:35:35.248+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:35:35.248+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:35:35.254+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:35:35.264+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:35:35.264+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:35:35.272+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:35:35.272+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:35:35.296+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.055 seconds
+[2025-04-16T00:36:25.804+0700] {processor.py:186} INFO - Started process (PID=379447) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:36:25.805+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:36:25.807+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:36:25.806+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:36:25.813+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:36:25.824+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:36:25.824+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:36:25.832+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:36:25.832+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:36:25.855+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.056 seconds
+[2025-04-16T00:37:10.565+0700] {processor.py:186} INFO - Started process (PID=380903) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:37:10.566+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:37:10.568+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:37:10.568+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:37:10.576+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:37:10.589+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:37:10.589+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:37:10.599+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:37:10.599+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:37:10.625+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.066 seconds
+[2025-04-16T00:38:00.236+0700] {processor.py:186} INFO - Started process (PID=381980) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:38:00.237+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-16T00:38:00.239+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:38:00.239+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:38:00.245+0700] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-16T00:38:00.256+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:38:00.256+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:38:00.265+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:38:00.265+0700] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-16T00:38:00.291+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.060 seconds

@@ -1,0 +1,379 @@
+[2025-04-15T23:47:15.382+0700] {processor.py:186} INFO - Started process (PID=298386) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:47:15.383+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-15T23:47:15.385+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:15.385+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:47:15.395+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:47:15.514+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:15.514+0700] {override.py:1912} INFO - Created Permission View: can delete on DAG:tutorial_dag
+[2025-04-15T23:47:15.530+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:15.530+0700] {override.py:1912} INFO - Created Permission View: can edit on DAG:tutorial_dag
+[2025-04-15T23:47:15.543+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:15.543+0700] {override.py:1912} INFO - Created Permission View: can read on DAG:tutorial_dag
+[2025-04-15T23:47:15.568+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:15.567+0700] {override.py:1912} INFO - Created Permission View: can create on DAG Run:tutorial_dag
+[2025-04-15T23:47:15.583+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:15.582+0700] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:tutorial_dag
+[2025-04-15T23:47:15.596+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:15.596+0700] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:tutorial_dag
+[2025-04-15T23:47:15.610+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:15.609+0700] {override.py:1912} INFO - Created Permission View: can read on DAG Run:tutorial_dag
+[2025-04-15T23:47:15.610+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:15.610+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:47:15.618+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:15.617+0700] {dag.py:3262} INFO - Creating ORM DAG for tutorial_dag
+[2025-04-15T23:47:15.618+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:15.618+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-15T23:47:15.641+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.265 seconds
+[2025-04-15T23:48:14.888+0700] {processor.py:186} INFO - Started process (PID=299752) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:48:14.890+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-15T23:48:14.891+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:48:14.891+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:48:14.898+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:48:14.910+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:48:14.910+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:48:14.919+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:48:14.919+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-15T23:48:14.944+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.060 seconds
+[2025-04-15T23:49:08.772+0700] {processor.py:186} INFO - Started process (PID=300994) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:49:08.773+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-15T23:49:08.775+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:49:08.774+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:49:08.781+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:49:08.795+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:49:08.794+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:49:08.805+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:49:08.805+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-15T23:49:08.830+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.064 seconds
+[2025-04-15T23:50:01.603+0700] {processor.py:186} INFO - Started process (PID=302122) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:50:01.605+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-15T23:50:01.607+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:50:01.606+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:50:01.613+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:50:01.624+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:50:01.624+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:50:01.634+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:50:01.633+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-15T23:50:01.655+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-04-15T23:50:55.579+0700] {processor.py:186} INFO - Started process (PID=303202) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:50:55.583+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-15T23:50:55.584+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:50:55.584+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:50:55.675+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:50:55.683+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:50:55.683+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:50:55.690+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:50:55.690+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-15T23:50:55.713+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.139 seconds
+[2025-04-15T23:51:46.932+0700] {processor.py:186} INFO - Started process (PID=304199) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:51:46.936+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-15T23:51:46.937+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:51:46.937+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:51:46.943+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:51:46.953+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:51:46.953+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:51:46.961+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:51:46.961+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-15T23:51:46.984+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-04-15T23:52:56.586+0700] {processor.py:186} INFO - Started process (PID=305590) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:52:56.590+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-15T23:52:56.591+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:52:56.591+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:52:56.597+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:52:56.608+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:52:56.608+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:52:56.616+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:52:56.616+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-15T23:52:56.639+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.059 seconds
+[2025-04-15T23:54:07.236+0700] {processor.py:186} INFO - Started process (PID=306861) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:54:07.237+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-15T23:54:07.240+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:54:07.239+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:54:07.248+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:54:07.262+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:54:07.262+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:54:07.274+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:54:07.274+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-15T23:54:07.302+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.072 seconds
+[2025-04-15T23:55:18.609+0700] {processor.py:186} INFO - Started process (PID=308895) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:55:18.613+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-15T23:55:18.620+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:55:18.619+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:55:18.626+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:55:18.649+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:55:18.649+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:55:18.661+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:55:18.661+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-15T23:55:18.687+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.091 seconds
+[2025-04-15T23:56:10.882+0700] {processor.py:186} INFO - Started process (PID=311380) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:56:10.886+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-15T23:56:10.888+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:56:10.888+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:56:10.894+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:56:10.906+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:56:10.905+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:56:10.915+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:56:10.914+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-15T23:56:10.939+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.061 seconds
+[2025-04-15T23:57:19.856+0700] {processor.py:186} INFO - Started process (PID=312694) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:57:19.858+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-15T23:57:19.859+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:57:19.859+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:57:19.865+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:57:19.875+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:57:19.875+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:57:19.884+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:57:19.884+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-15T23:57:19.908+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.056 seconds
+[2025-04-15T23:58:08.353+0700] {processor.py:186} INFO - Started process (PID=313655) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:58:08.355+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-15T23:58:08.357+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:58:08.356+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:58:08.363+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:58:08.375+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:58:08.375+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:58:08.384+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:58:08.384+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-15T23:58:08.407+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-04-15T23:58:58.107+0700] {processor.py:186} INFO - Started process (PID=314668) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:58:58.108+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-15T23:58:58.110+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:58:58.109+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:58:58.116+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:58:58.128+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:58:58.128+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:58:58.138+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:58:58.137+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-15T23:58:58.167+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.064 seconds
+[2025-04-15T23:59:49.625+0700] {processor.py:186} INFO - Started process (PID=315669) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:59:49.626+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-15T23:59:49.628+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:59:49.628+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:59:49.635+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-15T23:59:49.648+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:59:49.648+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:59:49.657+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:59:49.657+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-15T23:59:49.679+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.059 seconds
+[2025-04-16T00:00:59.885+0700] {processor.py:186} INFO - Started process (PID=317127) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:00:59.886+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:00:59.888+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:00:59.888+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:00:59.896+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:00:59.910+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:00:59.909+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:00:59.920+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:00:59.920+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:00:59.946+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.068 seconds
+[2025-04-16T00:02:08.769+0700] {processor.py:186} INFO - Started process (PID=318445) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:02:08.770+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:02:08.771+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:02:08.771+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:02:08.777+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:02:08.787+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:02:08.787+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:02:08.795+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:02:08.795+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:02:08.819+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.054 seconds
+[2025-04-16T00:03:12.594+0700] {processor.py:186} INFO - Started process (PID=319692) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:03:12.595+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:03:12.597+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:03:12.597+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:03:12.605+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:03:12.620+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:03:12.620+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:03:12.631+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:03:12.631+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:03:12.659+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.070 seconds
+[2025-04-16T00:04:02.309+0700] {processor.py:186} INFO - Started process (PID=320882) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:04:02.311+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:04:02.313+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:04:02.313+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:04:02.324+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:04:02.338+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:04:02.338+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:04:02.349+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:04:02.349+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:04:02.375+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.072 seconds
+[2025-04-16T00:05:13.798+0700] {processor.py:186} INFO - Started process (PID=322162) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:05:13.799+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:05:13.801+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:05:13.801+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:05:13.810+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:05:13.826+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:05:13.825+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:05:13.836+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:05:13.836+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:05:13.862+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.069 seconds
+[2025-04-16T00:06:02.783+0700] {processor.py:186} INFO - Started process (PID=323109) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:06:02.785+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:06:02.787+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:06:02.786+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:06:02.794+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:06:02.808+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:06:02.808+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:06:02.818+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:06:02.818+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:06:02.844+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.066 seconds
+[2025-04-16T00:06:52.375+0700] {processor.py:186} INFO - Started process (PID=324206) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:06:52.376+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:06:52.378+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:06:52.378+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:06:52.386+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:06:52.399+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:06:52.399+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:06:52.412+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:06:52.411+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:06:52.439+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.070 seconds
+[2025-04-16T00:08:01.746+0700] {processor.py:186} INFO - Started process (PID=325540) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:08:01.747+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:08:01.748+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:08:01.748+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:08:01.754+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:08:01.765+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:08:01.765+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:08:01.774+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:08:01.774+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:08:01.797+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-04-16T00:09:11.587+0700] {processor.py:186} INFO - Started process (PID=326803) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:09:11.589+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:09:11.591+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:09:11.590+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:09:11.599+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:09:11.613+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:09:11.612+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:09:11.623+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:09:11.622+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:09:11.654+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.073 seconds
+[2025-04-16T00:10:00.623+0700] {processor.py:186} INFO - Started process (PID=328043) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:10:00.624+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:10:00.627+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:10:00.626+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:10:00.639+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:10:00.662+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:10:00.661+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:10:00.673+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:10:00.673+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:10:00.699+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.082 seconds
+[2025-04-16T00:10:48.867+0700] {processor.py:186} INFO - Started process (PID=329076) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:10:48.872+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:10:48.874+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:10:48.874+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:10:48.881+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:10:48.894+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:10:48.894+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:10:48.907+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:10:48.907+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:10:48.937+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.075 seconds
+[2025-04-16T00:11:38.804+0700] {processor.py:186} INFO - Started process (PID=330140) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:11:38.806+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:11:38.808+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:11:38.807+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:11:38.814+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:11:38.826+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:11:38.826+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:11:38.835+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:11:38.835+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:11:38.862+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.062 seconds
+[2025-04-16T00:12:45.310+0700] {processor.py:186} INFO - Started process (PID=332330) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:12:45.311+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:12:45.313+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:12:45.313+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:12:45.319+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:12:45.330+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:12:45.330+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:12:45.338+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:12:45.338+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:12:45.363+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-04-16T00:13:35.153+0700] {processor.py:186} INFO - Started process (PID=333914) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:13:35.154+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:13:35.156+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:13:35.156+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:13:35.163+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:13:35.175+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:13:35.175+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:13:35.185+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:13:35.185+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:13:35.217+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.070 seconds
+[2025-04-16T00:14:24.485+0700] {processor.py:186} INFO - Started process (PID=335924) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:14:24.487+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:14:24.489+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:14:24.488+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:14:24.498+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:14:24.509+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:14:24.508+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:14:24.517+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:14:24.516+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:14:24.542+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.061 seconds
+[2025-04-16T00:15:14.450+0700] {processor.py:186} INFO - Started process (PID=337803) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:15:14.452+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:15:14.453+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:15:14.453+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:15:14.459+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:15:14.472+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:15:14.472+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:15:14.482+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:15:14.481+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:15:14.511+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.067 seconds
+[2025-04-16T00:16:03.649+0700] {processor.py:186} INFO - Started process (PID=340678) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:16:03.650+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:16:03.652+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:16:03.652+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:16:03.660+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:16:03.673+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:16:03.673+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:16:03.683+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:16:03.683+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:16:03.706+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.061 seconds
+[2025-04-16T00:16:54.880+0700] {processor.py:186} INFO - Started process (PID=343155) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:16:54.881+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:16:54.884+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:16:54.883+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:16:54.891+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:16:54.903+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:16:54.903+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:16:54.912+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:16:54.912+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:16:54.936+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.062 seconds
+[2025-04-16T00:17:44.688+0700] {processor.py:186} INFO - Started process (PID=344765) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:17:44.689+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:17:44.691+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:17:44.691+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:17:44.699+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:17:44.713+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:17:44.712+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:17:44.722+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:17:44.722+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:17:44.750+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.067 seconds
+[2025-04-16T00:18:33.351+0700] {processor.py:186} INFO - Started process (PID=347284) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:18:33.353+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:18:33.354+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:18:33.354+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:18:33.360+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:18:33.370+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:18:33.370+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:18:33.378+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:18:33.378+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:18:33.401+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.054 seconds
+[2025-04-16T00:19:23.856+0700] {processor.py:186} INFO - Started process (PID=349552) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:19:23.858+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:19:23.860+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:19:23.860+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:19:23.868+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:19:23.887+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:19:23.886+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:19:23.906+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:19:23.906+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:19:23.934+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.082 seconds
+[2025-04-16T00:20:13.369+0700] {processor.py:186} INFO - Started process (PID=351483) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:20:13.370+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:20:13.372+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:20:13.371+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:20:13.380+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:20:13.392+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:20:13.392+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:20:13.401+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:20:13.401+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:20:13.428+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.065 seconds
+[2025-04-16T00:21:01.519+0700] {processor.py:186} INFO - Started process (PID=353407) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:21:01.520+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:21:01.523+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:21:01.523+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:21:01.532+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:21:01.553+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:21:01.553+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:21:01.569+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:21:01.569+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:21:01.615+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.106 seconds
+[2025-04-16T00:21:52.225+0700] {processor.py:186} INFO - Started process (PID=355216) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:21:52.227+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:21:52.229+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:21:52.228+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:21:52.236+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:21:52.252+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:21:52.252+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:21:52.264+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:21:52.264+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:21:52.305+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.086 seconds
+[2025-04-16T00:22:45.460+0700] {processor.py:186} INFO - Started process (PID=357145) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:22:45.462+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:22:45.464+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:22:45.463+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:22:45.474+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:22:45.493+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:22:45.493+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:22:45.509+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:22:45.508+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:22:45.539+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.086 seconds
+[2025-04-16T00:23:50.609+0700] {processor.py:186} INFO - Started process (PID=359070) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:23:50.610+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:23:50.612+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:23:50.611+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:23:50.618+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:23:50.629+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:23:50.629+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:23:50.637+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:23:50.637+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:23:50.660+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.055 seconds
+[2025-04-16T00:24:42.158+0700] {processor.py:186} INFO - Started process (PID=361088) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:24:42.162+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:24:42.163+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:24:42.163+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:24:42.169+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:24:42.181+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:24:42.181+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:24:42.190+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:24:42.190+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:24:42.218+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.065 seconds
+[2025-04-16T00:25:32.482+0700] {processor.py:186} INFO - Started process (PID=363440) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:25:32.484+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:25:32.485+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:25:32.485+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:25:32.491+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:25:32.501+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:25:32.501+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:25:32.509+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:25:32.509+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:25:32.534+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-04-16T00:26:22.310+0700] {processor.py:186} INFO - Started process (PID=364597) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:26:22.313+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:26:22.315+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:26:22.315+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:26:22.321+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:26:22.331+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:26:22.331+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:26:22.340+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:26:22.340+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:26:22.363+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-04-16T00:27:11.784+0700] {processor.py:186} INFO - Started process (PID=365743) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:27:11.785+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:27:11.787+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:27:11.787+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:27:11.794+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:27:11.807+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:27:11.806+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:27:11.817+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:27:11.817+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:27:11.845+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.065 seconds
+[2025-04-16T00:28:23.838+0700] {processor.py:186} INFO - Started process (PID=367673) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:28:23.839+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:28:23.841+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:28:23.841+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:28:23.850+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:28:23.866+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:28:23.865+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:28:23.878+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:28:23.877+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:28:23.905+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.074 seconds
+[2025-04-16T00:29:34.507+0700] {processor.py:186} INFO - Started process (PID=369275) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:29:34.508+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:29:34.510+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:29:34.509+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:29:34.516+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:29:34.528+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:29:34.528+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:29:34.538+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:29:34.538+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:29:34.571+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.069 seconds
+[2025-04-16T00:30:45.653+0700] {processor.py:186} INFO - Started process (PID=370955) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:30:45.654+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:30:45.656+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:30:45.655+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:30:45.664+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:30:45.679+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:30:45.678+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:30:45.691+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:30:45.690+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:30:45.717+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.070 seconds
+[2025-04-16T00:31:52.573+0700] {processor.py:186} INFO - Started process (PID=372861) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:31:52.574+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:31:52.576+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:31:52.575+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:31:52.582+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:31:52.594+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:31:52.594+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:31:52.603+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:31:52.603+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:31:52.626+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-04-16T00:33:02.643+0700] {processor.py:186} INFO - Started process (PID=374581) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:33:02.645+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:33:02.646+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:33:02.646+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:33:02.653+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:33:02.665+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:33:02.665+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:33:02.675+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:33:02.674+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:33:02.697+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-04-16T00:34:14.754+0700] {processor.py:186} INFO - Started process (PID=376217) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:34:14.755+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:34:14.757+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:34:14.757+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:34:14.763+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:34:14.774+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:34:14.774+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:34:14.783+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:34:14.782+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:34:14.806+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-04-16T00:35:03.950+0700] {processor.py:186} INFO - Started process (PID=377414) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:35:03.952+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:35:03.954+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:35:03.953+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:35:03.960+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:35:03.973+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:35:03.973+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:35:03.983+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:35:03.983+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:35:04.006+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.061 seconds
+[2025-04-16T00:36:16.739+0700] {processor.py:186} INFO - Started process (PID=379251) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:36:16.740+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:36:16.742+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:36:16.742+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:36:16.749+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:36:16.759+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:36:16.759+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:36:16.767+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:36:16.767+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:36:16.798+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.063 seconds
+[2025-04-16T00:37:24.835+0700] {processor.py:186} INFO - Started process (PID=381206) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:37:24.836+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-16T00:37:24.838+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:37:24.838+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:37:24.847+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-16T00:37:24.862+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:37:24.861+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:37:24.872+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:37:24.872+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-16T00:37:24.901+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.072 seconds

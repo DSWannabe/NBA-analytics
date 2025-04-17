@@ -1,0 +1,337 @@
+[2025-04-15T23:47:21.332+0700] {processor.py:186} INFO - Started process (PID=298471) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:47:21.333+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-15T23:47:21.334+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:21.334+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:47:21.399+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:47:21.496+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:21.495+0700] {override.py:1912} INFO - Created Permission View: can delete on DAG:example_dag_decorator
+[2025-04-15T23:47:21.513+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:21.513+0700] {override.py:1912} INFO - Created Permission View: can edit on DAG:example_dag_decorator
+[2025-04-15T23:47:21.530+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:21.529+0700] {override.py:1912} INFO - Created Permission View: can read on DAG:example_dag_decorator
+[2025-04-15T23:47:21.555+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:21.555+0700] {override.py:1912} INFO - Created Permission View: can create on DAG Run:example_dag_decorator
+[2025-04-15T23:47:21.569+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:21.569+0700] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:example_dag_decorator
+[2025-04-15T23:47:21.582+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:21.582+0700] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:example_dag_decorator
+[2025-04-15T23:47:21.597+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:21.596+0700] {override.py:1912} INFO - Created Permission View: can read on DAG Run:example_dag_decorator
+[2025-04-15T23:47:21.597+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:21.597+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:47:21.606+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:21.606+0700] {dag.py:3262} INFO - Creating ORM DAG for example_dag_decorator
+[2025-04-15T23:47:21.607+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:47:21.607+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-15T23:47:21.030+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.397 seconds
+[2025-04-15T23:48:21.182+0700] {processor.py:186} INFO - Started process (PID=299899) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:48:21.183+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-15T23:48:21.185+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:48:21.184+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:48:21.240+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:48:21.423+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:48:21.422+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:48:21.429+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:48:21.429+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-15T23:48:21.452+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.275 seconds
+[2025-04-15T23:49:13.858+0700] {processor.py:186} INFO - Started process (PID=301068) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:49:13.861+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-15T23:49:13.863+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:49:13.863+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:49:14.031+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:49:14.122+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:49:14.122+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:49:14.133+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:49:14.133+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-15T23:49:14.162+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.310 seconds
+[2025-04-15T23:50:06.853+0700] {processor.py:186} INFO - Started process (PID=302271) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:50:06.854+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-15T23:50:06.856+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:50:06.856+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:50:07.029+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:50:07.113+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:50:07.113+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:50:07.121+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:50:07.121+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-15T23:50:07.154+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.306 seconds
+[2025-04-15T23:51:22.036+0700] {processor.py:186} INFO - Started process (PID=303709) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:51:22.037+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-15T23:51:22.039+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:51:22.038+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:51:22.086+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:51:22.148+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:51:22.148+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:51:22.154+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:51:22.154+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-15T23:51:22.177+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.146 seconds
+[2025-04-15T23:52:30.075+0700] {processor.py:186} INFO - Started process (PID=304981) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:52:30.076+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-15T23:52:30.078+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:52:30.077+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:52:30.143+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:52:30.214+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:52:30.213+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:52:30.222+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:52:30.222+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-15T23:52:30.248+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.179 seconds
+[2025-04-15T23:53:20.369+0700] {processor.py:186} INFO - Started process (PID=306033) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:53:20.372+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-15T23:53:20.374+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:53:20.374+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:53:20.433+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:53:20.497+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:53:20.497+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:53:20.504+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:53:20.504+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-15T23:53:20.526+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.163 seconds
+[2025-04-15T23:54:28.785+0700] {processor.py:186} INFO - Started process (PID=307279) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:54:28.786+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-15T23:54:28.788+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:54:28.787+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:54:28.845+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:54:28.915+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:54:28.915+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:54:28.925+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:54:28.925+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-15T23:54:28.952+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.172 seconds
+[2025-04-15T23:55:23.780+0700] {processor.py:186} INFO - Started process (PID=309642) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:55:23.782+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-15T23:55:23.785+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:55:23.784+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:55:23.868+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:55:23.941+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:55:23.941+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:55:23.951+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:55:23.951+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-15T23:55:23.987+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.214 seconds
+[2025-04-15T23:56:35.827+0700] {processor.py:186} INFO - Started process (PID=311881) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:56:35.829+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-15T23:56:35.830+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:56:35.830+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:56:35.882+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:56:35.948+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:56:35.948+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:56:35.955+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:56:35.955+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-15T23:56:35.987+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.164 seconds
+[2025-04-15T23:57:47.576+0700] {processor.py:186} INFO - Started process (PID=313234) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:57:47.577+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-15T23:57:47.578+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:57:47.578+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:57:47.627+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:57:47.684+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:57:47.683+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:57:47.690+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:57:47.689+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-15T23:57:47.712+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.141 seconds
+[2025-04-15T23:58:38.237+0700] {processor.py:186} INFO - Started process (PID=314244) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:58:38.238+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-15T23:58:38.239+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:58:38.239+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:58:38.293+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:58:38.350+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:58:38.349+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:58:38.356+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:58:38.356+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-15T23:58:38.377+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.146 seconds
+[2025-04-15T23:59:51.227+0700] {processor.py:186} INFO - Started process (PID=315677) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:59:51.228+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-15T23:59:51.230+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:59:51.230+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:59:51.280+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-15T23:59:51.337+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:59:51.337+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-15T23:59:51.343+0700] {logging_mixin.py:190} INFO - [2025-04-15T23:59:51.343+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-15T23:59:51.365+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.143 seconds
+[2025-04-16T00:01:03.296+0700] {processor.py:186} INFO - Started process (PID=317171) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:01:03.297+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:01:03.300+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:01:03.299+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:01:03.351+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:01:03.409+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:01:03.409+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:01:03.416+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:01:03.416+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:01:03.443+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.152 seconds
+[2025-04-16T00:02:12.039+0700] {processor.py:186} INFO - Started process (PID=318498) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:02:12.040+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:02:12.042+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:02:12.042+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:02:12.099+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:02:12.154+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:02:12.154+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:02:12.160+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:02:12.160+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:02:12.188+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.154 seconds
+[2025-04-16T00:03:16.469+0700] {processor.py:186} INFO - Started process (PID=319766) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:03:16.471+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:03:16.472+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:03:16.472+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:03:16.526+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:03:16.591+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:03:16.591+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:03:16.597+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:03:16.597+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:03:16.620+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.155 seconds
+[2025-04-16T00:04:27.274+0700] {processor.py:186} INFO - Started process (PID=321307) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:04:27.278+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:04:27.280+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:04:27.280+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:04:27.344+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:04:27.413+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:04:27.413+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:04:27.420+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:04:27.420+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:04:27.448+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.179 seconds
+[2025-04-16T00:05:41.175+0700] {processor.py:186} INFO - Started process (PID=322671) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:05:41.177+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:05:41.179+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:05:41.179+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:05:41.245+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:05:41.373+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:05:41.373+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:05:41.396+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:05:41.395+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:05:41.434+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.265 seconds
+[2025-04-16T00:06:53.511+0700] {processor.py:186} INFO - Started process (PID=324207) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:06:53.513+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:06:53.515+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:06:53.515+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:06:53.580+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:06:53.663+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:06:53.663+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:06:53.671+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:06:53.671+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:06:53.697+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.191 seconds
+[2025-04-16T00:08:02.282+0700] {processor.py:186} INFO - Started process (PID=325543) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:08:02.283+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:08:02.285+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:08:02.285+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:08:02.335+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:08:02.393+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:08:02.393+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:08:02.400+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:08:02.400+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:08:02.424+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.147 seconds
+[2025-04-16T00:09:13.856+0700] {processor.py:186} INFO - Started process (PID=326848) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:09:13.857+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:09:13.859+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:09:13.858+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:09:13.918+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:09:13.995+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:09:13.994+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:09:14.006+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:09:14.006+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:09:14.033+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.184 seconds
+[2025-04-16T00:10:25.541+0700] {processor.py:186} INFO - Started process (PID=328563) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:10:25.543+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:10:25.545+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:10:25.545+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:10:25.594+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:10:25.650+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:10:25.650+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:10:25.656+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:10:25.656+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:10:25.678+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.141 seconds
+[2025-04-16T00:11:38.898+0700] {processor.py:186} INFO - Started process (PID=330147) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:11:38.900+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:11:38.901+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:11:38.901+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:11:38.954+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:11:39.019+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:11:39.019+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:11:39.026+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:11:39.026+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:11:39.049+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.156 seconds
+[2025-04-16T00:12:46.098+0700] {processor.py:186} INFO - Started process (PID=332334) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:12:46.100+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:12:46.102+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:12:46.101+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:12:46.179+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:12:46.309+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:12:46.309+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:12:46.321+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:12:46.321+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:12:46.357+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.264 seconds
+[2025-04-16T00:13:37.886+0700] {processor.py:186} INFO - Started process (PID=333978) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:13:37.888+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:13:37.891+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:13:37.890+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:13:37.960+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:13:38.039+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:13:38.039+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:13:38.052+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:13:38.052+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:13:38.088+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.208 seconds
+[2025-04-16T00:14:27.339+0700] {processor.py:186} INFO - Started process (PID=335997) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:14:27.340+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:14:27.342+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:14:27.342+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:14:27.391+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:14:27.453+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:14:27.453+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:14:27.460+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:14:27.459+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:14:27.483+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.149 seconds
+[2025-04-16T00:15:42.371+0700] {processor.py:186} INFO - Started process (PID=339218) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:15:42.372+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:15:42.373+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:15:42.373+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:15:42.430+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:15:42.490+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:15:42.490+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:15:42.498+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:15:42.498+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:15:42.532+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.167 seconds
+[2025-04-16T00:16:57.534+0700] {processor.py:186} INFO - Started process (PID=343211) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:16:57.535+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:16:57.537+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:16:57.537+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:16:57.602+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:16:57.618+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:16:57.618+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:16:57.627+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:16:57.626+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:16:57.652+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.123 seconds
+[2025-04-16T00:18:10.671+0700] {processor.py:186} INFO - Started process (PID=346000) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:18:10.673+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:18:10.674+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:18:10.674+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:18:10.729+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:18:10.802+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:18:10.802+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:18:10.811+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:18:10.811+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:18:10.839+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.172 seconds
+[2025-04-16T00:19:02.337+0700] {processor.py:186} INFO - Started process (PID=348915) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:19:02.338+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:19:02.340+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:19:02.340+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:19:02.430+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:19:02.444+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:19:02.444+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:19:02.454+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:19:02.454+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:19:02.481+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.149 seconds
+[2025-04-16T00:20:15.935+0700] {processor.py:186} INFO - Started process (PID=351546) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:20:15.937+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:20:15.938+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:20:15.938+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:20:15.999+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:20:16.127+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:20:16.127+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:20:16.134+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:20:16.134+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:20:16.158+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.228 seconds
+[2025-04-16T00:21:29.537+0700] {processor.py:186} INFO - Started process (PID=354387) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:21:29.540+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:21:29.544+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:21:29.544+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:21:29.631+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:21:29.718+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:21:29.718+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:21:29.728+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:21:29.727+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:21:29.764+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.233 seconds
+[2025-04-16T00:22:23.076+0700] {processor.py:186} INFO - Started process (PID=356734) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:22:23.079+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:22:23.081+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:22:23.080+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:22:23.215+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:22:23.354+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:22:23.354+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:22:23.364+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:22:23.364+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:22:23.390+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.319 seconds
+[2025-04-16T00:23:12.563+0700] {processor.py:186} INFO - Started process (PID=357930) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:23:12.564+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:23:12.566+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:23:12.566+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:23:12.632+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:23:12.695+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:23:12.694+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:23:12.702+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:23:12.702+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:23:12.727+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.169 seconds
+[2025-04-16T00:24:23.057+0700] {processor.py:186} INFO - Started process (PID=360513) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:24:23.059+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:24:23.061+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:24:23.061+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:24:23.124+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:24:23.197+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:24:23.197+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:24:23.204+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:24:23.204+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:24:23.231+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.179 seconds
+[2025-04-16T00:25:14.201+0700] {processor.py:186} INFO - Started process (PID=362479) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:25:14.203+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:25:14.205+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:25:14.205+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:25:14.367+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:25:14.489+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:25:14.489+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:25:14.497+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:25:14.497+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:25:14.541+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.345 seconds
+[2025-04-16T00:26:24.695+0700] {processor.py:186} INFO - Started process (PID=364684) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:26:24.697+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:26:24.700+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:26:24.700+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:26:24.790+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:26:24.860+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:26:24.860+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:26:24.867+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:26:24.867+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:26:24.895+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.206 seconds
+[2025-04-16T00:27:37.466+0700] {processor.py:186} INFO - Started process (PID=366407) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:27:37.471+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:27:37.473+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:27:37.473+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:27:37.524+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:27:37.600+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:27:37.599+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:27:37.606+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:27:37.606+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:27:37.627+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.165 seconds
+[2025-04-16T00:28:48.516+0700] {processor.py:186} INFO - Started process (PID=368231) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:28:48.518+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:28:48.521+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:28:48.520+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:28:47.844+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:28:47.961+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:28:47.961+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:28:47.970+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:28:47.970+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:28:48.000+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.247 seconds
+[2025-04-16T00:30:00.502+0700] {processor.py:186} INFO - Started process (PID=369889) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:30:00.504+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:30:00.505+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:30:00.505+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:30:00.553+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:30:00.606+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:30:00.606+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:30:00.612+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:30:00.612+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:30:00.634+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.136 seconds
+[2025-04-16T00:31:11.344+0700] {processor.py:186} INFO - Started process (PID=371825) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:31:11.346+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:31:11.348+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:31:11.348+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:31:11.428+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:31:11.496+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:31:11.495+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:31:11.504+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:31:11.504+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:31:11.530+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.191 seconds
+[2025-04-16T00:32:18.302+0700] {processor.py:186} INFO - Started process (PID=373493) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:32:18.303+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:32:18.305+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:32:18.305+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:32:18.355+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:32:18.413+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:32:18.412+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:32:18.419+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:32:18.419+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:32:18.441+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.143 seconds
+[2025-04-16T00:33:28.688+0700] {processor.py:186} INFO - Started process (PID=375179) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:33:28.690+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:33:28.691+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:33:28.691+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:33:28.748+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:33:28.821+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:33:28.821+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:33:28.831+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:33:28.831+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:33:28.856+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.173 seconds
+[2025-04-16T00:34:42.407+0700] {processor.py:186} INFO - Started process (PID=376793) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:34:42.408+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:34:42.410+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:34:42.409+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:34:42.463+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:34:42.524+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:34:42.524+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:34:42.532+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:34:42.532+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:34:42.557+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.155 seconds
+[2025-04-16T00:35:50.379+0700] {processor.py:186} INFO - Started process (PID=378601) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:35:50.380+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:35:50.382+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:35:50.381+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:35:50.439+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:35:50.496+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:35:50.496+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:35:50.507+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:35:50.507+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:35:50.539+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.165 seconds
+[2025-04-16T00:36:39.346+0700] {processor.py:186} INFO - Started process (PID=379842) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:36:39.347+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:36:39.349+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:36:39.348+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:36:39.400+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:36:39.464+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:36:39.464+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:36:39.471+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:36:39.471+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:36:39.493+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.151 seconds
+[2025-04-16T00:37:48.695+0700] {processor.py:186} INFO - Started process (PID=381766) to work on /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:37:48.700+0700] {processor.py:914} INFO - Processing file /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-16T00:37:48.703+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:37:48.702+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:37:48.767+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-16T00:37:48.841+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:37:48.840+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T00:37:48.851+0700] {logging_mixin.py:190} INFO - [2025-04-16T00:37:48.851+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-16T00:37:48.877+0700] {processor.py:208} INFO - Processing /home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.188 seconds

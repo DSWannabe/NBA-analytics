@@ -7,7 +7,7 @@ import re
 from datetime import datetime
 from scrapy_playwright.page import PageMethod
 
-class GameStats(scrapy.Spider):
+class GameResults(scrapy.Spider):
     name = "gameresults"
 
     @classmethod

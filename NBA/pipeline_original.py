@@ -22,5 +22,5 @@
 #         dictionary = asdict(item)
 #         json.dump(dictionary, self.file)
 #         self.file.write("\n")
-        
+
 #         return item

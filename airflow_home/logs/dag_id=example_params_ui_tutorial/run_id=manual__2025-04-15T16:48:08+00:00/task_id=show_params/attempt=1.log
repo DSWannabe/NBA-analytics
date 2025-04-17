@@ -1,0 +1,74 @@
+[2025-04-15T23:48:19.940+0700] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-15T23:48:19.947+0700] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_params_ui_tutorial.show_params manual__2025-04-15T16:48:08+00:00 [queued]>
+[2025-04-15T23:48:19.951+0700] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_params_ui_tutorial.show_params manual__2025-04-15T16:48:08+00:00 [queued]>
+[2025-04-15T23:48:19.952+0700] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-04-15T23:48:19.969+0700] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): show_params> on 2025-04-15 16:48:08+00:00
+[2025-04-15T23:48:19.972+0700] {standard_task_runner.py:72} INFO - Started process 299881 to run task
+[2025-04-15T23:48:19.976+0700] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'example_params_ui_tutorial', 'show_params', 'manual__2025-04-15T16:48:08+00:00', '--job-id', '2', '--raw', '--subdir', '/home/anhtupham99/NBA-analytics/py_env/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py', '--cfg-path', '/tmp/tmpwdl7vues']
+[2025-04-15T23:48:19.977+0700] {standard_task_runner.py:105} INFO - Job 2: Subtask show_params
+[2025-04-15T23:48:20.069+0700] {task_command.py:467} INFO - Running <TaskInstance: example_params_ui_tutorial.show_params manual__2025-04-15T16:48:08+00:00 [running]> on host DESKTOP-6H3LIOM.
+[2025-04-15T23:48:20.176+0700] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='example_params_ui_tutorial' AIRFLOW_CTX_TASK_ID='show_params' AIRFLOW_CTX_EXECUTION_DATE='2025-04-15T16:48:08+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-15T16:48:08+00:00'
+[2025-04-15T23:48:20.177+0700] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-04-15T23:48:20.177+0700] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-04-15T23:48:20.177+0700] {logging_mixin.py:190} INFO - Current task name:show_params state:running start_date:2025-04-15 16:48:19.947800+00:00
+[2025-04-15T23:48:20.177+0700] {logging_mixin.py:190} INFO - Dag name:example_params_ui_tutorial and current dag run status:running
+[2025-04-15T23:48:20.177+0700] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-15T23:48:20.178+0700] {logging_mixin.py:190} INFO - This DAG was triggered with the following parameters:
+
+{
+    "x": 3,
+    "text": "Hello World!",
+    "flag": false,
+    "a_simple_list": [
+        "one",
+        "two",
+        "three",
+        "actually one value is made per line"
+    ],
+    "most_loved_number": 42,
+    "pick_one": "value 42",
+    "pick_with_label": 3,
+    "proposals": "some value",
+    "multi_select": [
+        "two",
+        "three"
+    ],
+    "multi_select_with_label": [
+        "2",
+        "3"
+    ],
+    "array_of_numbers": [
+        1,
+        2,
+        3
+    ],
+    "bool": true,
+    "date_time": "2025-04-15T12:17:00+00:00",
+    "date": "2025-04-15",
+    "time": "12:13:14",
+    "multiline_text": "A multiline text Param\nthat will keep the newline\ncharacters in its value.",
+    "required_field": "123",
+    "optional_field": "optional text, you can trigger also w/o text",
+    "checked_text": "length-checked-field",
+    "checked_number": 100,
+    "object": {
+        "key": "value"
+    },
+    "array_of_objects": [
+        {
+            "country": "country_name",
+            "name": "account_name"
+        }
+    ],
+    "hidden_secret_field": "constant value"
+}
+[2025-04-15T23:48:20.178+0700] {python.py:240} INFO - Done. Returned value was: None
+[2025-04-15T23:48:20.182+0700] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-15T23:48:20.182+0700] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=example_params_ui_tutorial, task_id=show_params, run_id=manual__2025-04-15T16:48:08+00:00, execution_date=20250415T164808, start_date=20250415T164819, end_date=20250415T164820
+[2025-04-15T23:48:20.218+0700] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-04-15T23:48:20.218+0700] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-04-15T23:48:20.218+0700] {logging_mixin.py:190} INFO - Dag name:example_params_ui_tutorial queued_at:2025-04-15 16:48:17.674156+00:00
+[2025-04-15T23:48:20.219+0700] {logging_mixin.py:190} INFO - Task hostname:DESKTOP-6H3LIOM. operator:_PythonDecoratedOperator
+[2025-04-15T23:48:20.232+0700] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-15T23:48:20.240+0700] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-15T23:48:20.241+0700] {local_task_job_runner.py:245} INFO - ::endgroup::
