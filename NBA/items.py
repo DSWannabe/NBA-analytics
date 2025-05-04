@@ -7,6 +7,7 @@ from dataclasses import dataclass
 
 @dataclass
 class nba_scraping:
+    PlayerIDYear: str
     player: str
     team_playerseason: str
     year_playerseason: int
@@ -37,6 +38,7 @@ class nba_scraping:
     dd2_playerseason: float
     td3_playerseason: float
     plus_minus_box_playerseason: float
+    
 
 @dataclass
 class player_game_stats:
@@ -73,19 +75,6 @@ class player_urls_lst:
 
 @dataclass
 class player_info:
-    player: str
-    height_feet: str
-    height_m: str
-    weight_pounds: str
-    weight_kg: str
-    country: str
-    birth: str
-    draft_year: str
-    draft_round: str
-    draft_pick: str
-
-@dataclass
-class player_info2:
     player: str
     height_ft: str
     height_m: str

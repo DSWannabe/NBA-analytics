@@ -1,0 +1,574 @@
+[2025-04-19T16:13:19.662+0000] {processor.py:186} INFO - Started process (PID=852) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:13:19.662+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:13:19.673+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:13:19.672+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:13:19.692+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:13:19.683+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:13:19.693+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:13:19.739+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.091 seconds
+[2025-04-19T16:13:49.813+0000] {processor.py:186} INFO - Started process (PID=863) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:13:49.814+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:13:49.817+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:13:49.816+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:13:49.820+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:13:49.819+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:13:49.820+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:13:49.841+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.033 seconds
+[2025-04-19T16:14:20.008+0000] {processor.py:186} INFO - Started process (PID=874) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:14:20.010+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:14:20.016+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:14:20.015+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:14:20.030+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:14:20.027+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:14:20.031+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:14:20.064+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.061 seconds
+[2025-04-19T16:14:50.203+0000] {processor.py:186} INFO - Started process (PID=885) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:14:50.203+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:14:50.206+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:14:50.206+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:14:50.210+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:14:50.209+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:14:50.211+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:14:50.232+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.034 seconds
+[2025-04-19T16:15:20.394+0000] {processor.py:186} INFO - Started process (PID=896) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:15:20.395+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:15:20.397+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:15:20.397+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:15:20.401+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:15:20.400+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:15:20.401+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:15:20.420+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.032 seconds
+[2025-04-19T16:15:50.553+0000] {processor.py:186} INFO - Started process (PID=907) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:15:50.555+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:15:50.557+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:15:50.557+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:15:50.561+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:15:50.560+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:15:50.561+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:15:50.579+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.031 seconds
+[2025-04-19T16:16:20.737+0000] {processor.py:186} INFO - Started process (PID=918) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:16:20.738+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:16:20.740+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:16:20.740+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:16:20.743+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:16:20.742+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:16:20.743+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:16:20.763+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.031 seconds
+[2025-04-19T16:16:50.920+0000] {processor.py:186} INFO - Started process (PID=929) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:16:50.921+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:16:50.925+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:16:50.925+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:16:50.931+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:16:50.929+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:16:50.931+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:16:50.951+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.039 seconds
+[2025-04-19T16:17:21.081+0000] {processor.py:186} INFO - Started process (PID=940) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:17:21.084+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:17:21.086+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:17:21.086+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:17:21.089+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:17:21.088+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:17:21.089+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:17:21.105+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.029 seconds
+[2025-04-19T16:17:51.244+0000] {processor.py:186} INFO - Started process (PID=951) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:17:51.246+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:17:51.248+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:17:51.247+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:17:51.251+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:17:51.250+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:17:51.251+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:17:51.271+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.031 seconds
+[2025-04-19T16:18:21.434+0000] {processor.py:186} INFO - Started process (PID=962) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:18:21.436+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:18:21.438+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:18:21.438+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:18:21.442+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:18:21.441+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:18:21.442+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:18:21.462+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.033 seconds
+[2025-04-19T16:18:51.590+0000] {processor.py:186} INFO - Started process (PID=973) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:18:51.591+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:18:51.593+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:18:51.592+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:18:51.596+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:18:51.595+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:18:51.596+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:18:51.613+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.028 seconds
+[2025-04-19T16:19:21.769+0000] {processor.py:186} INFO - Started process (PID=984) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:19:21.770+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:19:21.772+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:19:21.772+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:19:21.775+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:19:21.775+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:19:21.776+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:19:21.794+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.030 seconds
+[2025-04-19T16:19:49.940+0000] {processor.py:186} INFO - Started process (PID=995) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:19:49.941+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:19:49.944+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:19:49.944+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:19:49.949+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:19:49.948+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:19:49.950+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:19:49.975+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.042 seconds
+[2025-04-19T16:19:51.960+0000] {processor.py:186} INFO - Started process (PID=1000) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:19:51.961+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:19:51.963+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:19:51.963+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:19:51.967+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:19:51.966+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:19:51.967+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:19:51.988+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.034 seconds
+[2025-04-19T16:20:22.134+0000] {processor.py:186} INFO - Started process (PID=1011) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:20:22.135+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:20:22.137+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:20:22.137+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:20:22.141+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:20:22.140+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:20:22.141+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:20:22.159+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.031 seconds
+[2025-04-19T16:20:52.297+0000] {processor.py:186} INFO - Started process (PID=1022) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:20:52.298+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:20:52.300+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:20:52.300+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:20:52.303+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:20:52.302+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:20:52.303+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:20:52.323+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.032 seconds
+[2025-04-19T16:21:22.476+0000] {processor.py:186} INFO - Started process (PID=1033) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:21:22.477+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:21:22.480+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:21:22.479+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:21:22.484+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:21:22.483+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:21:22.485+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:21:22.504+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.034 seconds
+[2025-04-19T16:21:52.635+0000] {processor.py:186} INFO - Started process (PID=1044) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:21:52.636+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:21:52.638+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:21:52.637+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:21:52.640+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:21:52.639+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:21:52.641+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:21:52.656+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.026 seconds
+[2025-04-19T16:22:22.805+0000] {processor.py:186} INFO - Started process (PID=1055) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:22:22.807+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:22:22.809+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:22:22.809+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:22:22.813+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:22:22.812+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:22:22.813+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:22:22.832+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.032 seconds
+[2025-04-19T16:22:52.978+0000] {processor.py:186} INFO - Started process (PID=1066) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:22:52.979+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:22:52.981+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:22:52.981+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:22:52.984+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:22:52.984+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:22:52.985+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:22:53.003+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.030 seconds
+[2025-04-19T16:23:23.168+0000] {processor.py:186} INFO - Started process (PID=1077) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:23:23.172+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:23:23.176+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:23:23.175+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:23:23.186+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:23:23.183+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:23:23.187+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:23:23.229+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.072 seconds
+[2025-04-19T16:23:53.362+0000] {processor.py:186} INFO - Started process (PID=1088) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:23:53.363+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:23:53.365+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:23:53.364+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:23:53.368+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:23:53.367+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:23:53.369+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:23:53.389+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.031 seconds
+[2025-04-19T16:24:23.528+0000] {processor.py:186} INFO - Started process (PID=1099) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:24:23.529+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:24:23.530+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:24:23.530+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:24:23.533+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:24:23.532+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:24:23.534+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:24:23.552+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.029 seconds
+[2025-04-19T16:26:21.557+0000] {processor.py:186} INFO - Started process (PID=184) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:26:21.558+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:26:21.561+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:26:21.561+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:26:21.565+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:26:21.564+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:26:21.566+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:26:21.589+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.039 seconds
+[2025-04-19T16:26:51.733+0000] {processor.py:186} INFO - Started process (PID=195) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:26:51.734+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:26:51.736+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:26:51.736+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:26:51.740+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:26:51.739+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:26:51.740+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:26:51.761+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.034 seconds
+[2025-04-19T16:27:21.909+0000] {processor.py:186} INFO - Started process (PID=206) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:27:21.910+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:27:21.912+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:27:21.912+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:27:21.916+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:27:21.915+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:27:21.917+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:27:21.936+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.032 seconds
+[2025-04-19T16:27:52.076+0000] {processor.py:186} INFO - Started process (PID=217) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:27:52.077+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:27:52.079+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:27:52.079+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:27:52.082+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:27:52.081+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:27:52.082+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:27:52.101+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.030 seconds
+[2025-04-19T16:28:22.247+0000] {processor.py:186} INFO - Started process (PID=228) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:28:22.248+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:28:22.250+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:28:22.250+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:28:22.253+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:28:22.252+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:28:22.253+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:28:22.275+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.033 seconds
+[2025-04-19T16:28:52.419+0000] {processor.py:186} INFO - Started process (PID=239) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:28:52.423+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:28:52.425+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:28:52.425+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:28:52.429+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:28:52.428+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:28:52.430+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:28:52.447+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.033 seconds
+[2025-04-19T16:29:22.581+0000] {processor.py:186} INFO - Started process (PID=250) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:29:22.582+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:29:22.583+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:29:22.583+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:29:22.586+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:29:22.585+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:29:22.587+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:29:22.605+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.028 seconds
+[2025-04-19T16:29:52.759+0000] {processor.py:186} INFO - Started process (PID=261) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:29:52.760+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:29:52.762+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:29:52.762+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:29:52.765+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:29:52.764+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:29:52.765+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:29:52.783+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.029 seconds
+[2025-04-19T16:30:22.939+0000] {processor.py:186} INFO - Started process (PID=278) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:30:22.942+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:30:22.944+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:30:22.944+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:30:22.947+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:30:22.947+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:30:22.948+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:30:22.966+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.033 seconds
+[2025-04-19T16:30:53.103+0000] {processor.py:186} INFO - Started process (PID=289) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:30:53.104+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:30:53.106+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:30:53.106+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:30:53.109+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:30:53.108+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:30:53.109+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:30:53.127+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.028 seconds
+[2025-04-19T16:31:23.279+0000] {processor.py:186} INFO - Started process (PID=300) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:31:23.280+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:31:23.282+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:31:23.282+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:31:23.285+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:31:23.284+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:31:23.285+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:31:23.304+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.030 seconds
+[2025-04-19T16:31:53.451+0000] {processor.py:186} INFO - Started process (PID=311) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:31:53.453+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:31:53.454+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:31:53.454+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:31:53.458+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:31:53.457+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:31:53.459+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:31:53.479+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.033 seconds
+[2025-04-19T16:32:23.618+0000] {processor.py:186} INFO - Started process (PID=322) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:32:23.621+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:32:23.624+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:32:23.623+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:32:23.628+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:32:23.627+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:32:23.628+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:32:23.648+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.036 seconds
+[2025-04-19T16:32:53.797+0000] {processor.py:186} INFO - Started process (PID=333) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:32:53.798+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:32:53.800+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:32:53.800+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:32:53.804+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:32:53.803+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:32:53.804+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:32:53.823+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.032 seconds
+[2025-04-19T16:33:23.977+0000] {processor.py:186} INFO - Started process (PID=344) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:33:23.978+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:33:23.981+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:33:23.981+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:33:23.988+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:33:23.985+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:33:23.988+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:33:24.016+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.047 seconds
+[2025-04-19T16:33:54.149+0000] {processor.py:186} INFO - Started process (PID=355) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:33:54.150+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:33:54.152+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:33:54.152+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:33:54.155+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:33:54.154+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:33:54.156+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:33:54.173+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.030 seconds
+[2025-04-19T16:34:24.331+0000] {processor.py:186} INFO - Started process (PID=367) to work on /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:34:24.332+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflowscript.py for tasks to queue
+[2025-04-19T16:34:24.334+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:34:24.334+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:34:24.338+0000] {logging_mixin.py:190} INFO - [2025-04-19T16:34:24.337+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflowscript.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflowscript.py", line 5, in <module>
+    from NBA.spiders.player_game_stats import GameStats
+ModuleNotFoundError: No module named 'NBA'
+[2025-04-19T16:34:24.339+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflowscript.py
+[2025-04-19T16:34:24.357+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflowscript.py took 0.031 seconds

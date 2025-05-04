@@ -1,7 +1,7 @@
 import json
 import scrapy
 from bs4 import BeautifulSoup
-from NBA.items import player_info2
+from NBA.items import player_info
 from scrapy.crawler import CrawlerProcess
 import re
 from scrapy_playwright.page import PageMethod
@@ -19,12 +19,8 @@ class PlayerInfo(scrapy.Spider):
         settings.set("PLAYWRIGHT_LAUNCH_OPTIONS", {"headless": False})
         settings.set("PLAYWRIGHT_MAX_PAGES_PER_CONTEXT", 1)
         settings.set("PLAYWRIGHT_MAX_CONTEXTS", 1)
-        settings.set("CONCURRENT_REQUESTS", 16)
+        settings.set("CONCURRENT_REQUESTS", 1)
         settings.set("DOWNLOAD_DELAY", 0.5)
-        settings.set("AUTOTHROTTLE_TARGET_CONCURRENCY", 16)
-        settings.set("CONCURRENT_REQUESTS_PER_DOMAIN", 16)
-        settings.set("AUTOTHROTTLE_START_DELAY", 0.1)
-        settings.set("USER_AGENT", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
 
     def start_requests(self):
         start_urls = []
@@ -119,7 +115,7 @@ class PlayerInfo(scrapy.Spider):
             qualified_elements['draft_round'] = 'N/A'
             qualified_elements['draft_pick'] = 'N/A'
 
-        dictionary = player_info2(
+        dictionary = player_info(
             player_id=player_id,
             player=name,
             height_m=qualified_elements['height_m'],
@@ -134,10 +130,3 @@ class PlayerInfo(scrapy.Spider):
         )
 
         yield dictionary
-
-    def logresult(self, result):
-        cnt = 0
-        with open("data/player_info2.jsonl", "a") as file:
-            for line in file:
-                cnt += 1
-        self.log(f"total row: {cnt}")

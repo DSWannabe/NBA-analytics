@@ -59,10 +59,6 @@ class PlayerInfoPipeline(NbaPipeline):
     file_name = "player_info.jsonl"
     item_class = player_info
 
-class PlayerInfoPipeline2(NbaPipeline):
-    file_name = "player_info2.jsonl"
-    item_class = player_info2
-
 class GameResultsPipeline(NbaPipeline):
     file_name = "game_results.jsonl"
     item_class = game_results

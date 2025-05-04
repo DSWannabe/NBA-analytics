@@ -1,8 +1,6 @@
-import json
 import scrapy
 from bs4 import BeautifulSoup
 from NBA.items import game_results
-from scrapy.crawler import CrawlerProcess
 import re
 from datetime import datetime
 from scrapy_playwright.page import PageMethod
@@ -23,7 +21,7 @@ class GameResults(scrapy.Spider):
 
     def start_requests(self):
         start_urls = []
-        for page in range(1, 2):
+        for page in range(1, 9):
             start_year = 2016 + page
             end_year = (17 + page) % 100
             url = f"https://www.nba.com/stats/teams/boxscores?Season={start_year}-{end_year:02d}&SeasonType=Regular+Season"
