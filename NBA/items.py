@@ -7,7 +7,6 @@ from dataclasses import dataclass
 
 @dataclass
 class nba_scraping:
-<<<<<<< HEAD
     PlayerIDYear: str
     player: str
     team_playerseason: str
@@ -39,7 +38,7 @@ class nba_scraping:
     dd2_playerseason: float
     td3_playerseason: float
     plus_minus_box_playerseason: float
-    
+
 
 @dataclass
 class player_game_stats:
@@ -69,67 +68,6 @@ class player_game_stats:
     pf_playergame: int
     plus_minus_box_playergame: int
     fp_playergame: float
-=======
-    player: str
-    team: str
-    year: int
-    age: int
-    gp: int
-    wins: int
-    losses: int
-    min : float
-    pts: float
-    fgm: float
-    fga: float
-    fg_pct: float
-    three_pm: float
-    three_pa: float
-    three_ppct: float
-    ftm: float
-    fta: float
-    ft_pct: float
-    oreb: float
-    dreb: float
-    reb: float
-    ast: float
-    tov: float
-    stl: float
-    blk: float
-    pf: float
-    fp: float
-    dd2: float
-    td3: float
-    plus_minus_box: float
-
-@dataclass
-class game_stats:
-    player: str
-    team: str
-    against: str
-    gamedate: str
-    w_l: str
-    min: float
-    pts: float
-    fgm: int
-    fga: int
-    fg_pct: float
-    three_pm: int
-    three_pa: int
-    three_ppct: float
-    ftm: int
-    fta: int
-    ft_pct: float
-    oreb: int
-    dreb: int
-    reb: int
-    ast: int
-    stl: int
-    blk: int
-    tov: int
-    pf: int
-    plus_minus_box: int
-    fp: float
->>>>>>> 479e41f98f49c7867f7433d9e8c7bc916976f54d
 
 @dataclass
 class player_urls_lst:
@@ -138,22 +76,6 @@ class player_urls_lst:
 @dataclass
 class player_info:
     player: str
-<<<<<<< HEAD
-=======
-    height_feet: str
-    height_m: str
-    weight_pounds: str
-    weight_kg: str
-    country: str
-    birth: str
-    draft_year: str
-    draft_round: str
-    draft_pick: str
-
-@dataclass
-class player_info2:
-    player: str
->>>>>>> 479e41f98f49c7867f7433d9e8c7bc916976f54d
     height_ft: str
     height_m: str
     weight_pounds: str
@@ -162,7 +84,6 @@ class player_info2:
     birth: str
     draft_year: str
     draft_round: str
-<<<<<<< HEAD
     draft_pick: str
     player_id: str
 
@@ -192,6 +113,3 @@ class game_results:
     tov_team: str
     pf_team: str
     plus_minus_box_team: str
-=======
-    draft_pick: str
->>>>>>> 479e41f98f49c7867f7433d9e8c7bc916976f54d
