@@ -118,6 +118,10 @@ if __name__ == "__main__":
     import_player_seasonal_stats("data/nba_players_seasonal_stats.jsonl")
     import_nba_player_game_stats("data/nba_players_game_stats.jsonl")
     import_nba_team_info("data/teams_nba.jsonl")
+<<<<<<< HEAD
     import_nba_player_info("data/player_info2.jsonl")
+=======
+    import_nba_player_info("data/players_info2.jsonl")
+>>>>>>> 479e41f98f49c7867f7433d9e8c7bc916976f54d
 
     db.close()

@@ -1,5 +1,8 @@
 scrapy
+<<<<<<< HEAD
 scrapy-playwright
+=======
+>>>>>>> 479e41f98f49c7867f7433d9e8c7bc916976f54d
 python-dotenv
 loguru
 tqdm
@@ -9,9 +12,12 @@ scrapy-user-agents
 scikit-learn
 polars
 numpy
+<<<<<<< HEAD
 matplotlib
 seaborn
 requests
+=======
+>>>>>>> 479e41f98f49c7867f7433d9e8c7bc916976f54d
 
 # For development
 ipython

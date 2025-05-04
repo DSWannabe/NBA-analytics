@@ -22,5 +22,9 @@
 #         dictionary = asdict(item)
 #         json.dump(dictionary, self.file)
 #         self.file.write("\n")
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 479e41f98f49c7867f7433d9e8c7bc916976f54d
 #         return item

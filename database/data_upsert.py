@@ -110,7 +110,11 @@ def upsert_team_info(file_path):
             }
             NbaTeamInfo.insert(nba_team_info).on_conflict(
                 conflict_target=[
+<<<<<<< HEAD
                     NbaTeamInfo.team
+=======
+                    NbaTeamInfo.team_name_short
+>>>>>>> 479e41f98f49c7867f7433d9e8c7bc916976f54d
                 ],
                 update=nba_team_info
             ).execute()
@@ -123,6 +127,7 @@ def upsert_player_info(file_path):
             entry = json.loads(line)
             nba_player_info = {
                 'player': entry['player'],
+<<<<<<< HEAD
                 'position': entry['position'],
                 'height_ft': entry['height_ft'],
                 'height_m': entry['height_m'],
@@ -133,6 +138,16 @@ def upsert_player_info(file_path):
                 'draft_year': entry['draft_year'],
                 'draft_round': entry['draft_round'],
                 'draft_pick': entry['draft_pick'],
+=======
+                'team': entry['team'],
+                'position': entry['position'],
+                'height': entry['height'],
+                'weight': entry['weight'],
+                'birth_date': datetime.strptime(entry['birth_date'], "%Y-%m-%d"),
+                'age': entry['age'],
+                'exp': entry['exp'],
+                'college': entry['college'],
+>>>>>>> 479e41f98f49c7867f7433d9e8c7bc916976f54d
             }
             NbaPlayerInfo.insert(nba_player_info).on_conflict(
                 conflict_target=[
@@ -145,7 +160,13 @@ def upsert_player_info(file_path):
 if __name__ == "__main__":
     db.connect()
     upsert_player_seasonal_stats("data/nba_players_seasonal_stats.jsonl")
+<<<<<<< HEAD
     # upsert_player_game_stats("data/nba_players_game_stats.jsonl")
     # upsert_team_info("data/teams_nba.jsonl")
     # upsert_player_info("data/player_info2.jsonl")
+=======
+    upsert_player_game_stats("data/nba_players_game_stats.jsonl")
+    upsert_team_info("data/teams_nba.jsonl")
+    upsert_player_info("data/player_info2.jsonl")
+>>>>>>> 479e41f98f49c7867f7433d9e8c7bc916976f54d
     db.close()

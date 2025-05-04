@@ -15,7 +15,10 @@ from peewee import (
     PostgresqlDatabase,
     DecimalField,
 )
+<<<<<<< HEAD
 # DB password: postgres
+=======
+>>>>>>> 479e41f98f49c7867f7433d9e8c7bc916976f54d
 
 db = PostgresqlDatabase("postgresql://postgres:postgres@localhost:5432/nba_data")
 
@@ -25,23 +28,39 @@ class BaseModel(Model):
         legacy_table_names = False
 
 class NbaTeamInfo(BaseModel):
+<<<<<<< HEAD
     full_team_name = CharField(null=True)
+=======
+    team_name_full = CharField(null=True)
+>>>>>>> 479e41f98f49c7867f7433d9e8c7bc916976f54d
     team = CharField(primary_key=True, null=True)
 
     class Meta:
         database = db
 
         indexes = (
+<<<<<<< HEAD
             (('full_team_name', 'team'), True),
+=======
+            (('team_name_full', 'team'), True),
+>>>>>>> 479e41f98f49c7867f7433d9e8c7bc916976f54d
         )
 
 class NbaPlayerInfo(BaseModel):
     player = CharField(max_length=100, primary_key=True)
+<<<<<<< HEAD
     birth = DateField(null=True)
     height_m = DecimalField(max_digits=6, decimal_places=2, null=True)
     height_ft = CharField(max_length=100, null=True)
     weight_pounds = DecimalField(max_digits=6, decimal_places=2, null=True)
     weight_kg = DecimalField(max_digits=6, decimal_places=2, null=True)
+=======
+    birth = DateField()
+    height_m = DecimalField(max_digits=4, decimal_places=2, null=True)
+    height_ft = CharField(max_length=100, null=True)
+    weight_pounds = DecimalField(max_digits=4, decimal_places=2, null=True)
+    weight_kg = DecimalField(max_digits=4, decimal_places=2, null=True)
+>>>>>>> 479e41f98f49c7867f7433d9e8c7bc916976f54d
     country = CharField(max_length=100, null=True)
     draft_year = CharField(max_length=100, null=True)
     draft_round = CharField(max_length=100, null=True)
@@ -51,7 +70,11 @@ class NbaPlayerInfo(BaseModel):
         database = db
 
         indexes = (
+<<<<<<< HEAD
             (('player'), True),
+=======
+            (('player', 'birth'), True),
+>>>>>>> 479e41f98f49c7867f7433d9e8c7bc916976f54d
         )
 
 # class DateTable(BaseModel):
