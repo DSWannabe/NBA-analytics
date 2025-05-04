@@ -2,3 +2,22 @@ node_modules
 node_modules
 node_modules
 node_modules
+
+# Python compiled files
+*.pyc
+__pycache__/
+
+# Virtual environments
+py_env/
+venv/
+env/
+
+# Airflow-related
+airflow/logs/
+airflow/airflow-webserver.pid
+
+# Databases
+*.sqlite3
+
+# Temporary files
+*.log
